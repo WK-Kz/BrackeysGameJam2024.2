@@ -1,79 +1,56 @@
 [gd_resource type="TileSet" load_steps=3 format=3 uid="uid://cynfcicdiconx"]
 
-[ext_resource type="Texture2D" uid="uid://rm6aph56kula" path="res://assets/sprites/environment/floor/floor.png" id="1_orgjk"]
+[ext_resource type="Texture2D" uid="uid://wd87bhroupoi" path="res://assets/sprites/environment/floor/floor.png" id="1_orgjk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fwwq3"]
 texture = ExtResource("1_orgjk")
 texture_region_size = Vector2i(240, 192)
 0:0/0 = 0
 0:0/0/texture_origin = Vector2i(0, 27)
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 1:0/0 = 0
 1:0/0/texture_origin = Vector2i(0, 27)
-1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 2:0/0 = 0
 2:0/0/texture_origin = Vector2i(0, 27)
-2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 3:0/0 = 0
 3:0/0/texture_origin = Vector2i(0, 30)
-3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 4:0/0 = 0
 4:0/0/texture_origin = Vector2i(0, 30)
-4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 5:0/0 = 0
 5:0/0/texture_origin = Vector2i(0, 30)
-5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 6:0/0 = 0
 6:0/0/texture_origin = Vector2i(0, 30)
-6:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 7:0/0 = 0
 7:0/0/texture_origin = Vector2i(0, 30)
-7:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 8:0/0 = 0
 8:0/0/texture_origin = Vector2i(0, 30)
-8:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 9:0/0 = 0
 9:0/0/texture_origin = Vector2i(0, 30)
-9:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 10:0/0 = 0
 10:0/0/texture_origin = Vector2i(0, 30)
-10:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 11:0/0 = 0
 11:0/0/texture_origin = Vector2i(0, 30)
-11:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 12:0/0 = 0
 12:0/0/texture_origin = Vector2i(0, 30)
-12:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 13:0/0 = 0
 13:0/0/texture_origin = Vector2i(0, 30)
-13:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 14:0/0 = 0
 14:0/0/texture_origin = Vector2i(0, 30)
-14:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 15:0/0 = 0
 15:0/0/texture_origin = Vector2i(0, 30)
-15:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 16:0/0 = 0
 16:0/0/texture_origin = Vector2i(0, 30)
-16:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 17:0/0 = 0
 17:0/0/texture_origin = Vector2i(0, 30)
-17:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 18:0/0 = 0
 18:0/0/texture_origin = Vector2i(0, 30)
-18:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 19:0/0 = 0
 19:0/0/texture_origin = Vector2i(0, 30)
-19:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 20:0/0 = 0
 20:0/0/texture_origin = Vector2i(0, 30)
-20:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 21:0/0 = 0
 21:0/0/texture_origin = Vector2i(0, 30)
-21:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 22:0/0 = 0
 22:0/0/texture_origin = Vector2i(0, 30)
-22:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
 
 [resource]
 tile_shape = 1
