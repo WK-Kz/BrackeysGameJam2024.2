@@ -11,11 +11,26 @@ config_version=5
 [application]
 
 config/name="Calm Before The Storm"
-run/main_scene="res://node_2d.tscn"
 run/main_scene="res://scenes/Test Scene/TestPlayerScene.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+
+[dialogue_manager]
+
+general/balloon_path="res://scenes/NPC/Dialogues/NPC_1.tscn"
+
 [dotnet]
 
 project/assembly_name="Calm Before The Storm"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
+
+[internationalization]
+
+locale/translations_pot_files=PackedStringArray("res://scenes/NPC/Dialogues/test_npc1.dialogue")

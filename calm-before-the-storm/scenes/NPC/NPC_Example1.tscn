@@ -1,0 +1,75 @@
+[gd_scene load_steps=11 format=3 uid="uid://bxvw5ejfb8uda"]
+
+[ext_resource type="Texture2D" uid="uid://dismp17yhlmcp" path="res://assets/sprites/NPCs/red_8direction_standing-Sheet.png" id="1_gy1cn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0b0c"]
+atlas = ExtResource("1_gy1cn")
+region = Rect2(0, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rs7oc"]
+atlas = ExtResource("1_gy1cn")
+region = Rect2(32, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d05yh"]
+atlas = ExtResource("1_gy1cn")
+region = Rect2(64, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qmnnc"]
+atlas = ExtResource("1_gy1cn")
+region = Rect2(96, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_miknp"]
+atlas = ExtResource("1_gy1cn")
+region = Rect2(128, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2xrxb"]
+atlas = ExtResource("1_gy1cn")
+region = Rect2(160, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t7oat"]
+atlas = ExtResource("1_gy1cn")
+region = Rect2(192, 0, 32, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mgwlx"]
+atlas = ExtResource("1_gy1cn")
+region = Rect2(224, 0, 32, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xewjy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p0b0c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rs7oc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d05yh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qmnnc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_miknp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2xrxb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t7oat")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mgwlx")
+}],
+"loop": true,
+"name": &"standing",
+"speed": 5.0
+}]
+
+[node name="NpcExample1" type="Node2D"]
+position = Vector2(106, 71)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_xewjy")
+animation = &"standing"
+frame_progress = 0.221803
