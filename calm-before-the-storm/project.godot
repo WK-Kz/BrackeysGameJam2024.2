@@ -12,6 +12,7 @@ config_version=5
 
 config/name="Calm Before The Storm"
 run/main_scene="res://node_2d.tscn"
+run/main_scene="res://scenes/Test Scene/TestPlayerScene.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
