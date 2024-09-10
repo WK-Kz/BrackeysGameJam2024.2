@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxxv2yjxh5h4k"
-path="res://.godot/imported/floor.png-a850f9edc27391c53840e3ac183a2333.ctex"
+uid="uid://c262lurtq3xjt"
+path="res://.godot/imported/spaceInterior_024_3.png-3bdfd35889f6531b71aa502396321f86.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/environment/floor/floor.png"
-dest_files=["res://.godot/imported/floor.png-a850f9edc27391c53840e3ac183a2333.ctex"]
+source_file="res://assets/sprites/environment/chairs/spaceInterior_024_3.png"
+dest_files=["res://.godot/imported/spaceInterior_024_3.png-3bdfd35889f6531b71aa502396321f86.ctex"]
 
 [params]
 
