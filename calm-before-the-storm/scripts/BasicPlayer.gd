@@ -1,6 +1,7 @@
 extends CharacterBody2D 
 
 var stamina : int = 100
+@onready var collision_shape_2d: CollisionShape2D = $CollisionShape2D
 
 @export var SPEED = 400
 @export var ACCELERATION = 1000
