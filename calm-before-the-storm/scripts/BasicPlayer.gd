@@ -2,9 +2,11 @@ extends CharacterBody2D
 
 var stamina : int = 100
 
-@export var SPEED = 400
+@export var SPEED = 1000
 @export var ACCELERATION = 1000
 @export var FRICTION = 5
+
+
 
 func _physics_process(delta: float) -> void:
 	var direction := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")

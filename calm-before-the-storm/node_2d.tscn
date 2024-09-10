@@ -1,0 +1,5373 @@
+[gd_scene load_steps=649 format=4 uid="uid://bdr7adp0jss8f"]
+
+[ext_resource type="TileSet" uid="uid://byhcgdha2mbpx" path="res://assets/sprites/environment/tilesets/chairs.tres" id="3_libeo"]
+[ext_resource type="Texture2D" uid="uid://dubtq6e3ncp1x" path="res://assets/Small-8-Direction-Characters_by_AxulArt/Small-8-Direction-Characters_by_AxulArt.png" id="249_4uw0t"]
+[ext_resource type="TileSet" uid="uid://bg8t03k15apfa" path="res://assets/sprites/environment/tilesets/Floor_Tiles.tres" id="324_8uidv"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xd6cx"]
+load_path = "res://.godot/imported/spaceInterior_073_3.png-f3db6e7ce3f7de068529a5b182c08426.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eh234"]
+texture = SubResource("CompressedTexture2D_xd6cx")
+texture_region_size = Vector2i(240, 192)
+0:0/0 = 0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_phjq3"]
+load_path = "res://.godot/imported/spaceInterior_003_0.png-4cc03e8ad4cad180fd99359bb7fde6e3.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p2hdd"]
+texture = SubResource("CompressedTexture2D_phjq3")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_o2yy4"]
+load_path = "res://.godot/imported/spaceInterior_025_2.png-df62250403c9114f8ccd878e42c535b6.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k5cxt"]
+texture = SubResource("CompressedTexture2D_o2yy4")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0tt5o"]
+load_path = "res://.godot/imported/spaceInterior_025_3.png-0aa7c6c8a0a81c8331090f4932c792ec.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0unum"]
+texture = SubResource("CompressedTexture2D_0tt5o")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xccxl"]
+load_path = "res://.godot/imported/spaceInterior_026_0.png-a787d4e0fc5b4d9dda3355baf5f05631.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nnoqg"]
+texture = SubResource("CompressedTexture2D_xccxl")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lngui"]
+load_path = "res://.godot/imported/spaceInterior_026_1.png-331e45aa7f1ce4fae7eedd5bc41ebaa6.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8n4v0"]
+texture = SubResource("CompressedTexture2D_lngui")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8koif"]
+load_path = "res://.godot/imported/spaceInterior_026_2.png-29949990375b795fa28a8396a0e446bf.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0n0md"]
+texture = SubResource("CompressedTexture2D_8koif")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_s288o"]
+load_path = "res://.godot/imported/spaceInterior_026_3.png-c594b795fa8a0b9dccc997118506f365.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f68ot"]
+texture = SubResource("CompressedTexture2D_s288o")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nq2qy"]
+load_path = "res://.godot/imported/spaceInterior_027_0.png-4cd1158b04da876f4b6a40dabe0bdc5f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vr3t4"]
+texture = SubResource("CompressedTexture2D_nq2qy")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ifc8c"]
+load_path = "res://.godot/imported/spaceInterior_027_1.png-19dc50ab5b87fc42702c9133ef2d4cf8.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pj8ns"]
+texture = SubResource("CompressedTexture2D_ifc8c")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dxwdp"]
+load_path = "res://.godot/imported/spaceInterior_027_2.png-a0854a154b34245f8b94ecfe1561697c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2ewfp"]
+texture = SubResource("CompressedTexture2D_dxwdp")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_g8aid"]
+load_path = "res://.godot/imported/spaceInterior_027_3.png-91d80a18d78ac35dd5661f2cc0f43f2b.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_54okh"]
+texture = SubResource("CompressedTexture2D_g8aid")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oa8gc"]
+load_path = "res://.godot/imported/spaceInterior_003_1.png-88459f34a4cc92a1343cda6935970cf6.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bl4gg"]
+texture = SubResource("CompressedTexture2D_oa8gc")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jikh0"]
+load_path = "res://.godot/imported/spaceInterior_028_0.png-b3e131e7dd0975daec58e86cece1bcc6.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e5blo"]
+texture = SubResource("CompressedTexture2D_jikh0")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_eai4j"]
+load_path = "res://.godot/imported/spaceInterior_028_1.png-9bd49c9d15b5881ea2e4b522f853330b.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a2dgr"]
+texture = SubResource("CompressedTexture2D_eai4j")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jhc6g"]
+load_path = "res://.godot/imported/spaceInterior_028_2.png-ec2960c584e6bfcb79a770efadbc316c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_agixw"]
+texture = SubResource("CompressedTexture2D_jhc6g")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bl760"]
+load_path = "res://.godot/imported/spaceInterior_028_3.png-f138297a9aaaaed2fe7119615cdc7a6b.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tho7h"]
+texture = SubResource("CompressedTexture2D_bl760")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qpk6x"]
+load_path = "res://.godot/imported/spaceInterior_029_0.png-4e7e70c9d23e3feaa5508ddbb5e09262.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0s5bh"]
+texture = SubResource("CompressedTexture2D_qpk6x")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jhaj6"]
+load_path = "res://.godot/imported/spaceInterior_029_1.png-9e0c28f47bc1f770794ec43907aabdb6.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q2eec"]
+texture = SubResource("CompressedTexture2D_jhaj6")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xjx8u"]
+load_path = "res://.godot/imported/spaceInterior_029_2.png-8ff32e22be4d8b4854309ec573af30a6.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rieww"]
+texture = SubResource("CompressedTexture2D_xjx8u")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_j2php"]
+load_path = "res://.godot/imported/spaceInterior_029_3.png-7c7537b5cce85cd9a9637db63a8ea375.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qo2p4"]
+texture = SubResource("CompressedTexture2D_j2php")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vk8h8"]
+load_path = "res://.godot/imported/spaceInterior_030_0.png-1408dcabe5fbc9e88d54c3e604dd454d.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_181fc"]
+texture = SubResource("CompressedTexture2D_vk8h8")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_l1m4k"]
+load_path = "res://.godot/imported/spaceInterior_030_1.png-af863b20d750c7e74dc8d9f4c0daaefc.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_smchc"]
+texture = SubResource("CompressedTexture2D_l1m4k")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pfqoo"]
+load_path = "res://.godot/imported/spaceInterior_003_2.png-3163d042dd2c89b196bfc1d7894a5ad4.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d6jcp"]
+texture = SubResource("CompressedTexture2D_pfqoo")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_f2gg7"]
+load_path = "res://.godot/imported/spaceInterior_030_2.png-0f453e497c1a9c6fd818e8e144b35f75.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ggkcb"]
+texture = SubResource("CompressedTexture2D_f2gg7")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m7uqa"]
+load_path = "res://.godot/imported/spaceInterior_030_3.png-f393ae0a66f1dbe3bae799a530b91d32.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rxwso"]
+texture = SubResource("CompressedTexture2D_m7uqa")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_21kmp"]
+load_path = "res://.godot/imported/spaceInterior_031_0.png-bbf949ef4a5fb0b1b68d2c1ae30ca581.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_npmfo"]
+texture = SubResource("CompressedTexture2D_21kmp")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_exrgp"]
+load_path = "res://.godot/imported/spaceInterior_031_1.png-dde19ae9aec4fd4a4556592877582bc4.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bdj4e"]
+texture = SubResource("CompressedTexture2D_exrgp")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vl80o"]
+load_path = "res://.godot/imported/spaceInterior_031_2.png-c146a10f864feddb49c91f4d812d0b09.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jra7h"]
+texture = SubResource("CompressedTexture2D_vl80o")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6w345"]
+load_path = "res://.godot/imported/spaceInterior_031_3.png-f3dd3e3d366319457a4dbef1bce985ab.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1pylw"]
+texture = SubResource("CompressedTexture2D_6w345")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4c88x"]
+load_path = "res://.godot/imported/spaceInterior_032_0.png-d26653f04c3407d0ecb34785f4598edb.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uaa2n"]
+texture = SubResource("CompressedTexture2D_4c88x")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7wjor"]
+load_path = "res://.godot/imported/spaceInterior_032_1.png-e9ac92d095d865f880330a93354bb0f0.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w7oox"]
+texture = SubResource("CompressedTexture2D_7wjor")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p27kx"]
+load_path = "res://.godot/imported/spaceInterior_032_2.png-62720281fef83bc8e37bd07b129d5879.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iplg0"]
+texture = SubResource("CompressedTexture2D_p27kx")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lokhf"]
+load_path = "res://.godot/imported/spaceInterior_032_3.png-2e71354862f34304e39e83f5e495e78a.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_71rne"]
+texture = SubResource("CompressedTexture2D_lokhf")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6ckx5"]
+load_path = "res://.godot/imported/spaceInterior_003_3.png-8b36661f526db5c2d6723bd3b94b70ad.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8my2j"]
+texture = SubResource("CompressedTexture2D_6ckx5")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tgbu0"]
+load_path = "res://.godot/imported/spaceInterior_033_0.png-2619ddc6de0f26630aa45b571b4e8167.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_egwof"]
+texture = SubResource("CompressedTexture2D_tgbu0")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_duxdy"]
+load_path = "res://.godot/imported/spaceInterior_033_1.png-52ad6535233cd04260e6d45ef3e4d5fe.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lgm6f"]
+texture = SubResource("CompressedTexture2D_duxdy")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m8ymi"]
+load_path = "res://.godot/imported/spaceInterior_033_2.png-0fe5828f14c7ed9f42e9af2a83f90b79.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4ugh7"]
+texture = SubResource("CompressedTexture2D_m8ymi")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fyltt"]
+load_path = "res://.godot/imported/spaceInterior_033_3.png-73ee495da21f4f5ec24fbb1b2d9f8869.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dtddi"]
+texture = SubResource("CompressedTexture2D_fyltt")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3g7up"]
+load_path = "res://.godot/imported/spaceInterior_034_0.png-c5be1d3ccfe2c0c07e73714925400f26.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nb52o"]
+texture = SubResource("CompressedTexture2D_3g7up")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mxfke"]
+load_path = "res://.godot/imported/spaceInterior_034_1.png-f252ffe6029deff81e968489431c8c6a.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v83tl"]
+texture = SubResource("CompressedTexture2D_mxfke")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0lul7"]
+load_path = "res://.godot/imported/spaceInterior_034_2.png-bf4cb440474f876aaacd746384dd8660.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m15xd"]
+texture = SubResource("CompressedTexture2D_0lul7")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_x84xr"]
+load_path = "res://.godot/imported/spaceInterior_034_3.png-df2933dde0b5ab7c398f09809a20bd12.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lectq"]
+texture = SubResource("CompressedTexture2D_x84xr")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4oyku"]
+load_path = "res://.godot/imported/spaceInterior_035_0.png-6d4efc80e4253ec487dc64447aa6eb74.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g4ufh"]
+texture = SubResource("CompressedTexture2D_4oyku")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_acer8"]
+load_path = "res://.godot/imported/spaceInterior_035_1.png-57f2e38d531defe49ecff097f78da191.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4afh0"]
+texture = SubResource("CompressedTexture2D_acer8")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uir2l"]
+load_path = "res://.godot/imported/spaceInterior_004_0.png-95f999718a65f00b930edfea764cf15b.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1siu5"]
+texture = SubResource("CompressedTexture2D_uir2l")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_logvc"]
+load_path = "res://.godot/imported/spaceInterior_035_2.png-573653b38349650339bdfffc9d598907.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7rdil"]
+texture = SubResource("CompressedTexture2D_logvc")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_b0icc"]
+load_path = "res://.godot/imported/spaceInterior_035_3.png-2eb8f327e4c73cc853d358789e5f085a.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jt0ks"]
+texture = SubResource("CompressedTexture2D_b0icc")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qk84h"]
+load_path = "res://.godot/imported/spaceInterior_036_0.png-1ba3b36c22c9a7b5663b9782073c6b13.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kyohn"]
+texture = SubResource("CompressedTexture2D_qk84h")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xijbs"]
+load_path = "res://.godot/imported/spaceInterior_036_1.png-ce03614c3263358b7892175b068002fa.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v6x2m"]
+texture = SubResource("CompressedTexture2D_xijbs")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4d6n6"]
+load_path = "res://.godot/imported/spaceInterior_036_2.png-faa226fb49849e267eada8a88030675e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yl41k"]
+texture = SubResource("CompressedTexture2D_4d6n6")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3s57l"]
+load_path = "res://.godot/imported/spaceInterior_036_3.png-b80cb2289e276e69ffa5bff9da8a6f6e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p4vhu"]
+texture = SubResource("CompressedTexture2D_3s57l")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rle1c"]
+load_path = "res://.godot/imported/spaceInterior_037_0.png-cebd4d1eea9a6d86eddb0b3795927175.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ig8c0"]
+texture = SubResource("CompressedTexture2D_rle1c")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vbrty"]
+load_path = "res://.godot/imported/spaceInterior_037_1.png-14273d5ce5693273ac17135f11df3a11.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lmv7w"]
+texture = SubResource("CompressedTexture2D_vbrty")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_c4sxm"]
+load_path = "res://.godot/imported/spaceInterior_037_2.png-668b300a075737acb6754af8367f9bba.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6ouvx"]
+texture = SubResource("CompressedTexture2D_c4sxm")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_s0p26"]
+load_path = "res://.godot/imported/spaceInterior_037_3.png-c5502535b7a6074350a50fabeb1394ab.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_odekm"]
+texture = SubResource("CompressedTexture2D_s0p26")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_q4mdm"]
+load_path = "res://.godot/imported/spaceInterior_004_1.png-5c664621f6659072a0781b17ef0e92ca.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7ce2a"]
+texture = SubResource("CompressedTexture2D_q4mdm")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lgo84"]
+load_path = "res://.godot/imported/spaceInterior_038_0.png-3342760869b51c4d04410f1938e3ff6f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x1e7s"]
+texture = SubResource("CompressedTexture2D_lgo84")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_r336f"]
+load_path = "res://.godot/imported/spaceInterior_038_1.png-652d8893bc53405904e8097db5071c5e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6ainj"]
+texture = SubResource("CompressedTexture2D_r336f")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bkj23"]
+load_path = "res://.godot/imported/spaceInterior_038_2.png-1b1ad26447a24ca30d14413928905915.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8re5n"]
+texture = SubResource("CompressedTexture2D_bkj23")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5pviw"]
+load_path = "res://.godot/imported/spaceInterior_038_3.png-85842e18f482b525ab61401ac4ed318e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nnsm8"]
+texture = SubResource("CompressedTexture2D_5pviw")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_y6uk5"]
+load_path = "res://.godot/imported/spaceInterior_039_0.png-29379bb6230fc84b6ebb06f3a054c9ba.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c82cr"]
+texture = SubResource("CompressedTexture2D_y6uk5")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_h6x4v"]
+load_path = "res://.godot/imported/spaceInterior_039_1.png-59e0970c40779cdf0b85a1be55d301de.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_itafo"]
+texture = SubResource("CompressedTexture2D_h6x4v")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xxhj4"]
+load_path = "res://.godot/imported/spaceInterior_039_2.png-b4afd0914f3f00cc1d27cbd1693dd39e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4qwa3"]
+texture = SubResource("CompressedTexture2D_xxhj4")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4170s"]
+load_path = "res://.godot/imported/spaceInterior_039_3.png-a71c92dc09e50e31c4a5f57afa6f54bf.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n3q6r"]
+texture = SubResource("CompressedTexture2D_4170s")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7pp1s"]
+load_path = "res://.godot/imported/spaceInterior_040_0.png-81b2096e1b88ce8b76b433be46ecc6c3.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5epxw"]
+texture = SubResource("CompressedTexture2D_7pp1s")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7eye7"]
+load_path = "res://.godot/imported/spaceInterior_040_1.png-8378927a55cb62c7bea20fc4888c2765.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m68hg"]
+texture = SubResource("CompressedTexture2D_7eye7")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_sp5u3"]
+load_path = "res://.godot/imported/spaceInterior_004_2.png-aee35199ec12f7ca833713abb1a4d3d0.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5ioq5"]
+texture = SubResource("CompressedTexture2D_sp5u3")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pbxj7"]
+load_path = "res://.godot/imported/spaceInterior_040_2.png-4dc252c958b24ababda9b5eea9d8900e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7til8"]
+texture = SubResource("CompressedTexture2D_pbxj7")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uerkm"]
+load_path = "res://.godot/imported/spaceInterior_040_3.png-f851cf205917252d73a5cf803a8a08c7.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d8ny3"]
+texture = SubResource("CompressedTexture2D_uerkm")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1ovlb"]
+load_path = "res://.godot/imported/spaceInterior_041_0.png-3e0cf15006ff7bbea1a929b85ada30c1.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_awv8j"]
+texture = SubResource("CompressedTexture2D_1ovlb")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0xnef"]
+load_path = "res://.godot/imported/spaceInterior_041_1.png-ccab6cd3c87363494e3fcb8b87558cb7.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wvbym"]
+texture = SubResource("CompressedTexture2D_0xnef")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2ymp7"]
+load_path = "res://.godot/imported/spaceInterior_041_2.png-6631097258dc44c500495f53f21fe9e8.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_epext"]
+texture = SubResource("CompressedTexture2D_2ymp7")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_06juv"]
+load_path = "res://.godot/imported/spaceInterior_041_3.png-a01aa2f53c08185afa22770fc358a2f7.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yq4gp"]
+texture = SubResource("CompressedTexture2D_06juv")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fq71d"]
+load_path = "res://.godot/imported/spaceInterior_042_0.png-9ed7628b55b6ad63087f852ddbacf35c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4740g"]
+texture = SubResource("CompressedTexture2D_fq71d")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mhede"]
+load_path = "res://.godot/imported/spaceInterior_042_1.png-a22abd61f525df96b97fe7af2e01f7dd.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_teclx"]
+texture = SubResource("CompressedTexture2D_mhede")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pd37r"]
+load_path = "res://.godot/imported/spaceInterior_042_2.png-27d6fc8c87dd2cd2e82851c84744d58a.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oixg4"]
+texture = SubResource("CompressedTexture2D_pd37r")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i6l5d"]
+load_path = "res://.godot/imported/spaceInterior_042_3.png-58fa592ea43befc121238cf723d3863b.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6ubba"]
+texture = SubResource("CompressedTexture2D_i6l5d")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_aa76l"]
+load_path = "res://.godot/imported/spaceInterior_004_3.png-6d349534537857e5a153719ea264c45d.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8y7g3"]
+texture = SubResource("CompressedTexture2D_aa76l")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_x8mc1"]
+load_path = "res://.godot/imported/spaceInterior_043_0.png-62904cf505dd73593422520338839546.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1100g"]
+texture = SubResource("CompressedTexture2D_x8mc1")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jkueh"]
+load_path = "res://.godot/imported/spaceInterior_043_1.png-e9fe4a3812fe613cb04a33e67e0e6783.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h4rml"]
+texture = SubResource("CompressedTexture2D_jkueh")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jq3bg"]
+load_path = "res://.godot/imported/spaceInterior_043_2.png-4ceb6f32ededbb16439e0d00dd7d539c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1i6j7"]
+texture = SubResource("CompressedTexture2D_jq3bg")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nuowt"]
+load_path = "res://.godot/imported/spaceInterior_043_3.png-2fc1cb1a3a1901b37e644ef94070aae4.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7em6t"]
+texture = SubResource("CompressedTexture2D_nuowt")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rucg4"]
+load_path = "res://.godot/imported/spaceInterior_044_0.png-4f727d38a3ecf4210dea6d495e37601d.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8uf7f"]
+texture = SubResource("CompressedTexture2D_rucg4")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_e8ikg"]
+load_path = "res://.godot/imported/spaceInterior_044_1.png-c68ae88e85bbe26150e2ce0b2a0e8355.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n5e2p"]
+texture = SubResource("CompressedTexture2D_e8ikg")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6cxc8"]
+load_path = "res://.godot/imported/spaceInterior_044_2.png-37089d8c9ef9463ad37154dfa87ec1f0.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h3l0s"]
+texture = SubResource("CompressedTexture2D_6cxc8")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ve85g"]
+load_path = "res://.godot/imported/spaceInterior_044_3.png-c621d736b23ddc88af25dbd82f339982.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fiaay"]
+texture = SubResource("CompressedTexture2D_ve85g")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xeoaf"]
+load_path = "res://.godot/imported/spaceInterior_045_0.png-4c1c095fc5c075418f0234127993e3ca.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_arc0s"]
+texture = SubResource("CompressedTexture2D_xeoaf")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4w7nh"]
+load_path = "res://.godot/imported/spaceInterior_045_1.png-ea438b10206b96193b1e7dc8e7487cc0.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sq8ra"]
+texture = SubResource("CompressedTexture2D_4w7nh")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ik3fn"]
+load_path = "res://.godot/imported/spaceInterior_005_0.png-1fe8b22bbe4763fbfb11fd54c1fa9654.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hty5g"]
+texture = SubResource("CompressedTexture2D_ik3fn")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vv265"]
+load_path = "res://.godot/imported/spaceInterior_045_2.png-9179b2e8ae4b1d1cb7722fdc0e4cafc2.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e3jhv"]
+texture = SubResource("CompressedTexture2D_vv265")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ip3sa"]
+load_path = "res://.godot/imported/spaceInterior_045_3.png-80bd50eadfe3b72f2b5f37cfd5b34d72.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ouw24"]
+texture = SubResource("CompressedTexture2D_ip3sa")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_as7l1"]
+load_path = "res://.godot/imported/spaceInterior_046_0.png-a5af7f0f18f1ad30765efea095567837.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0v8hv"]
+texture = SubResource("CompressedTexture2D_as7l1")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pdjkm"]
+load_path = "res://.godot/imported/spaceInterior_046_1.png-bed51e649ace4ce7739b6386343f5b58.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bpela"]
+texture = SubResource("CompressedTexture2D_pdjkm")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2urrb"]
+load_path = "res://.godot/imported/spaceInterior_046_2.png-c18dc77c0ff8070c7466099981eeca28.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ri202"]
+texture = SubResource("CompressedTexture2D_2urrb")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tb65f"]
+load_path = "res://.godot/imported/spaceInterior_046_3.png-8d8de9aa6d6b666bf7329d2770a0e7bc.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o3efa"]
+texture = SubResource("CompressedTexture2D_tb65f")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_syso7"]
+load_path = "res://.godot/imported/spaceInterior_047_0.png-8072ea3f5f7ed7c35c6fd69ca17e63f9.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h0p65"]
+texture = SubResource("CompressedTexture2D_syso7")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_duirv"]
+load_path = "res://.godot/imported/spaceInterior_047_1.png-1c2034d7f3ea3f74e9544a4d565d3fe8.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y2e5h"]
+texture = SubResource("CompressedTexture2D_duirv")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_u7mhh"]
+load_path = "res://.godot/imported/spaceInterior_047_2.png-20cbf39ae0ff5205187b13924beb2a99.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_05msa"]
+texture = SubResource("CompressedTexture2D_u7mhh")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8k0ph"]
+load_path = "res://.godot/imported/spaceInterior_047_3.png-656f93d51ce3d9f31c8a0132e63679e5.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3k3mx"]
+texture = SubResource("CompressedTexture2D_8k0ph")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gthfx"]
+load_path = "res://.godot/imported/spaceInterior_005_1.png-0a2e196809fa07249405c0392fdcabad.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i1mno"]
+texture = SubResource("CompressedTexture2D_gthfx")
+texture_region_size = Vector2i(240, 192)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(30, 30)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vrpsc"]
+load_path = "res://.godot/imported/spaceInterior_048_0.png-4087fc522dcbca58ee9e201f38f17b5e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a2dnn"]
+texture = SubResource("CompressedTexture2D_vrpsc")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7adca"]
+load_path = "res://.godot/imported/spaceInterior_048_1.png-501dbdd4f597d1378e4c3d4a15a518d9.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tr5ey"]
+texture = SubResource("CompressedTexture2D_7adca")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xt8oo"]
+load_path = "res://.godot/imported/spaceInterior_048_2.png-7d0f91b329dc53841ebaee745efaedec.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wckay"]
+texture = SubResource("CompressedTexture2D_xt8oo")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tmo1x"]
+load_path = "res://.godot/imported/spaceInterior_048_3.png-57adeeb9619b30010f0314baa613d1d4.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6q6ye"]
+texture = SubResource("CompressedTexture2D_tmo1x")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3ltxs"]
+load_path = "res://.godot/imported/spaceInterior_049_0.png-cfb7f3eaeae5013fe74d1f97f75ac4ed.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_je3gp"]
+texture = SubResource("CompressedTexture2D_3ltxs")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5ffd3"]
+load_path = "res://.godot/imported/spaceInterior_049_1.png-9e0cc7045a09be9212a9fc16b16ad957.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0fssb"]
+texture = SubResource("CompressedTexture2D_5ffd3")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4u7yx"]
+load_path = "res://.godot/imported/spaceInterior_049_2.png-751bedcc470e5e639b1172249477f538.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mijbn"]
+texture = SubResource("CompressedTexture2D_4u7yx")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5ddwl"]
+load_path = "res://.godot/imported/spaceInterior_049_3.png-9f84e139fffda06e7155d0de6c685aad.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uakvc"]
+texture = SubResource("CompressedTexture2D_5ddwl")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pnw61"]
+load_path = "res://.godot/imported/spaceInterior_050_0.png-1c2f8ec91b81e06c600d4360b535ab6e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eut1j"]
+texture = SubResource("CompressedTexture2D_pnw61")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m75do"]
+load_path = "res://.godot/imported/spaceInterior_050_1.png-660fe4341989f642e8e0404b9f628e38.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i4kc0"]
+texture = SubResource("CompressedTexture2D_m75do")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lwxgf"]
+load_path = "res://.godot/imported/spaceInterior_001_0.png-ce724091dec893d38d9d62a34293f61c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f8pl7"]
+texture = SubResource("CompressedTexture2D_lwxgf")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_swlbg"]
+load_path = "res://.godot/imported/spaceInterior_005_2.png-e76ceee25cf91f340fa4acc22059f93c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wu0c4"]
+texture = SubResource("CompressedTexture2D_swlbg")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ad214"]
+load_path = "res://.godot/imported/spaceInterior_050_2.png-63d3e272e72ab49a1e712d61a5272a3d.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4ul3e"]
+texture = SubResource("CompressedTexture2D_ad214")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ddf6r"]
+load_path = "res://.godot/imported/spaceInterior_050_3.png-d3bb1050acdbb3b0d99c1eaa900ffebb.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ofsay"]
+texture = SubResource("CompressedTexture2D_ddf6r")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wrsng"]
+load_path = "res://.godot/imported/spaceInterior_051_0.png-5f2cd4987f59494e08b3bcde9b544c0f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ngxi2"]
+texture = SubResource("CompressedTexture2D_wrsng")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xb2lo"]
+load_path = "res://.godot/imported/spaceInterior_051_1.png-c2c1578fed2e1221f3d839883b9f5d66.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1hwx4"]
+texture = SubResource("CompressedTexture2D_xb2lo")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rmb5h"]
+load_path = "res://.godot/imported/spaceInterior_051_2.png-87fc2a7f36ef5d848e5f72d7a867b303.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6pbae"]
+texture = SubResource("CompressedTexture2D_rmb5h")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_78qgv"]
+load_path = "res://.godot/imported/spaceInterior_051_3.png-cdcff5c5761b7fb75e629bd0d7f0143d.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5uuro"]
+texture = SubResource("CompressedTexture2D_78qgv")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_koklb"]
+load_path = "res://.godot/imported/spaceInterior_052_0.png-ecc04361545696d754425c031660445f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h5w3b"]
+texture = SubResource("CompressedTexture2D_koklb")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kiqja"]
+load_path = "res://.godot/imported/spaceInterior_052_1.png-42d38299866f55cfb3f97c592198b3c2.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p2rtk"]
+texture = SubResource("CompressedTexture2D_kiqja")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mjwji"]
+load_path = "res://.godot/imported/spaceInterior_052_2.png-ea6b4b15afeff1006cc3eeaded484b2f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0skss"]
+texture = SubResource("CompressedTexture2D_mjwji")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_akglh"]
+load_path = "res://.godot/imported/spaceInterior_052_3.png-c129988702f75bf6c60dca28be08daa9.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_txuho"]
+texture = SubResource("CompressedTexture2D_akglh")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_y8cbt"]
+load_path = "res://.godot/imported/spaceInterior_005_3.png-7f74bc6547f5eccf27977a95f9e24c98.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_41fvs"]
+texture = SubResource("CompressedTexture2D_y8cbt")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_skfmi"]
+load_path = "res://.godot/imported/spaceInterior_053_0.png-b42802990aec028e9bd035f7d6741d2f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pxwu7"]
+texture = SubResource("CompressedTexture2D_skfmi")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_sy1i1"]
+load_path = "res://.godot/imported/spaceInterior_053_1.png-41890f54cc2b0319f341e2cc9ec3dd6b.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_660qn"]
+texture = SubResource("CompressedTexture2D_sy1i1")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2pm32"]
+load_path = "res://.godot/imported/spaceInterior_053_2.png-537adcdeebb8dd5927c00f4f12f9ec5d.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2hkjk"]
+texture = SubResource("CompressedTexture2D_2pm32")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4cw2u"]
+load_path = "res://.godot/imported/spaceInterior_053_3.png-67a728b81c6564b08c1dd83ca4777426.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_poh3j"]
+texture = SubResource("CompressedTexture2D_4cw2u")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ddwj4"]
+load_path = "res://.godot/imported/spaceInterior_054_0.png-b5541c2814ae708fd7fc9acddd48ca26.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p8vmx"]
+texture = SubResource("CompressedTexture2D_ddwj4")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_udgah"]
+load_path = "res://.godot/imported/spaceInterior_054_1.png-5a41e7365fd26fd77c88bfd66482ff63.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j6fuq"]
+texture = SubResource("CompressedTexture2D_udgah")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kpphy"]
+load_path = "res://.godot/imported/spaceInterior_054_2.png-dd0e83e7b4be9f765e5dd5b58593f0b4.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8dt4p"]
+texture = SubResource("CompressedTexture2D_kpphy")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5yc5q"]
+load_path = "res://.godot/imported/spaceInterior_054_3.png-fc1b935573b7efec24954f893d1a100e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mejop"]
+texture = SubResource("CompressedTexture2D_5yc5q")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qt5hf"]
+load_path = "res://.godot/imported/spaceInterior_055_0.png-594a65e14b591f28e1f94858b6f78b88.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_36rve"]
+texture = SubResource("CompressedTexture2D_qt5hf")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_31m6a"]
+load_path = "res://.godot/imported/spaceInterior_055_1.png-b90b7a73d71903e9d5d9fccbe6727f27.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u72wl"]
+texture = SubResource("CompressedTexture2D_31m6a")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_g2l3t"]
+load_path = "res://.godot/imported/spaceInterior_006_0.png-5d6957e56cddfcf397bf55f969ad754a.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l6tia"]
+texture = SubResource("CompressedTexture2D_g2l3t")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_h1qdc"]
+load_path = "res://.godot/imported/spaceInterior_055_2.png-c3e1e656983fb53db783696924d7dde5.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_agqhh"]
+texture = SubResource("CompressedTexture2D_h1qdc")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_o5rj6"]
+load_path = "res://.godot/imported/spaceInterior_055_3.png-c5f018feee9533cb21ee5408f3ac6e60.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6w8kk"]
+texture = SubResource("CompressedTexture2D_o5rj6")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nnk51"]
+load_path = "res://.godot/imported/spaceInterior_056_0.png-68f9fe1b2c5a231dba261f3ccabaab3f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hmyks"]
+texture = SubResource("CompressedTexture2D_nnk51")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_puuid"]
+load_path = "res://.godot/imported/spaceInterior_056_1.png-33f4259d04acf095b4cca70aa71b6fcd.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j00ue"]
+texture = SubResource("CompressedTexture2D_puuid")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_u5eiy"]
+load_path = "res://.godot/imported/spaceInterior_056_2.png-985916c166438ac9fb455b4597163690.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1qseh"]
+texture = SubResource("CompressedTexture2D_u5eiy")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_a4jev"]
+load_path = "res://.godot/imported/spaceInterior_056_3.png-d220355c9ded3d3bf5853257c23ccffc.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bade8"]
+texture = SubResource("CompressedTexture2D_a4jev")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_eq6jm"]
+load_path = "res://.godot/imported/spaceInterior_057_0.png-173f5682fb43101271d9bdfdbf450e80.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g5t5e"]
+texture = SubResource("CompressedTexture2D_eq6jm")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4r823"]
+load_path = "res://.godot/imported/spaceInterior_057_1.png-20f2940d048fcef2fd38415d400b1e78.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u7q1b"]
+texture = SubResource("CompressedTexture2D_4r823")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oadnk"]
+load_path = "res://.godot/imported/spaceInterior_057_2.png-d7d5f94791927811c9925f7a8381538a.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tvg61"]
+texture = SubResource("CompressedTexture2D_oadnk")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_05qjj"]
+load_path = "res://.godot/imported/spaceInterior_057_3.png-45b0833d856d2021295aae5213308189.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hqua6"]
+texture = SubResource("CompressedTexture2D_05qjj")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ihs3e"]
+load_path = "res://.godot/imported/spaceInterior_006_1.png-0450a98d26b1ffa4fdd1b2b2e8dbc1b1.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vdqv5"]
+texture = SubResource("CompressedTexture2D_ihs3e")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_64ldf"]
+load_path = "res://.godot/imported/spaceInterior_058_0.png-0e819ea94ca275c1d7190aec4d718557.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0kr1q"]
+texture = SubResource("CompressedTexture2D_64ldf")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xmx4m"]
+load_path = "res://.godot/imported/spaceInterior_058_1.png-e1888d9d3a50663de50eaebb4eb2f232.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ng28e"]
+texture = SubResource("CompressedTexture2D_xmx4m")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ql6rb"]
+load_path = "res://.godot/imported/spaceInterior_058_2.png-97fb9540d54ae5a6b8b2a4af57602c15.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t770q"]
+texture = SubResource("CompressedTexture2D_ql6rb")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pmci2"]
+load_path = "res://.godot/imported/spaceInterior_058_3.png-3d51f03aff132b102b39f5b4164af677.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bpra7"]
+texture = SubResource("CompressedTexture2D_pmci2")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xgcse"]
+load_path = "res://.godot/imported/spaceInterior_059_0.png-26dcf7da9877f4b0c8215acb87dd119f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_34gjj"]
+texture = SubResource("CompressedTexture2D_xgcse")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_yox6p"]
+load_path = "res://.godot/imported/spaceInterior_059_1.png-a311624fe6ed2db010af6956ec043b9f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ealyp"]
+texture = SubResource("CompressedTexture2D_yox6p")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_of1ax"]
+load_path = "res://.godot/imported/spaceInterior_059_2.png-832be9a9bf984f24e192c5beb98761bb.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yh3rn"]
+texture = SubResource("CompressedTexture2D_of1ax")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uvfsy"]
+load_path = "res://.godot/imported/spaceInterior_059_3.png-83164a61d957669113d8a642b0a5b786.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fqxog"]
+texture = SubResource("CompressedTexture2D_uvfsy")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4lroa"]
+load_path = "res://.godot/imported/spaceInterior_060_0.png-aa41ca00419e58bf7e8247001dd8fc81.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l4h4m"]
+texture = SubResource("CompressedTexture2D_4lroa")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ujej1"]
+load_path = "res://.godot/imported/spaceInterior_060_1.png-99364d32a7bf2769ca1b144349e990b2.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g4qts"]
+texture = SubResource("CompressedTexture2D_ujej1")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bx3sn"]
+load_path = "res://.godot/imported/spaceInterior_006_2.png-ad27bbc04acf9240710b39f67223480d.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f3p4x"]
+texture = SubResource("CompressedTexture2D_bx3sn")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_iad0s"]
+load_path = "res://.godot/imported/spaceInterior_060_2.png-88c67058b48f88d79c62a99e7316cc53.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8nniu"]
+texture = SubResource("CompressedTexture2D_iad0s")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_av3sp"]
+load_path = "res://.godot/imported/spaceInterior_060_3.png-12788d95ee561fe41a5bc3517c9679d5.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yby5n"]
+texture = SubResource("CompressedTexture2D_av3sp")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2t13h"]
+load_path = "res://.godot/imported/spaceInterior_061_0.png-9d2948502cf7df2c5c755e8aef9b1ace.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nncxl"]
+texture = SubResource("CompressedTexture2D_2t13h")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_yi3m4"]
+load_path = "res://.godot/imported/spaceInterior_061_1.png-9e0ef54940c729091f603b853c790416.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7wvg3"]
+texture = SubResource("CompressedTexture2D_yi3m4")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4rpka"]
+load_path = "res://.godot/imported/spaceInterior_061_2.png-c8538f283a252e3aad3425921f6b0110.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cn2jj"]
+texture = SubResource("CompressedTexture2D_4rpka")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p2jwp"]
+load_path = "res://.godot/imported/spaceInterior_061_3.png-40e08b1880d218a00deea7e99846a108.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wjeo3"]
+texture = SubResource("CompressedTexture2D_p2jwp")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qq76k"]
+load_path = "res://.godot/imported/spaceInterior_062_0.png-0fb085cf4a35181ea6e9aadc000387bf.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nlhm3"]
+texture = SubResource("CompressedTexture2D_qq76k")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fe2tq"]
+load_path = "res://.godot/imported/spaceInterior_062_1.png-7ad4f9e03f333802948a4bc0411e6dd1.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nrfou"]
+texture = SubResource("CompressedTexture2D_fe2tq")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wmhj0"]
+load_path = "res://.godot/imported/spaceInterior_062_2.png-b70ee15fc282d5d0a1e1ea30672d8677.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8hn0t"]
+texture = SubResource("CompressedTexture2D_wmhj0")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ym4h3"]
+load_path = "res://.godot/imported/spaceInterior_062_3.png-451e5a52d553738632ef9fe826a0884a.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_odxtb"]
+texture = SubResource("CompressedTexture2D_ym4h3")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jnr1u"]
+load_path = "res://.godot/imported/spaceInterior_006_3.png-2e4f997ee42413181f92594c02c52b80.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tagap"]
+texture = SubResource("CompressedTexture2D_jnr1u")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_q60kd"]
+load_path = "res://.godot/imported/spaceInterior_063_0.png-aa67a9e9c527c5e72a942d38bad8ad03.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uvq1k"]
+texture = SubResource("CompressedTexture2D_q60kd")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3o1su"]
+load_path = "res://.godot/imported/spaceInterior_063_1.png-72178218da24cf53cde734613418db64.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1jueq"]
+texture = SubResource("CompressedTexture2D_3o1su")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pm837"]
+load_path = "res://.godot/imported/spaceInterior_063_2.png-1fb6fea730ca6f3452fee46a0548d911.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a2g57"]
+texture = SubResource("CompressedTexture2D_pm837")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cjbmt"]
+load_path = "res://.godot/imported/spaceInterior_063_3.png-5773d866779e1ed2189acadcda285cfc.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f6tiq"]
+texture = SubResource("CompressedTexture2D_cjbmt")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vsuan"]
+load_path = "res://.godot/imported/spaceInterior_064_0.png-59ede342ce9e098da2839cbf5087468c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7ihwc"]
+texture = SubResource("CompressedTexture2D_vsuan")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mvbsm"]
+load_path = "res://.godot/imported/spaceInterior_064_1.png-d2a14f6007a2ed078c1fe42e6331e3ad.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0kyow"]
+texture = SubResource("CompressedTexture2D_mvbsm")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cxoe3"]
+load_path = "res://.godot/imported/spaceInterior_064_2.png-62afbe2da344abc1fa136b8faa5bbafe.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u42b3"]
+texture = SubResource("CompressedTexture2D_cxoe3")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pmdpp"]
+load_path = "res://.godot/imported/spaceInterior_064_3.png-7ce6b274aff528e886d84dd2ebabab46.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mgpjy"]
+texture = SubResource("CompressedTexture2D_pmdpp")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jdl7e"]
+load_path = "res://.godot/imported/spaceInterior_065_0.png-f892ebfe42c2b4982600a5158b698ba1.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dk77l"]
+texture = SubResource("CompressedTexture2D_jdl7e")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tm6ba"]
+load_path = "res://.godot/imported/spaceInterior_065_1.png-22c4c7f9ec96d36c516db7683806bf18.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fl6k5"]
+texture = SubResource("CompressedTexture2D_tm6ba")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_eeh14"]
+load_path = "res://.godot/imported/spaceInterior_007_0.png-909f36b7765d0ffaff57d43d52f4ac1e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qfkmf"]
+texture = SubResource("CompressedTexture2D_eeh14")
+texture_region_size = Vector2i(240, 192)
+0:0/0 = 0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cetx2"]
+load_path = "res://.godot/imported/spaceInterior_065_2.png-3eb2f8a29ee752ec76c1706b8bbf301e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w8ahw"]
+texture = SubResource("CompressedTexture2D_cetx2")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dh8gs"]
+load_path = "res://.godot/imported/spaceInterior_065_3.png-db887f20364232ed5da2293cd0388eb8.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_itxlu"]
+texture = SubResource("CompressedTexture2D_dh8gs")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dniw0"]
+load_path = "res://.godot/imported/spaceInterior_066_0.png-164e661f912eaf18535464a56ba579b8.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h4s4e"]
+texture = SubResource("CompressedTexture2D_dniw0")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_y6yh2"]
+load_path = "res://.godot/imported/spaceInterior_066_1.png-3e3380ef91af14465c935fcaae12e840.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6nik1"]
+texture = SubResource("CompressedTexture2D_y6yh2")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wlbqp"]
+load_path = "res://.godot/imported/spaceInterior_066_2.png-9eaef1ab995277f56b6699d8b00a0db0.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y0xr2"]
+texture = SubResource("CompressedTexture2D_wlbqp")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_h332e"]
+load_path = "res://.godot/imported/spaceInterior_066_3.png-2a4257c27ae42508aed7d7e489f6a753.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nabfm"]
+texture = SubResource("CompressedTexture2D_h332e")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hf284"]
+load_path = "res://.godot/imported/spaceInterior_067_0.png-64a1d8da19e41f0aac6852a94b461670.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tkxym"]
+texture = SubResource("CompressedTexture2D_hf284")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_l5wb3"]
+load_path = "res://.godot/imported/spaceInterior_067_1.png-128670662da283e463e34ee2728c480a.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_prlv1"]
+texture = SubResource("CompressedTexture2D_l5wb3")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6b3jx"]
+load_path = "res://.godot/imported/spaceInterior_067_2.png-a4c5b153fe58a008cc095dc25980b5c5.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_udj5y"]
+texture = SubResource("CompressedTexture2D_6b3jx")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2e703"]
+load_path = "res://.godot/imported/spaceInterior_067_3.png-bde5f9541c937f31c084467ddd7c07b1.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b6m85"]
+texture = SubResource("CompressedTexture2D_2e703")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_w4qtm"]
+load_path = "res://.godot/imported/spaceInterior_007_1.png-3bf0f0b3566e1b7f61ea3933dd392b84.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wsdoo"]
+texture = SubResource("CompressedTexture2D_w4qtm")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1mmen"]
+load_path = "res://.godot/imported/spaceInterior_068_0.png-4085ba91ce11e7334a0c3f706fcad3bc.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gn7mr"]
+texture = SubResource("CompressedTexture2D_1mmen")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3qooj"]
+load_path = "res://.godot/imported/spaceInterior_068_1.png-0ffd6586de8175cf3ade5b5d48bcc3f8.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f0oqh"]
+texture = SubResource("CompressedTexture2D_3qooj")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_v0l4c"]
+load_path = "res://.godot/imported/spaceInterior_068_2.png-1c105b9e72045e2df4dcd49cfb847f49.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i8jgo"]
+texture = SubResource("CompressedTexture2D_v0l4c")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_54kr1"]
+load_path = "res://.godot/imported/spaceInterior_068_3.png-8bcc01e2f8e9076604cb6ea2b075c632.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1fd45"]
+texture = SubResource("CompressedTexture2D_54kr1")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_o7b0v"]
+load_path = "res://.godot/imported/spaceInterior_069_0.png-45d89f5eeeb28763a3718d9d89654615.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f6rdy"]
+texture = SubResource("CompressedTexture2D_o7b0v")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nfoan"]
+load_path = "res://.godot/imported/spaceInterior_069_1.png-1fb767159da0181da1e189426fd77430.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iwueo"]
+texture = SubResource("CompressedTexture2D_nfoan")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hvg5v"]
+load_path = "res://.godot/imported/spaceInterior_069_2.png-75ee0d511472f02cdbec39c839d547fd.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cmhce"]
+texture = SubResource("CompressedTexture2D_hvg5v")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_43ftp"]
+load_path = "res://.godot/imported/spaceInterior_069_3.png-cd1885ae732c8d35c842ec6a02aa4d43.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_533bv"]
+texture = SubResource("CompressedTexture2D_43ftp")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_aygv6"]
+load_path = "res://.godot/imported/spaceInterior_070_0.png-d506f3ba28ac0bc3a7be622edb661e03.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gfv63"]
+texture = SubResource("CompressedTexture2D_aygv6")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fwrb2"]
+load_path = "res://.godot/imported/spaceInterior_070_1.png-ff0de13a97a27fac84070eaa4999faf6.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_presf"]
+texture = SubResource("CompressedTexture2D_fwrb2")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7ga8i"]
+load_path = "res://.godot/imported/spaceInterior_007_2.png-a3e8df59b78b448962601d39106ecd3c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kk0ew"]
+texture = SubResource("CompressedTexture2D_7ga8i")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p1bc0"]
+load_path = "res://.godot/imported/spaceInterior_070_2.png-70b18b02cc72057385c11254c4f8da07.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m6vin"]
+texture = SubResource("CompressedTexture2D_p1bc0")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8qg10"]
+load_path = "res://.godot/imported/spaceInterior_070_3.png-d38be78fa0674a85a8a2fb09706ad8b8.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uj584"]
+texture = SubResource("CompressedTexture2D_8qg10")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0dw0w"]
+load_path = "res://.godot/imported/spaceInterior_071_0.png-85473ec8f8abd0abfa9e0cfee664e63c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3ijyq"]
+texture = SubResource("CompressedTexture2D_0dw0w")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wt12k"]
+load_path = "res://.godot/imported/spaceInterior_071_1.png-ee92f13b491f8a912a13a4b20574e5c0.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_38yh6"]
+texture = SubResource("CompressedTexture2D_wt12k")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ryl6n"]
+load_path = "res://.godot/imported/spaceInterior_071_2.png-ed728697ebc9e342d728d279801b7420.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tr5dr"]
+texture = SubResource("CompressedTexture2D_ryl6n")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vffjo"]
+load_path = "res://.godot/imported/spaceInterior_071_3.png-7a7d632d839b3c7111998b79e26d62b5.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xf6md"]
+texture = SubResource("CompressedTexture2D_vffjo")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gay74"]
+load_path = "res://.godot/imported/spaceInterior_072_0.png-73f0d0f6c2026cc3bde8d6848f39e976.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_08uhr"]
+texture = SubResource("CompressedTexture2D_gay74")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rtx2p"]
+load_path = "res://.godot/imported/spaceInterior_072_1.png-0ba842d30718f550ad0ee435009d32e8.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cpf4u"]
+texture = SubResource("CompressedTexture2D_rtx2p")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1ybkh"]
+load_path = "res://.godot/imported/spaceInterior_072_2.png-07efb5ba99ea5af5950d747ae4cf1afc.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pkm7o"]
+texture = SubResource("CompressedTexture2D_1ybkh")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_feo4x"]
+load_path = "res://.godot/imported/spaceInterior_072_3.png-70744df785c9df45be20be35f0a9b5b8.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t2t3e"]
+texture = SubResource("CompressedTexture2D_feo4x")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_utuuw"]
+load_path = "res://.godot/imported/spaceInterior_007_3.png-18410006e0cff7e5c8178fb15408f5af.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_84v57"]
+texture = SubResource("CompressedTexture2D_utuuw")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kcrub"]
+load_path = "res://.godot/imported/spaceInterior_073_0.png-b75f69f0d3e08b0b7c38c5e0a6a336ce.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3b3cx"]
+texture = SubResource("CompressedTexture2D_kcrub")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xqtis"]
+load_path = "res://.godot/imported/spaceInterior_073_1.png-dfd305c1258554746f74e47b80a3edba.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4afy1"]
+texture = SubResource("CompressedTexture2D_xqtis")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qfu7c"]
+load_path = "res://.godot/imported/spaceInterior_073_2.png-87c6b80025608cdf16bb8a6d7229e8ef.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ihw2a"]
+texture = SubResource("CompressedTexture2D_qfu7c")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_or32b"]
+texture = SubResource("CompressedTexture2D_xd6cx")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fqen2"]
+load_path = "res://.godot/imported/spaceInterior_074_0.png-8d9c16da88ae6eaa335f3caf2a21eabd.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cfuuu"]
+texture = SubResource("CompressedTexture2D_fqen2")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_sug2v"]
+load_path = "res://.godot/imported/spaceInterior_074_1.png-2b3df6a3e2da736aab8ea617a0794eac.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b7vqa"]
+texture = SubResource("CompressedTexture2D_sug2v")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_yxg1f"]
+load_path = "res://.godot/imported/spaceInterior_074_2.png-7e05e4b886ef2af655b82561c34290a9.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v5xrf"]
+texture = SubResource("CompressedTexture2D_yxg1f")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_el1a0"]
+load_path = "res://.godot/imported/spaceInterior_074_3.png-d02323a4616a62f64467b48c9487ea8e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_llmdl"]
+texture = SubResource("CompressedTexture2D_el1a0")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_x7d62"]
+load_path = "res://.godot/imported/spaceInterior_075_0.png-a55296827c611c775afd75e0fd4ddcd5.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yqlop"]
+texture = SubResource("CompressedTexture2D_x7d62")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_li36y"]
+load_path = "res://.godot/imported/spaceInterior_075_1.png-768fef16b3130aa86351fb0c6e90ef74.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5kybq"]
+texture = SubResource("CompressedTexture2D_li36y")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uytq0"]
+load_path = "res://.godot/imported/spaceInterior_001_1.png-82f9711e58fb24b17c400b9019a18d5b.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8lbvo"]
+texture = SubResource("CompressedTexture2D_uytq0")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_y8ft6"]
+load_path = "res://.godot/imported/spaceInterior_008_0.png-3fb2ed874d330633f7a5e5eed2a78e4f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7h7oe"]
+texture = SubResource("CompressedTexture2D_y8ft6")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_sfey4"]
+load_path = "res://.godot/imported/spaceInterior_075_2.png-848f2d5fd3f95a57bf23b2e8d7d72afa.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qumju"]
+texture = SubResource("CompressedTexture2D_sfey4")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bpmhv"]
+load_path = "res://.godot/imported/spaceInterior_075_3.png-698ed6193aa1cb2a97ea2d3fe5b4f078.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ux8wv"]
+texture = SubResource("CompressedTexture2D_bpmhv")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_plidp"]
+load_path = "res://.godot/imported/spaceInterior_076_0.png-7ebbb139bcc580ead9f214aadfff13d2.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ks2lg"]
+texture = SubResource("CompressedTexture2D_plidp")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ryt8t"]
+load_path = "res://.godot/imported/spaceInterior_076_1.png-61ee0990fe08836a2d6f55e9df9152ac.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jpqf4"]
+texture = SubResource("CompressedTexture2D_ryt8t")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6grl6"]
+load_path = "res://.godot/imported/spaceInterior_076_2.png-102b4c7d24f5995961648eb813bbdcee.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_33xi1"]
+texture = SubResource("CompressedTexture2D_6grl6")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5dyat"]
+load_path = "res://.godot/imported/spaceInterior_076_3.png-237edbd98ccd397d0378496d6a957212.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xtihy"]
+texture = SubResource("CompressedTexture2D_5dyat")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pvk8c"]
+load_path = "res://.godot/imported/spaceInterior_077_0.png-f609022b3ebaa8d0fc34a0880863c1ab.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hmscw"]
+texture = SubResource("CompressedTexture2D_pvk8c")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_a441f"]
+load_path = "res://.godot/imported/spaceInterior_077_1.png-61b5ee3765daae4b995c3066a9a4e89e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w7tec"]
+texture = SubResource("CompressedTexture2D_a441f")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_l2s60"]
+load_path = "res://.godot/imported/spaceInterior_077_2.png-4575ea2b26f0152fa0610a83d464e740.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jbkui"]
+texture = SubResource("CompressedTexture2D_l2s60")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_luu2r"]
+load_path = "res://.godot/imported/spaceInterior_077_3.png-4a649cd129f91af7715d40bb13469b57.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mp6a7"]
+texture = SubResource("CompressedTexture2D_luu2r")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7ykds"]
+load_path = "res://.godot/imported/spaceInterior_008_1.png-1a3c3762d7af7e067870a90e72aedda8.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hqnek"]
+texture = SubResource("CompressedTexture2D_7ykds")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3ok08"]
+load_path = "res://.godot/imported/spaceInterior_078_0.png-7e4190bf043f94851cadaeded73ad492.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5mcuv"]
+texture = SubResource("CompressedTexture2D_3ok08")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_b2utk"]
+load_path = "res://.godot/imported/spaceInterior_078_1.png-c684b9bfb9069ebb0b412427c3283fb3.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h1x2g"]
+texture = SubResource("CompressedTexture2D_b2utk")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bdjv1"]
+load_path = "res://.godot/imported/spaceInterior_078_2.png-d4f086ef64cb4725c1e70930b9b03ab9.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i4la1"]
+texture = SubResource("CompressedTexture2D_bdjv1")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_l5ne2"]
+load_path = "res://.godot/imported/spaceInterior_078_3.png-5bb6145f69c29e4616acc9edfc6ea1e7.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6wxex"]
+texture = SubResource("CompressedTexture2D_l5ne2")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7y8kq"]
+load_path = "res://.godot/imported/spaceInterior_079_0.png-28089b620fa8d185d2ef3fd23b67f62d.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jqi11"]
+texture = SubResource("CompressedTexture2D_7y8kq")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_abk3k"]
+load_path = "res://.godot/imported/spaceInterior_079_1.png-6741cc58db20bda90e832f7c04b20919.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_idvrg"]
+texture = SubResource("CompressedTexture2D_abk3k")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hyguj"]
+load_path = "res://.godot/imported/spaceInterior_079_2.png-580f96e3a5f54be95cfe03c70b3f1700.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o1a7u"]
+texture = SubResource("CompressedTexture2D_hyguj")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bo86e"]
+load_path = "res://.godot/imported/spaceInterior_079_3.png-7f830b756e0e759126b267ba60bcb4e3.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r7kce"]
+texture = SubResource("CompressedTexture2D_bo86e")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m46xo"]
+load_path = "res://.godot/imported/spaceInterior_080_0.png-187fcdf46ddb4cce7b78ebc0ed8dfcd1.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dt61m"]
+texture = SubResource("CompressedTexture2D_m46xo")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hww38"]
+load_path = "res://.godot/imported/spaceInterior_080_1.png-b5ecb75a3d3fd6c29f4e9a7d91e055cf.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_apcho"]
+texture = SubResource("CompressedTexture2D_hww38")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_50jf3"]
+load_path = "res://.godot/imported/spaceInterior_008_2.png-0a22b8b933a1ac7e70b6ee1719776c28.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m54wn"]
+texture = SubResource("CompressedTexture2D_50jf3")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3obfs"]
+load_path = "res://.godot/imported/spaceInterior_080_2.png-80fd947572348647456f7f99c8428d36.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cu1ek"]
+texture = SubResource("CompressedTexture2D_3obfs")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hfj5b"]
+load_path = "res://.godot/imported/spaceInterior_080_3.png-0ebb6c484c30ecd1fe272c25d7bae9da.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tmr2a"]
+texture = SubResource("CompressedTexture2D_hfj5b")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_guvox"]
+load_path = "res://.godot/imported/sprite_sheet.png-f3a5a92122f4790549407893dede31d7.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4omcm"]
+texture = SubResource("CompressedTexture2D_guvox")
+texture_region_size = Vector2i(240, 192)
+2:2/0 = 0
+2:2/0/texture_origin = Vector2i(1, 30)
+21:2/0 = 0
+2:3/0 = 0
+8:3/0 = 0
+15:3/0 = 0
+21:3/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+11:4/0 = 0
+15:4/0 = 0
+11:5/0 = 0
+16:7/0 = 0
+16:8/0 = 0
+22:8/0 = 0
+3:9/0 = 0
+3:9/0/texture_origin = Vector2i(1, 30)
+10:9/0 = 0
+16:9/0 = 0
+22:9/0 = 0
+3:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+10:10/0 = 0
+22:10/0 = 0
+3:11/0 = 0
+6:11/0 = 0
+7:11/0 = 0
+10:11/0 = 0
+22:11/0 = 0
+6:12/0 = 0
+7:12/0 = 0
+5:15/0 = 0
+6:15/0 = 0
+11:15/0 = 0
+2:16/0 = 0
+2:16/0/texture_origin = Vector2i(1, 30)
+5:16/0 = 0
+6:16/0 = 0
+11:16/0 = 0
+17:16/0 = 0
+2:17/0 = 0
+2:17/0/texture_origin = Vector2i(1, 30)
+5:17/0 = 0
+6:17/0 = 0
+17:17/0 = 0
+21:17/0 = 0
+2:18/0 = 0
+2:18/0/texture_origin = Vector2i(1, 30)
+21:18/0 = 0
+6:22/0 = 0
+7:22/0 = 0
+1:23/0 = 0
+1:23/0/texture_origin = Vector2i(1, 30)
+6:23/0 = 0
+7:23/0 = 0
+11:23/0 = 0
+12:23/0 = 0
+19:23/0 = 0
+20:23/0 = 0
+21:23/0 = 0
+1:24/0 = 0
+1:24/0/texture_origin = Vector2i(1, 30)
+6:24/0 = 0
+7:24/0 = 0
+11:24/0 = 0
+12:24/0 = 0
+15:24/0 = 0
+16:24/0 = 0
+19:24/0 = 0
+20:24/0 = 0
+21:24/0 = 0
+16:25/0 = 0
+1:29/0 = 0
+1:29/0/texture_origin = Vector2i(1, 30)
+2:29/0 = 0
+2:29/0/texture_origin = Vector2i(1, 30)
+20:29/0 = 0
+21:29/0 = 0
+1:30/0 = 0
+1:30/0/texture_origin = Vector2i(1, 30)
+2:30/0 = 0
+2:30/0/texture_origin = Vector2i(1, 30)
+7:30/0 = 0
+8:30/0 = 0
+11:30/0 = 0
+12:30/0 = 0
+15:30/0 = 0
+16:30/0 = 0
+20:30/0 = 0
+21:30/0 = 0
+22:30/0 = 0
+7:31/0 = 0
+8:31/0 = 0
+11:31/0 = 0
+12:31/0 = 0
+15:31/0 = 0
+16:31/0 = 0
+21:31/0 = 0
+22:31/0 = 0
+11:35/0 = 0
+16:35/0 = 0
+2:36/0 = 0
+2:36/0/texture_origin = Vector2i(1, 30)
+3:36/0 = 0
+3:36/0/texture_origin = Vector2i(1, 30)
+6:36/0 = 0
+10:36/0 = 0
+11:36/0 = 0
+12:36/0 = 0
+16:36/0 = 0
+1:37/0 = 0
+1:37/0/texture_origin = Vector2i(1, 30)
+2:37/0 = 0
+2:37/0/texture_origin = Vector2i(1, 30)
+3:37/0 = 0
+3:37/0/texture_origin = Vector2i(1, 30)
+5:37/0 = 0
+6:37/0 = 0
+7:37/0 = 0
+10:37/0 = 0
+11:37/0 = 0
+21:37/0 = 0
+22:37/0 = 0
+1:38/0 = 0
+1:38/0/texture_origin = Vector2i(1, 30)
+2:38/0 = 0
+2:38/0/texture_origin = Vector2i(1, 30)
+3:38/0 = 0
+3:38/0/texture_origin = Vector2i(1, 30)
+6:38/0 = 0
+7:38/0 = 0
+11:42/0 = 0
+12:42/0 = 0
+5:43/0 = 0
+6:43/0 = 0
+11:43/0 = 0
+12:43/0 = 0
+17:43/0 = 0
+2:44/0 = 0
+2:44/0/texture_origin = Vector2i(1, 30)
+5:44/0 = 0
+6:44/0 = 0
+17:44/0 = 0
+20:44/0 = 0
+21:44/0 = 0
+2:45/0 = 0
+2:45/0/texture_origin = Vector2i(1, 30)
+20:45/0 = 0
+21:45/0 = 0
+6:49/0 = 0
+7:49/0 = 0
+20:49/0 = 0
+6:50/0 = 0
+7:50/0 = 0
+11:50/0 = 0
+12:50/0 = 0
+15:50/0 = 0
+16:50/0 = 0
+20:50/0 = 0
+11:51/0 = 0
+12:51/0 = 0
+15:51/0 = 0
+16:51/0 = 0
+20:51/0 = 0
+20:55/0 = 0
+21:55/0 = 0
+7:56/0 = 0
+8:56/0 = 0
+15:56/0 = 0
+16:56/0 = 0
+20:56/0 = 0
+21:56/0 = 0
+7:57/0 = 0
+8:57/0 = 0
+11:57/0 = 0
+12:57/0 = 0
+15:57/0 = 0
+16:57/0 = 0
+21:57/0 = 0
+7:58/0 = 0
+11:58/0 = 0
+11:62/0 = 0
+15:62/0 = 0
+16:62/0 = 0
+20:62/0 = 0
+21:62/0 = 0
+6:63/0 = 0
+10:63/0 = 0
+11:63/0 = 0
+15:63/0 = 0
+16:63/0 = 0
+19:63/0 = 0
+20:63/0 = 0
+21:63/0 = 0
+22:63/0 = 0
+2:64/0 = 0
+3:64/0 = 0
+6:64/0 = 0
+7:64/0 = 0
+10:64/0 = 0
+11:64/0 = 0
+15:64/0 = 0
+16:64/0 = 0
+19:64/0 = 0
+20:64/0 = 0
+22:64/0 = 0
+6:65/0 = 0
+7:65/0 = 0
+16:65/0 = 0
+2:68/0 = 0
+11:68/0 = 0
+2:69/0 = 0
+3:69/0 = 0
+5:69/0 = 0
+6:69/0 = 0
+8:69/0 = 0
+11:69/0 = 0
+12:69/0 = 0
+16:69/0 = 0
+17:69/0 = 0
+20:69/0 = 0
+21:69/0 = 0
+2:70/0 = 0
+3:70/0 = 0
+5:70/0 = 0
+6:70/0 = 0
+7:70/0 = 0
+8:70/0 = 0
+11:70/0 = 0
+12:70/0 = 0
+16:70/0 = 0
+17:70/0 = 0
+20:70/0 = 0
+21:70/0 = 0
+2:71/0 = 0
+3:71/0 = 0
+6:71/0 = 0
+7:71/0 = 0
+16:71/0 = 0
+17:71/0 = 0
+20:71/0 = 0
+21:71/0 = 0
+6:74/0 = 0
+7:74/0 = 0
+1:75/0 = 0
+2:75/0 = 0
+6:75/0 = 0
+7:75/0 = 0
+12:75/0 = 0
+20:75/0 = 0
+1:76/0 = 0
+2:76/0 = 0
+6:76/0 = 0
+7:76/0 = 0
+12:76/0 = 0
+16:76/0 = 0
+20:76/0 = 0
+1:77/0 = 0
+2:77/0 = 0
+12:77/0 = 0
+16:77/0 = 0
+20:77/0 = 0
+16:78/0 = 0
+21:81/0 = 0
+1:82/0 = 0
+2:82/0 = 0
+7:82/0 = 0
+20:82/0 = 0
+21:82/0 = 0
+1:83/0 = 0
+2:83/0 = 0
+7:83/0 = 0
+8:83/0 = 0
+11:83/0 = 0
+12:83/0 = 0
+15:83/0 = 0
+16:83/0 = 0
+20:83/0 = 0
+21:83/0 = 0
+7:84/0 = 0
+8:84/0 = 0
+11:84/0 = 0
+12:84/0 = 0
+15:84/0 = 0
+16:84/0 = 0
+2:88/0 = 0
+16:88/0 = 0
+2:89/0 = 0
+3:89/0 = 0
+7:89/0 = 0
+10:89/0 = 0
+11:89/0 = 0
+16:89/0 = 0
+22:89/0 = 0
+2:90/0 = 0
+3:90/0 = 0
+6:90/0 = 0
+7:90/0 = 0
+10:90/0 = 0
+11:90/0 = 0
+22:90/0 = 0
+6:91/0 = 0
+7:91/0 = 0
+11:91/0 = 0
+11:95/0 = 0
+12:95/0 = 0
+5:96/0 = 0
+6:96/0 = 0
+11:96/0 = 0
+12:96/0 = 0
+17:96/0 = 0
+2:97/0 = 0
+5:97/0 = 0
+6:97/0 = 0
+17:97/0 = 0
+20:97/0 = 0
+21:97/0 = 0
+2:98/0 = 0
+20:98/0 = 0
+21:98/0 = 0
+6:101/0 = 0
+7:101/0 = 0
+6:102/0 = 0
+7:102/0 = 0
+12:102/0 = 0
+19:102/0 = 0
+20:102/0 = 0
+1:103/0 = 0
+7:103/0 = 0
+12:103/0 = 0
+15:103/0 = 0
+16:103/0 = 0
+19:103/0 = 0
+20:103/0 = 0
+12:104/0 = 0
+15:104/0 = 0
+16:104/0 = 0
+17:106/0 = 0
+9:107/0 = 0
+10:107/0 = 0
+16:107/0 = 0
+17:107/0 = 0
+18:107/0 = 0
+1:108/0 = 0
+2:108/0 = 0
+3:108/0 = 0
+6:108/0 = 0
+7:108/0 = 0
+9:108/0 = 0
+10:108/0 = 0
+11:108/0 = 0
+15:108/0 = 0
+16:108/0 = 0
+17:108/0 = 0
+18:108/0 = 0
+20:108/0 = 0
+21:108/0 = 0
+22:108/0 = 0
+1:109/0 = 0
+2:109/0 = 0
+3:109/0 = 0
+4:109/0 = 0
+5:109/0 = 0
+6:109/0 = 0
+7:109/0 = 0
+8:109/0 = 0
+9:109/0 = 0
+10:109/0 = 0
+11:109/0 = 0
+12:109/0 = 0
+15:109/0 = 0
+16:109/0 = 0
+17:109/0 = 0
+20:109/0 = 0
+21:109/0 = 0
+22:109/0 = 0
+1:110/0 = 0
+2:110/0 = 0
+3:110/0 = 0
+4:110/0 = 0
+5:110/0 = 0
+6:110/0 = 0
+7:110/0 = 0
+8:110/0 = 0
+10:110/0 = 0
+11:110/0 = 0
+12:110/0 = 0
+15:110/0 = 0
+16:110/0 = 0
+20:110/0 = 0
+21:110/0 = 0
+22:110/0 = 0
+2:111/0 = 0
+3:111/0 = 0
+4:111/0 = 0
+5:111/0 = 0
+6:111/0 = 0
+7:111/0 = 0
+11:111/0 = 0
+12:111/0 = 0
+3:112/0 = 0
+4:112/0 = 0
+5:112/0 = 0
+6:112/0 = 0
+11:114/0 = 0
+12:114/0 = 0
+16:114/0 = 0
+1:115/0 = 0
+2:115/0 = 0
+3:115/0 = 0
+5:115/0 = 0
+6:115/0 = 0
+7:115/0 = 0
+10:115/0 = 0
+11:115/0 = 0
+12:115/0 = 0
+16:115/0 = 0
+21:115/0 = 0
+22:115/0 = 0
+1:116/0 = 0
+2:116/0 = 0
+3:116/0 = 0
+5:116/0 = 0
+6:116/0 = 0
+7:116/0 = 0
+10:116/0 = 0
+11:116/0 = 0
+12:116/0 = 0
+16:116/0 = 0
+21:116/0 = 0
+22:116/0 = 0
+1:117/0 = 0
+2:117/0 = 0
+3:117/0 = 0
+6:117/0 = 0
+7:117/0 = 0
+10:117/0 = 0
+11:117/0 = 0
+21:117/0 = 0
+22:117/0 = 0
+6:121/0 = 0
+11:121/0 = 0
+12:121/0 = 0
+5:122/0 = 0
+6:122/0 = 0
+11:122/0 = 0
+12:122/0 = 0
+16:122/0 = 0
+17:122/0 = 0
+2:123/0 = 0
+5:123/0 = 0
+6:123/0 = 0
+16:123/0 = 0
+17:123/0 = 0
+20:123/0 = 0
+21:123/0 = 0
+2:124/0 = 0
+20:124/0 = 0
+21:124/0 = 0
+6:127/0 = 0
+7:127/0 = 0
+1:128/0 = 0
+6:128/0 = 0
+7:128/0 = 0
+12:128/0 = 0
+19:128/0 = 0
+20:128/0 = 0
+1:129/0 = 0
+6:129/0 = 0
+7:129/0 = 0
+12:129/0 = 0
+16:129/0 = 0
+19:129/0 = 0
+20:129/0 = 0
+1:130/0 = 0
+12:130/0 = 0
+16:130/0 = 0
+20:130/0 = 0
+16:131/0 = 0
+2:134/0 = 0
+21:134/0 = 0
+2:135/0 = 0
+7:135/0 = 0
+8:135/0 = 0
+15:135/0 = 0
+16:135/0 = 0
+20:135/0 = 0
+21:135/0 = 0
+2:136/0 = 0
+7:136/0 = 0
+8:136/0 = 0
+11:136/0 = 0
+12:136/0 = 0
+15:136/0 = 0
+16:136/0 = 0
+21:136/0 = 0
+7:137/0 = 0
+8:137/0 = 0
+11:137/0 = 0
+12:137/0 = 0
+15:137/0 = 0
+16:140/0 = 0
+16:141/0 = 0
+22:141/0 = 0
+2:142/0 = 0
+3:142/0 = 0
+10:142/0 = 0
+11:142/0 = 0
+16:142/0 = 0
+21:142/0 = 0
+22:142/0 = 0
+2:143/0 = 0
+3:143/0 = 0
+6:143/0 = 0
+7:143/0 = 0
+10:143/0 = 0
+11:143/0 = 0
+21:143/0 = 0
+22:143/0 = 0
+6:144/0 = 0
+7:144/0 = 0
+11:146/0 = 0
+12:146/0 = 0
+11:147/0 = 0
+12:147/0 = 0
+16:147/0 = 0
+17:147/0 = 0
+19:147/0 = 0
+20:147/0 = 0
+5:148/0 = 0
+6:148/0 = 0
+11:148/0 = 0
+12:148/0 = 0
+16:148/0 = 0
+17:148/0 = 0
+19:148/0 = 0
+20:148/0 = 0
+21:148/0 = 0
+2:149/0 = 0
+5:149/0 = 0
+6:149/0 = 0
+11:149/0 = 0
+16:149/0 = 0
+17:149/0 = 0
+20:149/0 = 0
+21:149/0 = 0
+2:150/0 = 0
+5:150/0 = 0
+6:150/0 = 0
+17:150/0 = 0
+21:150/0 = 0
+2:151/0 = 0
+21:151/0 = 0
+1:153/0 = 0
+2:153/0 = 0
+6:153/0 = 0
+7:153/0 = 0
+12:153/0 = 0
+15:153/0 = 0
+20:153/0 = 0
+21:153/0 = 0
+1:154/0 = 0
+2:154/0 = 0
+6:154/0 = 0
+7:154/0 = 0
+8:154/0 = 0
+11:154/0 = 0
+12:154/0 = 0
+15:154/0 = 0
+16:154/0 = 0
+19:154/0 = 0
+20:154/0 = 0
+21:154/0 = 0
+1:155/0 = 0
+6:155/0 = 0
+7:155/0 = 0
+8:155/0 = 0
+11:155/0 = 0
+12:155/0 = 0
+15:155/0 = 0
+16:155/0 = 0
+19:155/0 = 0
+20:155/0 = 0
+21:155/0 = 0
+1:156/0 = 0
+7:156/0 = 0
+8:156/0 = 0
+11:156/0 = 0
+12:156/0 = 0
+15:156/0 = 0
+16:156/0 = 0
+19:156/0 = 0
+20:156/0 = 0
+21:156/0 = 0
+11:157/0 = 0
+12:157/0 = 0
+15:157/0 = 0
+16:157/0 = 0
+2:159/0 = 0
+16:159/0 = 0
+20:159/0 = 0
+21:159/0 = 0
+2:160/0 = 0
+3:160/0 = 0
+7:160/0 = 0
+8:160/0 = 0
+10:160/0 = 0
+11:160/0 = 0
+15:160/0 = 0
+16:160/0 = 0
+20:160/0 = 0
+21:160/0 = 0
+22:160/0 = 0
+2:161/0 = 0
+3:161/0 = 0
+6:161/0 = 0
+7:161/0 = 0
+8:161/0 = 0
+10:161/0 = 0
+11:161/0 = 0
+12:161/0 = 0
+15:161/0 = 0
+16:161/0 = 0
+20:161/0 = 0
+21:161/0 = 0
+22:161/0 = 0
+2:162/0 = 0
+6:162/0 = 0
+7:162/0 = 0
+8:162/0 = 0
+10:162/0 = 0
+11:162/0 = 0
+12:162/0 = 0
+15:162/0 = 0
+20:162/0 = 0
+21:162/0 = 0
+22:162/0 = 0
+7:163/0 = 0
+8:163/0 = 0
+11:163/0 = 0
+15:163/0 = 0
+22:163/0 = 0
+11:164/0 = 0
+11:166/0 = 0
+12:166/0 = 0
+16:166/0 = 0
+17:166/0 = 0
+2:167/0 = 0
+3:167/0 = 0
+5:167/0 = 0
+6:167/0 = 0
+10:167/0 = 0
+11:167/0 = 0
+16:167/0 = 0
+17:167/0 = 0
+21:167/0 = 0
+22:167/0 = 0
+2:168/0 = 0
+3:168/0 = 0
+5:168/0 = 0
+6:168/0 = 0
+7:168/0 = 0
+10:168/0 = 0
+11:168/0 = 0
+16:168/0 = 0
+17:168/0 = 0
+20:168/0 = 0
+21:168/0 = 0
+22:168/0 = 0
+2:169/0 = 0
+3:169/0 = 0
+5:169/0 = 0
+6:169/0 = 0
+7:169/0 = 0
+10:169/0 = 0
+11:169/0 = 0
+20:169/0 = 0
+21:169/0 = 0
+2:170/0 = 0
+3:170/0 = 0
+5:170/0 = 0
+6:170/0 = 0
+7:170/0 = 0
+10:170/0 = 0
+2:171/0 = 0
+6:171/0 = 0
+7:171/0 = 0
+6:172/0 = 0
+7:172/0 = 0
+1:173/0 = 0
+6:173/0 = 0
+7:173/0 = 0
+1:174/0 = 0
+2:174/0 = 0
+5:174/0 = 0
+6:174/0 = 0
+7:174/0 = 0
+1:175/0 = 0
+2:175/0 = 0
+5:175/0 = 0
+6:175/0 = 0
+10:175/0 = 0
+11:175/0 = 0
+12:175/0 = 0
+15:175/0 = 0
+16:175/0 = 0
+17:175/0 = 0
+20:175/0 = 0
+21:175/0 = 0
+2:176/0 = 0
+10:176/0 = 0
+11:176/0 = 0
+12:176/0 = 0
+15:176/0 = 0
+16:176/0 = 0
+17:176/0 = 0
+19:176/0 = 0
+20:176/0 = 0
+21:176/0 = 0
+22:176/0 = 0
+11:177/0 = 0
+12:177/0 = 0
+15:177/0 = 0
+16:177/0 = 0
+17:177/0 = 0
+20:177/0 = 0
+21:177/0 = 0
+6:179/0 = 0
+7:179/0 = 0
+15:179/0 = 0
+16:179/0 = 0
+20:179/0 = 0
+21:179/0 = 0
+22:179/0 = 0
+6:180/0 = 0
+7:180/0 = 0
+8:180/0 = 0
+10:180/0 = 0
+12:180/0 = 0
+15:180/0 = 0
+16:180/0 = 0
+19:180/0 = 0
+20:180/0 = 0
+21:180/0 = 0
+22:180/0 = 0
+2:181/0 = 0
+6:181/0 = 0
+7:181/0 = 0
+8:181/0 = 0
+10:181/0 = 0
+11:181/0 = 0
+12:181/0 = 0
+15:181/0 = 0
+16:181/0 = 0
+19:181/0 = 0
+20:181/0 = 0
+21:181/0 = 0
+22:181/0 = 0
+1:182/0 = 0
+2:182/0 = 0
+3:182/0 = 0
+6:182/0 = 0
+7:182/0 = 0
+8:182/0 = 0
+10:182/0 = 0
+11:182/0 = 0
+12:182/0 = 0
+15:182/0 = 0
+16:182/0 = 0
+19:182/0 = 0
+20:182/0 = 0
+21:182/0 = 0
+22:182/0 = 0
+1:183/0 = 0
+2:183/0 = 0
+3:183/0 = 0
+6:183/0 = 0
+7:183/0 = 0
+8:183/0 = 0
+10:183/0 = 0
+11:183/0 = 0
+12:183/0 = 0
+15:183/0 = 0
+16:183/0 = 0
+19:183/0 = 0
+20:183/0 = 0
+22:183/0 = 0
+2:184/0 = 0
+6:184/0 = 0
+7:184/0 = 0
+11:184/0 = 0
+12:184/0 = 0
+16:184/0 = 0
+2:186/0 = 0
+3:186/0 = 0
+15:186/0 = 0
+16:186/0 = 0
+20:186/0 = 0
+21:186/0 = 0
+2:187/0 = 0
+3:187/0 = 0
+7:187/0 = 0
+8:187/0 = 0
+10:187/0 = 0
+11:187/0 = 0
+15:187/0 = 0
+16:187/0 = 0
+21:187/0 = 0
+22:187/0 = 0
+2:188/0 = 0
+3:188/0 = 0
+6:188/0 = 0
+7:188/0 = 0
+8:188/0 = 0
+10:188/0 = 0
+11:188/0 = 0
+12:188/0 = 0
+15:188/0 = 0
+16:188/0 = 0
+20:188/0 = 0
+21:188/0 = 0
+22:188/0 = 0
+3:189/0 = 0
+6:189/0 = 0
+7:189/0 = 0
+8:189/0 = 0
+10:189/0 = 0
+11:189/0 = 0
+15:189/0 = 0
+22:189/0 = 0
+6:190/0 = 0
+7:190/0 = 0
+10:190/0 = 0
+11:190/0 = 0
+11:192/0 = 0
+16:192/0 = 0
+5:193/0 = 0
+6:193/0 = 0
+10:193/0 = 0
+11:193/0 = 0
+12:193/0 = 0
+16:193/0 = 0
+17:193/0 = 0
+21:193/0 = 0
+22:193/0 = 0
+5:194/0 = 0
+10:194/0 = 0
+11:194/0 = 0
+16:194/0 = 0
+17:194/0 = 0
+20:194/0 = 0
+21:194/0 = 0
+22:194/0 = 0
+5:195/0 = 0
+10:195/0 = 0
+11:195/0 = 0
+16:195/0 = 0
+17:195/0 = 0
+20:195/0 = 0
+21:195/0 = 0
+22:195/0 = 0
+5:196/0 = 0
+10:196/0 = 0
+16:196/0 = 0
+17:196/0 = 0
+21:196/0 = 0
+22:196/0 = 0
+20:197/0 = 0
+21:197/0 = 0
+6:199/0 = 0
+7:199/0 = 0
+11:199/0 = 0
+12:199/0 = 0
+1:200/0 = 0
+2:200/0 = 0
+5:200/0 = 0
+6:200/0 = 0
+7:200/0 = 0
+11:200/0 = 0
+12:200/0 = 0
+16:200/0 = 0
+17:200/0 = 0
+19:200/0 = 0
+20:200/0 = 0
+1:201/0 = 0
+2:201/0 = 0
+5:201/0 = 0
+6:201/0 = 0
+7:201/0 = 0
+11:201/0 = 0
+12:201/0 = 0
+16:201/0 = 0
+17:201/0 = 0
+19:201/0 = 0
+20:201/0 = 0
+21:201/0 = 0
+1:202/0 = 0
+2:202/0 = 0
+5:202/0 = 0
+6:202/0 = 0
+7:202/0 = 0
+11:202/0 = 0
+12:202/0 = 0
+16:202/0 = 0
+17:202/0 = 0
+19:202/0 = 0
+20:202/0 = 0
+21:202/0 = 0
+1:203/0 = 0
+2:203/0 = 0
+5:203/0 = 0
+6:203/0 = 0
+12:203/0 = 0
+16:203/0 = 0
+17:203/0 = 0
+20:203/0 = 0
+21:203/0 = 0
+2:204/0 = 0
+16:204/0 = 0
+20:204/0 = 0
+21:204/0 = 0
+1:206/0 = 0
+2:206/0 = 0
+1:207/0 = 0
+2:207/0 = 0
+1:208/0 = 0
+2:208/0 = 0
+6:208/0 = 0
+7:208/0 = 0
+11:208/0 = 0
+12:208/0 = 0
+15:208/0 = 0
+16:208/0 = 0
+17:208/0 = 0
+20:208/0 = 0
+21:208/0 = 0
+1:209/0 = 0
+2:209/0 = 0
+5:209/0 = 0
+6:209/0 = 0
+7:209/0 = 0
+8:209/0 = 0
+10:209/0 = 0
+11:209/0 = 0
+12:209/0 = 0
+15:209/0 = 0
+16:209/0 = 0
+17:209/0 = 0
+19:209/0 = 0
+20:209/0 = 0
+21:209/0 = 0
+22:209/0 = 0
+6:210/0 = 0
+7:210/0 = 0
+10:210/0 = 0
+11:210/0 = 0
+12:210/0 = 0
+15:210/0 = 0
+16:210/0 = 0
+17:210/0 = 0
+20:210/0 = 0
+21:210/0 = 0
+2:214/0 = 0
+16:214/0 = 0
+21:214/0 = 0
+1:215/0 = 0
+2:215/0 = 0
+3:215/0 = 0
+15:215/0 = 0
+16:215/0 = 0
+17:215/0 = 0
+20:215/0 = 0
+21:215/0 = 0
+22:215/0 = 0
+1:216/0 = 0
+2:216/0 = 0
+3:216/0 = 0
+15:216/0 = 0
+16:216/0 = 0
+17:216/0 = 0
+19:216/0 = 0
+20:216/0 = 0
+21:216/0 = 0
+22:216/0 = 0
+1:217/0 = 0
+2:217/0 = 0
+16:217/0 = 0
+20:217/0 = 0
+21:217/0 = 0
+20:219/0 = 0
+21:219/0 = 0
+22:219/0 = 0
+20:220/0 = 0
+21:220/0 = 0
+22:220/0 = 0
+1:221/0 = 0
+2:221/0 = 0
+6:221/0 = 0
+7:221/0 = 0
+11:221/0 = 0
+12:221/0 = 0
+20:221/0 = 0
+21:221/0 = 0
+22:221/0 = 0
+1:222/0 = 0
+2:222/0 = 0
+3:222/0 = 0
+5:222/0 = 0
+6:222/0 = 0
+7:222/0 = 0
+8:222/0 = 0
+10:222/0 = 0
+11:222/0 = 0
+12:222/0 = 0
+20:222/0 = 0
+21:222/0 = 0
+22:222/0 = 0
+1:223/0 = 0
+2:223/0 = 0
+3:223/0 = 0
+6:223/0 = 0
+7:223/0 = 0
+8:223/0 = 0
+10:223/0 = 0
+11:223/0 = 0
+12:223/0 = 0
+2:224/0 = 0
+7:224/0 = 0
+11:224/0 = 0
+11:225/0 = 0
+10:226/0 = 0
+11:226/0 = 0
+12:226/0 = 0
+15:226/0 = 0
+16:226/0 = 0
+17:226/0 = 0
+20:226/0 = 0
+21:226/0 = 0
+10:227/0 = 0
+11:227/0 = 0
+12:227/0 = 0
+15:227/0 = 0
+16:227/0 = 0
+17:227/0 = 0
+19:227/0 = 0
+20:227/0 = 0
+21:227/0 = 0
+22:227/0 = 0
+11:228/0 = 0
+12:228/0 = 0
+15:228/0 = 0
+16:228/0 = 0
+17:228/0 = 0
+19:228/0 = 0
+20:228/0 = 0
+21:228/0 = 0
+12:229/0 = 0
+16:229/0 = 0
+17:229/0 = 0
+19:229/0 = 0
+20:229/0 = 0
+21:229/0 = 0
+16:230/0 = 0
+17:230/0 = 0
+20:230/0 = 0
+21:230/0 = 0
+1:232/0 = 0
+2:232/0 = 0
+6:232/0 = 0
+7:232/0 = 0
+1:233/0 = 0
+2:233/0 = 0
+3:233/0 = 0
+6:233/0 = 0
+7:233/0 = 0
+12:233/0 = 0
+19:233/0 = 0
+20:233/0 = 0
+1:234/0 = 0
+2:234/0 = 0
+3:234/0 = 0
+6:234/0 = 0
+7:234/0 = 0
+12:234/0 = 0
+16:234/0 = 0
+19:234/0 = 0
+20:234/0 = 0
+1:235/0 = 0
+2:235/0 = 0
+6:235/0 = 0
+7:235/0 = 0
+12:235/0 = 0
+16:235/0 = 0
+19:235/0 = 0
+20:235/0 = 0
+1:236/0 = 0
+12:236/0 = 0
+16:236/0 = 0
+19:236/0 = 0
+20:236/0 = 0
+16:237/0 = 0
+1:241/0 = 0
+2:241/0 = 0
+6:241/0 = 0
+7:241/0 = 0
+8:241/0 = 0
+12:241/0 = 0
+15:241/0 = 0
+20:241/0 = 0
+21:241/0 = 0
+1:242/0 = 0
+2:242/0 = 0
+6:242/0 = 0
+7:242/0 = 0
+8:242/0 = 0
+11:242/0 = 0
+12:242/0 = 0
+15:242/0 = 0
+16:242/0 = 0
+17:242/0 = 0
+20:242/0 = 0
+21:242/0 = 0
+22:242/0 = 0
+1:243/0 = 0
+7:243/0 = 0
+11:243/0 = 0
+12:243/0 = 0
+15:243/0 = 0
+16:243/0 = 0
+17:243/0 = 0
+20:243/0 = 0
+21:243/0 = 0
+22:243/0 = 0
+1:248/0 = 0
+2:248/0 = 0
+3:248/0 = 0
+6:248/0 = 0
+7:248/0 = 0
+10:248/0 = 0
+11:248/0 = 0
+12:248/0 = 0
+15:248/0 = 0
+16:248/0 = 0
+17:248/0 = 0
+20:248/0 = 0
+21:248/0 = 0
+22:248/0 = 0
+1:249/0 = 0
+2:249/0 = 0
+3:249/0 = 0
+5:249/0 = 0
+6:249/0 = 0
+7:249/0 = 0
+10:249/0 = 0
+11:249/0 = 0
+12:249/0 = 0
+15:249/0 = 0
+16:249/0 = 0
+17:249/0 = 0
+19:249/0 = 0
+20:249/0 = 0
+21:249/0 = 0
+22:249/0 = 0
+1:250/0 = 0
+2:250/0 = 0
+6:250/0 = 0
+7:250/0 = 0
+15:250/0 = 0
+16:250/0 = 0
+20:250/0 = 0
+21:250/0 = 0
+1:254/0 = 0
+2:254/0 = 0
+6:254/0 = 0
+7:254/0 = 0
+11:254/0 = 0
+12:254/0 = 0
+20:254/0 = 0
+21:254/0 = 0
+1:255/0 = 0
+2:255/0 = 0
+5:255/0 = 0
+6:255/0 = 0
+7:255/0 = 0
+8:255/0 = 0
+11:255/0 = 0
+12:255/0 = 0
+15:255/0 = 0
+16:255/0 = 0
+17:255/0 = 0
+19:255/0 = 0
+20:255/0 = 0
+21:255/0 = 0
+1:256/0 = 0
+2:256/0 = 0
+5:256/0 = 0
+6:256/0 = 0
+7:256/0 = 0
+8:256/0 = 0
+11:256/0 = 0
+12:256/0 = 0
+15:256/0 = 0
+16:256/0 = 0
+17:256/0 = 0
+20:256/0 = 0
+21:256/0 = 0
+2:257/0 = 0
+11:257/0 = 0
+16:257/0 = 0
+21:257/0 = 0
+1:261/0 = 0
+2:261/0 = 0
+3:261/0 = 0
+6:261/0 = 0
+7:261/0 = 0
+11:261/0 = 0
+12:261/0 = 0
+15:261/0 = 0
+16:261/0 = 0
+17:261/0 = 0
+20:261/0 = 0
+21:261/0 = 0
+1:262/0 = 0
+2:262/0 = 0
+3:262/0 = 0
+5:262/0 = 0
+6:262/0 = 0
+7:262/0 = 0
+8:262/0 = 0
+10:262/0 = 0
+11:262/0 = 0
+12:262/0 = 0
+15:262/0 = 0
+16:262/0 = 0
+17:262/0 = 0
+19:262/0 = 0
+20:262/0 = 0
+21:262/0 = 0
+22:262/0 = 0
+1:263/0 = 0
+2:263/0 = 0
+3:263/0 = 0
+6:263/0 = 0
+7:263/0 = 0
+11:263/0 = 0
+12:263/0 = 0
+15:263/0 = 0
+16:263/0 = 0
+17:263/0 = 0
+20:263/0 = 0
+21:263/0 = 0
+20:265/0 = 0
+21:265/0 = 0
+20:266/0 = 0
+21:266/0 = 0
+22:266/0 = 0
+2:267/0 = 0
+11:267/0 = 0
+16:267/0 = 0
+20:267/0 = 0
+21:267/0 = 0
+22:267/0 = 0
+1:268/0 = 0
+2:268/0 = 0
+3:268/0 = 0
+6:268/0 = 0
+7:268/0 = 0
+8:268/0 = 0
+10:268/0 = 0
+11:268/0 = 0
+12:268/0 = 0
+15:268/0 = 0
+16:268/0 = 0
+17:268/0 = 0
+20:268/0 = 0
+21:268/0 = 0
+22:268/0 = 0
+1:269/0 = 0
+2:269/0 = 0
+3:269/0 = 0
+5:269/0 = 0
+6:269/0 = 0
+7:269/0 = 0
+8:269/0 = 0
+10:269/0 = 0
+11:269/0 = 0
+12:269/0 = 0
+15:269/0 = 0
+16:269/0 = 0
+17:269/0 = 0
+21:269/0 = 0
+22:269/0 = 0
+1:270/0 = 0
+2:270/0 = 0
+6:270/0 = 0
+7:270/0 = 0
+11:270/0 = 0
+12:270/0 = 0
+11:272/0 = 0
+12:272/0 = 0
+2:273/0 = 0
+3:273/0 = 0
+5:273/0 = 0
+6:273/0 = 0
+7:273/0 = 0
+10:273/0 = 0
+11:273/0 = 0
+2:274/0 = 0
+3:274/0 = 0
+5:274/0 = 0
+6:274/0 = 0
+7:274/0 = 0
+10:274/0 = 0
+11:274/0 = 0
+16:274/0 = 0
+17:274/0 = 0
+2:275/0 = 0
+3:275/0 = 0
+5:275/0 = 0
+6:275/0 = 0
+7:275/0 = 0
+10:275/0 = 0
+11:275/0 = 0
+16:275/0 = 0
+17:275/0 = 0
+19:275/0 = 0
+20:275/0 = 0
+21:275/0 = 0
+22:275/0 = 0
+2:276/0 = 0
+3:276/0 = 0
+6:276/0 = 0
+7:276/0 = 0
+10:276/0 = 0
+16:276/0 = 0
+17:276/0 = 0
+20:276/0 = 0
+21:276/0 = 0
+22:276/0 = 0
+2:277/0 = 0
+7:277/0 = 0
+16:277/0 = 0
+21:277/0 = 0
+11:278/0 = 0
+11:279/0 = 0
+12:279/0 = 0
+17:279/0 = 0
+20:279/0 = 0
+2:280/0 = 0
+6:280/0 = 0
+7:280/0 = 0
+11:280/0 = 0
+12:280/0 = 0
+16:280/0 = 0
+17:280/0 = 0
+19:280/0 = 0
+20:280/0 = 0
+21:280/0 = 0
+1:281/0 = 0
+2:281/0 = 0
+5:281/0 = 0
+6:281/0 = 0
+7:281/0 = 0
+8:281/0 = 0
+11:281/0 = 0
+12:281/0 = 0
+16:281/0 = 0
+17:281/0 = 0
+19:281/0 = 0
+20:281/0 = 0
+21:281/0 = 0
+1:282/0 = 0
+2:282/0 = 0
+5:282/0 = 0
+6:282/0 = 0
+7:282/0 = 0
+8:282/0 = 0
+12:282/0 = 0
+16:282/0 = 0
+17:282/0 = 0
+19:282/0 = 0
+20:282/0 = 0
+21:282/0 = 0
+1:283/0 = 0
+2:283/0 = 0
+16:283/0 = 0
+17:283/0 = 0
+20:283/0 = 0
+21:283/0 = 0
+1:285/0 = 0
+2:285/0 = 0
+6:285/0 = 0
+7:285/0 = 0
+20:285/0 = 0
+21:285/0 = 0
+1:286/0 = 0
+2:286/0 = 0
+6:286/0 = 0
+7:286/0 = 0
+8:286/0 = 0
+12:286/0 = 0
+15:286/0 = 0
+16:286/0 = 0
+19:286/0 = 0
+20:286/0 = 0
+21:286/0 = 0
+1:287/0 = 0
+2:287/0 = 0
+6:287/0 = 0
+7:287/0 = 0
+8:287/0 = 0
+11:287/0 = 0
+12:287/0 = 0
+15:287/0 = 0
+16:287/0 = 0
+19:287/0 = 0
+20:287/0 = 0
+21:287/0 = 0
+1:288/0 = 0
+2:288/0 = 0
+6:288/0 = 0
+7:288/0 = 0
+8:288/0 = 0
+11:288/0 = 0
+12:288/0 = 0
+15:288/0 = 0
+16:288/0 = 0
+19:288/0 = 0
+20:288/0 = 0
+21:288/0 = 0
+1:289/0 = 0
+7:289/0 = 0
+8:289/0 = 0
+11:289/0 = 0
+12:289/0 = 0
+15:289/0 = 0
+16:289/0 = 0
+19:289/0 = 0
+20:289/0 = 0
+11:290/0 = 0
+12:290/0 = 0
+16:290/0 = 0
+20:291/0 = 0
+21:291/0 = 0
+2:292/0 = 0
+3:292/0 = 0
+7:292/0 = 0
+10:292/0 = 0
+15:292/0 = 0
+16:292/0 = 0
+19:292/0 = 0
+20:292/0 = 0
+21:292/0 = 0
+2:293/0 = 0
+3:293/0 = 0
+6:293/0 = 0
+7:293/0 = 0
+8:293/0 = 0
+10:293/0 = 0
+11:293/0 = 0
+15:293/0 = 0
+16:293/0 = 0
+19:293/0 = 0
+20:293/0 = 0
+21:293/0 = 0
+2:294/0 = 0
+3:294/0 = 0
+6:294/0 = 0
+7:294/0 = 0
+8:294/0 = 0
+10:294/0 = 0
+11:294/0 = 0
+12:294/0 = 0
+15:294/0 = 0
+16:294/0 = 0
+19:294/0 = 0
+20:294/0 = 0
+21:294/0 = 0
+3:295/0 = 0
+6:295/0 = 0
+7:295/0 = 0
+8:295/0 = 0
+10:295/0 = 0
+11:295/0 = 0
+15:295/0 = 0
+19:295/0 = 0
+20:295/0 = 0
+21:295/0 = 0
+6:296/0 = 0
+7:296/0 = 0
+11:296/0 = 0
+20:296/0 = 0
+21:296/0 = 0
+1:298/0 = 0
+2:298/0 = 0
+3:298/0 = 0
+7:298/0 = 0
+16:298/0 = 0
+1:299/0 = 0
+2:299/0 = 0
+3:299/0 = 0
+7:299/0 = 0
+8:299/0 = 0
+10:299/0 = 0
+12:299/0 = 0
+16:299/0 = 0
+17:299/0 = 0
+19:299/0 = 0
+20:299/0 = 0
+21:299/0 = 0
+22:299/0 = 0
+1:300/0 = 0
+2:300/0 = 0
+3:300/0 = 0
+7:300/0 = 0
+8:300/0 = 0
+10:300/0 = 0
+11:300/0 = 0
+12:300/0 = 0
+16:300/0 = 0
+17:300/0 = 0
+19:300/0 = 0
+20:300/0 = 0
+21:300/0 = 0
+22:300/0 = 0
+1:301/0 = 0
+2:301/0 = 0
+3:301/0 = 0
+7:301/0 = 0
+8:301/0 = 0
+10:301/0 = 0
+11:301/0 = 0
+12:301/0 = 0
+16:301/0 = 0
+17:301/0 = 0
+19:301/0 = 0
+20:301/0 = 0
+21:301/0 = 0
+22:301/0 = 0
+1:302/0 = 0
+3:302/0 = 0
+7:302/0 = 0
+8:302/0 = 0
+10:302/0 = 0
+11:302/0 = 0
+12:302/0 = 0
+16:302/0 = 0
+17:302/0 = 0
+19:302/0 = 0
+20:302/0 = 0
+21:302/0 = 0
+22:302/0 = 0
+7:303/0 = 0
+10:303/0 = 0
+11:303/0 = 0
+12:303/0 = 0
+16:303/0 = 0
+17:303/0 = 0
+20:303/0 = 0
+21:303/0 = 0
+2:304/0 = 0
+1:305/0 = 0
+2:305/0 = 0
+6:305/0 = 0
+7:305/0 = 0
+8:305/0 = 0
+11:305/0 = 0
+0:306/0 = 0
+1:306/0 = 0
+2:306/0 = 0
+5:306/0 = 0
+6:306/0 = 0
+7:306/0 = 0
+8:306/0 = 0
+11:306/0 = 0
+12:306/0 = 0
+0:307/0 = 0
+1:307/0 = 0
+2:307/0 = 0
+5:307/0 = 0
+6:307/0 = 0
+7:307/0 = 0
+8:307/0 = 0
+11:307/0 = 0
+12:307/0 = 0
+16:307/0 = 0
+17:307/0 = 0
+20:307/0 = 0
+0:308/0 = 0
+1:308/0 = 0
+2:308/0 = 0
+5:308/0 = 0
+6:308/0 = 0
+7:308/0 = 0
+8:308/0 = 0
+11:308/0 = 0
+12:308/0 = 0
+16:308/0 = 0
+17:308/0 = 0
+20:308/0 = 0
+21:308/0 = 0
+1:309/0 = 0
+2:309/0 = 0
+5:309/0 = 0
+6:309/0 = 0
+8:309/0 = 0
+16:309/0 = 0
+17:309/0 = 0
+20:309/0 = 0
+21:309/0 = 0
+2:310/0 = 0
+21:310/0 = 0
+6:312/0 = 0
+7:312/0 = 0
+1:313/0 = 0
+6:313/0 = 0
+7:313/0 = 0
+12:313/0 = 0
+19:313/0 = 0
+20:313/0 = 0
+1:314/0 = 0
+6:314/0 = 0
+7:314/0 = 0
+12:314/0 = 0
+15:314/0 = 0
+16:314/0 = 0
+19:314/0 = 0
+20:314/0 = 0
+1:315/0 = 0
+7:315/0 = 0
+12:315/0 = 0
+15:315/0 = 0
+16:315/0 = 0
+19:315/0 = 0
+20:315/0 = 0
+12:316/0 = 0
+15:316/0 = 0
+16:316/0 = 0
+1:318/0 = 0
+2:318/0 = 0
+6:318/0 = 0
+7:318/0 = 0
+20:318/0 = 0
+21:318/0 = 0
+1:319/0 = 0
+2:319/0 = 0
+6:319/0 = 0
+7:319/0 = 0
+8:319/0 = 0
+12:319/0 = 0
+15:319/0 = 0
+19:319/0 = 0
+20:319/0 = 0
+21:319/0 = 0
+1:320/0 = 0
+2:320/0 = 0
+6:320/0 = 0
+7:320/0 = 0
+8:320/0 = 0
+11:320/0 = 0
+12:320/0 = 0
+15:320/0 = 0
+16:320/0 = 0
+19:320/0 = 0
+20:320/0 = 0
+21:320/0 = 0
+1:321/0 = 0
+2:321/0 = 0
+6:321/0 = 0
+7:321/0 = 0
+8:321/0 = 0
+11:321/0 = 0
+12:321/0 = 0
+15:321/0 = 0
+16:321/0 = 0
+19:321/0 = 0
+20:321/0 = 0
+21:321/0 = 0
+1:322/0 = 0
+7:322/0 = 0
+8:322/0 = 0
+11:322/0 = 0
+12:322/0 = 0
+15:322/0 = 0
+16:322/0 = 0
+19:322/0 = 0
+11:323/0 = 0
+16:323/0 = 0
+19:323/0 = 0
+1:324/0 = 0
+2:324/0 = 0
+1:325/0 = 0
+2:325/0 = 0
+3:325/0 = 0
+8:325/0 = 0
+15:325/0 = 0
+16:325/0 = 0
+17:325/0 = 0
+20:325/0 = 0
+21:325/0 = 0
+1:326/0 = 0
+2:326/0 = 0
+3:326/0 = 0
+7:326/0 = 0
+8:326/0 = 0
+10:326/0 = 0
+11:326/0 = 0
+15:326/0 = 0
+16:326/0 = 0
+17:326/0 = 0
+19:326/0 = 0
+20:326/0 = 0
+21:326/0 = 0
+22:326/0 = 0
+1:327/0 = 0
+3:327/0 = 0
+6:327/0 = 0
+7:327/0 = 0
+8:327/0 = 0
+10:327/0 = 0
+11:327/0 = 0
+12:327/0 = 0
+15:327/0 = 0
+16:327/0 = 0
+17:327/0 = 0
+19:327/0 = 0
+20:327/0 = 0
+21:327/0 = 0
+22:327/0 = 0
+3:328/0 = 0
+6:328/0 = 0
+7:328/0 = 0
+8:328/0 = 0
+10:328/0 = 0
+11:328/0 = 0
+12:328/0 = 0
+15:328/0 = 0
+16:328/0 = 0
+17:328/0 = 0
+19:328/0 = 0
+20:328/0 = 0
+21:328/0 = 0
+22:328/0 = 0
+6:329/0 = 0
+7:329/0 = 0
+12:329/0 = 0
+16:329/0 = 0
+20:329/0 = 0
+21:329/0 = 0
+12:330/0 = 0
+2:331/0 = 0
+6:331/0 = 0
+7:331/0 = 0
+11:331/0 = 0
+16:331/0 = 0
+21:331/0 = 0
+1:332/0 = 0
+2:332/0 = 0
+3:332/0 = 0
+5:332/0 = 0
+6:332/0 = 0
+7:332/0 = 0
+8:332/0 = 0
+10:332/0 = 0
+11:332/0 = 0
+12:332/0 = 0
+15:332/0 = 0
+16:332/0 = 0
+17:332/0 = 0
+20:332/0 = 0
+21:332/0 = 0
+22:332/0 = 0
+1:333/0 = 0
+2:333/0 = 0
+3:333/0 = 0
+5:333/0 = 0
+6:333/0 = 0
+7:333/0 = 0
+8:333/0 = 0
+10:333/0 = 0
+11:333/0 = 0
+12:333/0 = 0
+15:333/0 = 0
+16:333/0 = 0
+17:333/0 = 0
+19:333/0 = 0
+20:333/0 = 0
+21:333/0 = 0
+22:333/0 = 0
+1:334/0 = 0
+2:334/0 = 0
+3:334/0 = 0
+5:334/0 = 0
+6:334/0 = 0
+7:334/0 = 0
+8:334/0 = 0
+10:334/0 = 0
+11:334/0 = 0
+12:334/0 = 0
+15:334/0 = 0
+16:334/0 = 0
+17:334/0 = 0
+19:334/0 = 0
+20:334/0 = 0
+21:334/0 = 0
+22:334/0 = 0
+1:335/0 = 0
+2:335/0 = 0
+3:335/0 = 0
+5:335/0 = 0
+6:335/0 = 0
+7:335/0 = 0
+8:335/0 = 0
+10:335/0 = 0
+11:335/0 = 0
+12:335/0 = 0
+15:335/0 = 0
+16:335/0 = 0
+17:335/0 = 0
+19:335/0 = 0
+20:335/0 = 0
+21:335/0 = 0
+22:335/0 = 0
+2:336/0 = 0
+6:336/0 = 0
+7:336/0 = 0
+11:336/0 = 0
+16:336/0 = 0
+21:336/0 = 0
+1:338/0 = 0
+2:338/0 = 0
+6:338/0 = 0
+7:338/0 = 0
+11:338/0 = 0
+12:338/0 = 0
+15:338/0 = 0
+16:338/0 = 0
+17:338/0 = 0
+20:338/0 = 0
+21:338/0 = 0
+1:339/0 = 0
+2:339/0 = 0
+3:339/0 = 0
+5:339/0 = 0
+6:339/0 = 0
+7:339/0 = 0
+8:339/0 = 0
+10:339/0 = 0
+11:339/0 = 0
+12:339/0 = 0
+15:339/0 = 0
+16:339/0 = 0
+17:339/0 = 0
+19:339/0 = 0
+20:339/0 = 0
+21:339/0 = 0
+22:339/0 = 0
+1:340/0 = 0
+2:340/0 = 0
+3:340/0 = 0
+5:340/0 = 0
+6:340/0 = 0
+7:340/0 = 0
+8:340/0 = 0
+10:340/0 = 0
+11:340/0 = 0
+12:340/0 = 0
+15:340/0 = 0
+16:340/0 = 0
+17:340/0 = 0
+19:340/0 = 0
+20:340/0 = 0
+21:340/0 = 0
+22:340/0 = 0
+1:341/0 = 0
+2:341/0 = 0
+3:341/0 = 0
+5:341/0 = 0
+6:341/0 = 0
+7:341/0 = 0
+8:341/0 = 0
+10:341/0 = 0
+11:341/0 = 0
+12:341/0 = 0
+15:341/0 = 0
+16:341/0 = 0
+17:341/0 = 0
+19:341/0 = 0
+20:341/0 = 0
+21:341/0 = 0
+22:341/0 = 0
+1:342/0 = 0
+2:342/0 = 0
+3:342/0 = 0
+5:342/0 = 0
+6:342/0 = 0
+7:342/0 = 0
+8:342/0 = 0
+10:342/0 = 0
+11:342/0 = 0
+12:342/0 = 0
+15:342/0 = 0
+16:342/0 = 0
+17:342/0 = 0
+19:342/0 = 0
+20:342/0 = 0
+21:342/0 = 0
+22:342/0 = 0
+2:343/0 = 0
+6:343/0 = 0
+7:343/0 = 0
+11:343/0 = 0
+16:343/0 = 0
+21:343/0 = 0
+1:347/0 = 0
+2:347/0 = 0
+3:347/0 = 0
+6:347/0 = 0
+7:347/0 = 0
+10:347/0 = 0
+11:347/0 = 0
+12:347/0 = 0
+15:347/0 = 0
+16:347/0 = 0
+17:347/0 = 0
+20:347/0 = 0
+21:347/0 = 0
+1:348/0 = 0
+2:348/0 = 0
+3:348/0 = 0
+5:348/0 = 0
+6:348/0 = 0
+7:348/0 = 0
+8:348/0 = 0
+10:348/0 = 0
+11:348/0 = 0
+12:348/0 = 0
+15:348/0 = 0
+16:348/0 = 0
+17:348/0 = 0
+19:348/0 = 0
+20:348/0 = 0
+21:348/0 = 0
+22:348/0 = 0
+1:349/0 = 0
+2:349/0 = 0
+3:349/0 = 0
+6:349/0 = 0
+7:349/0 = 0
+10:349/0 = 0
+11:349/0 = 0
+12:349/0 = 0
+15:349/0 = 0
+16:349/0 = 0
+17:349/0 = 0
+20:349/0 = 0
+21:349/0 = 0
+22:349/0 = 0
+2:353/0 = 0
+6:353/0 = 0
+7:353/0 = 0
+11:353/0 = 0
+16:353/0 = 0
+21:353/0 = 0
+1:354/0 = 0
+2:354/0 = 0
+3:354/0 = 0
+6:354/0 = 0
+7:354/0 = 0
+8:354/0 = 0
+10:354/0 = 0
+11:354/0 = 0
+12:354/0 = 0
+15:354/0 = 0
+16:354/0 = 0
+17:354/0 = 0
+20:354/0 = 0
+21:354/0 = 0
+22:354/0 = 0
+1:355/0 = 0
+2:355/0 = 0
+3:355/0 = 0
+5:355/0 = 0
+6:355/0 = 0
+7:355/0 = 0
+8:355/0 = 0
+10:355/0 = 0
+11:355/0 = 0
+12:355/0 = 0
+15:355/0 = 0
+16:355/0 = 0
+17:355/0 = 0
+19:355/0 = 0
+20:355/0 = 0
+21:355/0 = 0
+22:355/0 = 0
+1:356/0 = 0
+2:356/0 = 0
+6:356/0 = 0
+7:356/0 = 0
+11:356/0 = 0
+12:356/0 = 0
+16:356/0 = 0
+20:356/0 = 0
+21:356/0 = 0
+11:358/0 = 0
+11:359/0 = 0
+12:359/0 = 0
+1:360/0 = 0
+2:360/0 = 0
+6:360/0 = 0
+7:360/0 = 0
+11:360/0 = 0
+12:360/0 = 0
+16:360/0 = 0
+17:360/0 = 0
+20:360/0 = 0
+21:360/0 = 0
+1:361/0 = 0
+2:361/0 = 0
+3:361/0 = 0
+5:361/0 = 0
+6:361/0 = 0
+7:361/0 = 0
+8:361/0 = 0
+11:361/0 = 0
+12:361/0 = 0
+16:361/0 = 0
+17:361/0 = 0
+20:361/0 = 0
+21:361/0 = 0
+1:362/0 = 0
+2:362/0 = 0
+3:362/0 = 0
+5:362/0 = 0
+6:362/0 = 0
+7:362/0 = 0
+8:362/0 = 0
+16:362/0 = 0
+17:362/0 = 0
+20:362/0 = 0
+21:362/0 = 0
+2:363/0 = 0
+6:363/0 = 0
+7:363/0 = 0
+21:363/0 = 0
+6:365/0 = 0
+7:365/0 = 0
+1:366/0 = 0
+6:366/0 = 0
+7:366/0 = 0
+8:366/0 = 0
+12:366/0 = 0
+20:366/0 = 0
+21:366/0 = 0
+1:367/0 = 0
+6:367/0 = 0
+7:367/0 = 0
+8:367/0 = 0
+11:367/0 = 0
+12:367/0 = 0
+15:367/0 = 0
+16:367/0 = 0
+19:367/0 = 0
+20:367/0 = 0
+21:367/0 = 0
+1:368/0 = 0
+7:368/0 = 0
+8:368/0 = 0
+11:368/0 = 0
+12:368/0 = 0
+15:368/0 = 0
+16:368/0 = 0
+19:368/0 = 0
+20:368/0 = 0
+11:369/0 = 0
+12:369/0 = 0
+15:369/0 = 0
+16:369/0 = 0
+2:372/0 = 0
+15:372/0 = 0
+16:372/0 = 0
+21:372/0 = 0
+2:373/0 = 0
+3:373/0 = 0
+7:373/0 = 0
+8:373/0 = 0
+10:373/0 = 0
+11:373/0 = 0
+15:373/0 = 0
+16:373/0 = 0
+21:373/0 = 0
+2:374/0 = 0
+3:374/0 = 0
+7:374/0 = 0
+8:374/0 = 0
+10:374/0 = 0
+11:374/0 = 0
+15:374/0 = 0
+16:374/0 = 0
+21:374/0 = 0
+7:375/0 = 0
+8:375/0 = 0
+10:375/0 = 0
+11:375/0 = 0
+15:375/0 = 0
+7:376/0 = 0
+11:376/0 = 0
+3:379/0 = 0
+10:379/0 = 0
+11:379/0 = 0
+16:379/0 = 0
+17:379/0 = 0
+2:380/0 = 0
+3:380/0 = 0
+6:380/0 = 0
+7:380/0 = 0
+10:380/0 = 0
+11:380/0 = 0
+16:380/0 = 0
+17:380/0 = 0
+21:380/0 = 0
+22:380/0 = 0
+2:381/0 = 0
+3:381/0 = 0
+6:381/0 = 0
+7:381/0 = 0
+10:381/0 = 0
+11:381/0 = 0
+16:381/0 = 0
+17:381/0 = 0
+21:381/0 = 0
+22:381/0 = 0
+2:382/0 = 0
+3:382/0 = 0
+6:382/0 = 0
+7:382/0 = 0
+21:382/0 = 0
+22:382/0 = 0
+6:385/0 = 0
+11:385/0 = 0
+12:385/0 = 0
+5:386/0 = 0
+6:386/0 = 0
+11:386/0 = 0
+12:386/0 = 0
+17:386/0 = 0
+1:387/0 = 0
+2:387/0 = 0
+5:387/0 = 0
+6:387/0 = 0
+11:387/0 = 0
+12:387/0 = 0
+16:387/0 = 0
+17:387/0 = 0
+20:387/0 = 0
+21:387/0 = 0
+1:388/0 = 0
+2:388/0 = 0
+5:388/0 = 0
+6:388/0 = 0
+12:388/0 = 0
+16:388/0 = 0
+17:388/0 = 0
+20:388/0 = 0
+21:388/0 = 0
+1:389/0 = 0
+2:389/0 = 0
+16:389/0 = 0
+17:389/0 = 0
+20:389/0 = 0
+21:389/0 = 0
+1:392/0 = 0
+2:392/0 = 0
+1:393/0 = 0
+2:393/0 = 0
+6:393/0 = 0
+7:393/0 = 0
+1:394/0 = 0
+2:394/0 = 0
+6:394/0 = 0
+12:394/0 = 0
+19:394/0 = 0
+20:394/0 = 0
+1:395/0 = 0
+12:395/0 = 0
+16:395/0 = 0
+20:395/0 = 0
+16:396/0 = 0
+2:399/0 = 0
+2:400/0 = 0
+7:400/0 = 0
+8:400/0 = 0
+15:400/0 = 0
+20:400/0 = 0
+21:400/0 = 0
+2:401/0 = 0
+7:401/0 = 0
+8:401/0 = 0
+11:401/0 = 0
+12:401/0 = 0
+15:401/0 = 0
+20:401/0 = 0
+21:401/0 = 0
+22:401/0 = 0
+11:402/0 = 0
+12:402/0 = 0
+20:402/0 = 0
+21:402/0 = 0
+6:406/0 = 0
+7:406/0 = 0
+11:406/0 = 0
+1:407/0 = 0
+2:407/0 = 0
+3:407/0 = 0
+5:407/0 = 0
+6:407/0 = 0
+7:407/0 = 0
+8:407/0 = 0
+10:407/0 = 0
+11:407/0 = 0
+12:407/0 = 0
+15:407/0 = 0
+16:407/0 = 0
+17:407/0 = 0
+20:407/0 = 0
+21:407/0 = 0
+22:407/0 = 0
+1:408/0 = 0
+2:408/0 = 0
+3:408/0 = 0
+5:408/0 = 0
+6:408/0 = 0
+7:408/0 = 0
+8:408/0 = 0
+10:408/0 = 0
+11:408/0 = 0
+12:408/0 = 0
+15:408/0 = 0
+16:408/0 = 0
+17:408/0 = 0
+19:408/0 = 0
+20:408/0 = 0
+21:408/0 = 0
+22:408/0 = 0
+1:409/0 = 0
+2:409/0 = 0
+6:409/0 = 0
+7:409/0 = 0
+11:409/0 = 0
+12:409/0 = 0
+16:409/0 = 0
+20:409/0 = 0
+21:409/0 = 0
+11:411/0 = 0
+12:411/0 = 0
+11:412/0 = 0
+12:412/0 = 0
+16:412/0 = 0
+17:412/0 = 0
+19:412/0 = 0
+20:412/0 = 0
+21:412/0 = 0
+1:413/0 = 0
+2:413/0 = 0
+6:413/0 = 0
+7:413/0 = 0
+11:413/0 = 0
+12:413/0 = 0
+16:413/0 = 0
+17:413/0 = 0
+19:413/0 = 0
+20:413/0 = 0
+21:413/0 = 0
+1:414/0 = 0
+2:414/0 = 0
+3:414/0 = 0
+5:414/0 = 0
+6:414/0 = 0
+7:414/0 = 0
+8:414/0 = 0
+11:414/0 = 0
+12:414/0 = 0
+16:414/0 = 0
+17:414/0 = 0
+19:414/0 = 0
+20:414/0 = 0
+21:414/0 = 0
+1:415/0 = 0
+2:415/0 = 0
+3:415/0 = 0
+6:415/0 = 0
+7:415/0 = 0
+8:415/0 = 0
+12:415/0 = 0
+16:415/0 = 0
+17:415/0 = 0
+20:415/0 = 0
+21:415/0 = 0
+2:416/0 = 0
+7:416/0 = 0
+16:416/0 = 0
+21:416/0 = 0
+2:417/0 = 0
+1:418/0 = 0
+2:418/0 = 0
+1:419/0 = 0
+2:419/0 = 0
+6:419/0 = 0
+7:419/0 = 0
+20:419/0 = 0
+1:420/0 = 0
+2:420/0 = 0
+6:420/0 = 0
+7:420/0 = 0
+12:420/0 = 0
+15:420/0 = 0
+19:420/0 = 0
+20:420/0 = 0
+1:421/0 = 0
+2:421/0 = 0
+7:421/0 = 0
+12:421/0 = 0
+15:421/0 = 0
+16:421/0 = 0
+19:421/0 = 0
+20:421/0 = 0
+12:422/0 = 0
+15:422/0 = 0
+16:422/0 = 0
+2:193/0 = 0
+10:215/0 = 0
+10:215/0/texture_origin = Vector2i(-30, 30)
+5:227/0 = 0
+5:227/0/texture_origin = Vector2i(-30, 30)
+2:226/0 = 0
+15:219/0 = 0
+5:214/0 = 0
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(1, 30)
+1:0/0 = 0
+1:0/0/texture_origin = Vector2i(1, 30)
+2:0/0 = 0
+2:0/0/texture_origin = Vector2i(1, 30)
+3:0/0 = 0
+3:0/0/texture_origin = Vector2i(1, 30)
+4:0/0 = 0
+4:0/0/texture_origin = Vector2i(1, 30)
+4:1/0 = 0
+4:1/0/texture_origin = Vector2i(1, 30)
+3:1/0 = 0
+3:1/0/texture_origin = Vector2i(1, 30)
+2:1/0 = 0
+2:1/0/texture_origin = Vector2i(1, 30)
+1:1/0 = 0
+1:1/0/texture_origin = Vector2i(1, 30)
+0:1/0 = 0
+0:1/0/texture_origin = Vector2i(1, 30)
+0:2/0 = 0
+0:2/0/texture_origin = Vector2i(1, 30)
+1:2/0 = 0
+1:2/0/texture_origin = Vector2i(1, 30)
+3:2/0 = 0
+3:2/0/texture_origin = Vector2i(1, 30)
+4:2/0 = 0
+4:2/0/texture_origin = Vector2i(1, 30)
+4:3/0 = 0
+3:3/0 = 0
+1:3/0 = 0
+0:3/0 = 0
+0:3/0/texture_origin = Vector2i(1, 30)
+0:4/0 = 0
+0:4/0/texture_origin = Vector2i(1, 30)
+1:4/0 = 0
+1:4/0/texture_origin = Vector2i(1, 30)
+2:4/0 = 0
+2:4/0/texture_origin = Vector2i(1, 30)
+3:4/0 = 0
+3:4/0/texture_origin = Vector2i(1, 30)
+4:4/0 = 0
+4:4/0/texture_origin = Vector2i(1, 30)
+4:5/0 = 0
+4:5/0/texture_origin = Vector2i(1, 30)
+4:6/0 = 0
+4:6/0/texture_origin = Vector2i(1, 30)
+3:6/0 = 0
+3:6/0/texture_origin = Vector2i(1, 30)
+2:6/0 = 0
+2:6/0/texture_origin = Vector2i(1, 30)
+2:5/0 = 0
+2:5/0/texture_origin = Vector2i(1, 30)
+1:5/0 = 0
+1:5/0/texture_origin = Vector2i(1, 30)
+0:5/0 = 0
+0:5/0/texture_origin = Vector2i(1, 30)
+0:6/0 = 0
+0:6/0/texture_origin = Vector2i(1, 30)
+0:7/0 = 0
+0:7/0/texture_origin = Vector2i(1, 30)
+1:7/0 = 0
+1:7/0/texture_origin = Vector2i(1, 30)
+2:7/0 = 0
+2:7/0/texture_origin = Vector2i(1, 30)
+3:7/0 = 0
+3:7/0/texture_origin = Vector2i(1, 30)
+4:7/0 = 0
+4:7/0/texture_origin = Vector2i(1, 30)
+4:8/0 = 0
+4:8/0/texture_origin = Vector2i(1, 30)
+1:6/0 = 0
+1:6/0/texture_origin = Vector2i(1, 30)
+3:5/0 = 0
+3:5/0/texture_origin = Vector2i(1, 30)
+0:8/0 = 0
+0:8/0/texture_origin = Vector2i(1, 30)
+1:8/0 = 0
+1:8/0/texture_origin = Vector2i(1, 30)
+2:8/0 = 0
+2:8/0/texture_origin = Vector2i(1, 30)
+3:8/0 = 0
+3:8/0/texture_origin = Vector2i(1, 30)
+0:9/0 = 0
+0:9/0/texture_origin = Vector2i(1, 30)
+1:9/0 = 0
+1:9/0/texture_origin = Vector2i(1, 30)
+2:9/0 = 0
+2:9/0/texture_origin = Vector2i(1, 30)
+4:9/0 = 0
+4:9/0/texture_origin = Vector2i(1, 30)
+4:10/0 = 0
+4:11/0 = 0
+4:12/0 = 0
+4:12/0/texture_origin = Vector2i(1, 30)
+4:13/0 = 0
+4:13/0/texture_origin = Vector2i(1, 30)
+3:13/0 = 0
+3:13/0/texture_origin = Vector2i(1, 30)
+2:13/0 = 0
+2:13/0/texture_origin = Vector2i(1, 30)
+2:12/0 = 0
+2:11/0 = 0
+2:10/0 = 0
+1:10/0 = 0
+3:12/0 = 0
+1:11/0 = 0
+1:12/0 = 0
+1:13/0 = 0
+1:13/0/texture_origin = Vector2i(1, 30)
+0:13/0 = 0
+0:13/0/texture_origin = Vector2i(1, 30)
+0:12/0 = 0
+0:11/0 = 0
+0:10/0 = 0
+4:14/0 = 0
+4:14/0/texture_origin = Vector2i(1, 30)
+3:14/0 = 0
+3:14/0/texture_origin = Vector2i(1, 30)
+2:14/0 = 0
+2:14/0/texture_origin = Vector2i(1, 30)
+1:14/0 = 0
+1:14/0/texture_origin = Vector2i(1, 30)
+0:14/0 = 0
+0:14/0/texture_origin = Vector2i(1, 30)
+0:16/0 = 0
+0:16/0/texture_origin = Vector2i(1, 30)
+1:16/0 = 0
+1:16/0/texture_origin = Vector2i(1, 30)
+3:16/0 = 0
+3:16/0/texture_origin = Vector2i(1, 30)
+3:17/0 = 0
+3:17/0/texture_origin = Vector2i(1, 30)
+3:18/0 = 0
+3:18/0/texture_origin = Vector2i(1, 30)
+4:19/0 = 0
+4:19/0/texture_origin = Vector2i(1, 30)
+4:20/0 = 0
+4:20/0/texture_origin = Vector2i(1, 30)
+4:21/0 = 0
+4:21/0/texture_origin = Vector2i(1, 30)
+4:22/0 = 0
+4:22/0/texture_origin = Vector2i(1, 30)
+4:23/0 = 0
+4:23/0/texture_origin = Vector2i(1, 30)
+4:24/0 = 0
+4:24/0/texture_origin = Vector2i(1, 30)
+3:24/0 = 0
+3:24/0/texture_origin = Vector2i(1, 30)
+3:23/0 = 0
+3:23/0/texture_origin = Vector2i(1, 30)
+3:22/0 = 0
+3:22/0/texture_origin = Vector2i(1, 30)
+2:21/0 = 0
+2:21/0/texture_origin = Vector2i(1, 30)
+2:20/0 = 0
+2:20/0/texture_origin = Vector2i(1, 30)
+3:19/0 = 0
+3:19/0/texture_origin = Vector2i(1, 30)
+0:15/0 = 0
+0:15/0/texture_origin = Vector2i(1, 30)
+1:15/0 = 0
+1:15/0/texture_origin = Vector2i(1, 30)
+2:15/0 = 0
+2:15/0/texture_origin = Vector2i(1, 30)
+3:15/0 = 0
+3:15/0/texture_origin = Vector2i(1, 30)
+4:15/0 = 0
+4:15/0/texture_origin = Vector2i(1, 30)
+4:16/0 = 0
+4:16/0/texture_origin = Vector2i(1, 30)
+4:17/0 = 0
+4:17/0/texture_origin = Vector2i(1, 30)
+4:18/0 = 0
+4:18/0/texture_origin = Vector2i(1, 30)
+1:17/0 = 0
+1:17/0/texture_origin = Vector2i(1, 30)
+1:18/0 = 0
+1:18/0/texture_origin = Vector2i(1, 30)
+1:19/0 = 0
+1:19/0/texture_origin = Vector2i(1, 30)
+2:19/0 = 0
+2:19/0/texture_origin = Vector2i(1, 30)
+3:20/0 = 0
+3:20/0/texture_origin = Vector2i(1, 30)
+3:21/0 = 0
+3:21/0/texture_origin = Vector2i(1, 30)
+2:22/0 = 0
+2:22/0/texture_origin = Vector2i(1, 30)
+1:22/0 = 0
+1:22/0/texture_origin = Vector2i(1, 30)
+1:21/0 = 0
+1:21/0/texture_origin = Vector2i(1, 30)
+1:20/0 = 0
+1:20/0/texture_origin = Vector2i(1, 30)
+0:20/0 = 0
+0:20/0/texture_origin = Vector2i(1, 30)
+0:19/0 = 0
+0:19/0/texture_origin = Vector2i(1, 30)
+0:18/0 = 0
+0:18/0/texture_origin = Vector2i(1, 30)
+0:17/0 = 0
+0:17/0/texture_origin = Vector2i(1, 30)
+0:21/0 = 0
+0:21/0/texture_origin = Vector2i(1, 30)
+0:22/0 = 0
+0:22/0/texture_origin = Vector2i(1, 30)
+0:23/0 = 0
+0:23/0/texture_origin = Vector2i(1, 30)
+0:24/0 = 0
+0:24/0/texture_origin = Vector2i(1, 30)
+0:25/0 = 0
+0:25/0/texture_origin = Vector2i(1, 30)
+1:25/0 = 0
+1:25/0/texture_origin = Vector2i(1, 30)
+2:25/0 = 0
+2:25/0/texture_origin = Vector2i(1, 30)
+2:24/0 = 0
+2:24/0/texture_origin = Vector2i(1, 30)
+2:23/0 = 0
+2:23/0/texture_origin = Vector2i(1, 30)
+4:25/0 = 0
+4:25/0/texture_origin = Vector2i(1, 30)
+3:25/0 = 0
+3:25/0/texture_origin = Vector2i(1, 30)
+3:26/0 = 0
+3:26/0/texture_origin = Vector2i(1, 30)
+4:26/0 = 0
+4:26/0/texture_origin = Vector2i(1, 30)
+2:26/0 = 0
+2:26/0/texture_origin = Vector2i(1, 30)
+1:26/0 = 0
+1:26/0/texture_origin = Vector2i(1, 30)
+0:26/0 = 0
+0:26/0/texture_origin = Vector2i(1, 30)
+0:27/0 = 0
+0:27/0/texture_origin = Vector2i(1, 30)
+1:27/0 = 0
+1:27/0/texture_origin = Vector2i(1, 30)
+2:27/0 = 0
+2:27/0/texture_origin = Vector2i(1, 30)
+3:27/0 = 0
+3:27/0/texture_origin = Vector2i(1, 30)
+4:27/0 = 0
+4:27/0/texture_origin = Vector2i(1, 30)
+4:28/0 = 0
+4:28/0/texture_origin = Vector2i(1, 30)
+3:28/0 = 0
+3:28/0/texture_origin = Vector2i(1, 30)
+2:28/0 = 0
+2:28/0/texture_origin = Vector2i(1, 30)
+1:28/0 = 0
+1:28/0/texture_origin = Vector2i(1, 30)
+0:28/0 = 0
+0:28/0/texture_origin = Vector2i(1, 30)
+0:29/0 = 0
+0:29/0/texture_origin = Vector2i(1, 30)
+0:30/0 = 0
+0:30/0/texture_origin = Vector2i(1, 30)
+0:31/0 = 0
+0:31/0/texture_origin = Vector2i(1, 30)
+1:31/0 = 0
+1:31/0/texture_origin = Vector2i(1, 30)
+2:31/0 = 0
+2:31/0/texture_origin = Vector2i(1, 30)
+3:31/0 = 0
+3:31/0/texture_origin = Vector2i(1, 30)
+4:31/0 = 0
+4:31/0/texture_origin = Vector2i(1, 30)
+4:30/0 = 0
+4:30/0/texture_origin = Vector2i(1, 30)
+4:29/0 = 0
+4:29/0/texture_origin = Vector2i(1, 30)
+3:29/0 = 0
+3:29/0/texture_origin = Vector2i(1, 30)
+3:30/0 = 0
+3:30/0/texture_origin = Vector2i(1, 30)
+4:32/0 = 0
+4:32/0/texture_origin = Vector2i(1, 30)
+3:32/0 = 0
+3:32/0/texture_origin = Vector2i(1, 30)
+2:32/0 = 0
+2:32/0/texture_origin = Vector2i(1, 30)
+1:32/0 = 0
+1:32/0/texture_origin = Vector2i(1, 30)
+0:32/0 = 0
+0:32/0/texture_origin = Vector2i(1, 30)
+0:33/0 = 0
+0:33/0/texture_origin = Vector2i(1, 30)
+1:33/0 = 0
+1:33/0/texture_origin = Vector2i(1, 30)
+2:33/0 = 0
+2:33/0/texture_origin = Vector2i(1, 30)
+4:33/0 = 0
+4:33/0/texture_origin = Vector2i(1, 30)
+4:34/0 = 0
+4:34/0/texture_origin = Vector2i(1, 30)
+3:34/0 = 0
+3:34/0/texture_origin = Vector2i(1, 30)
+2:34/0 = 0
+2:34/0/texture_origin = Vector2i(1, 30)
+1:34/0 = 0
+1:34/0/texture_origin = Vector2i(1, 30)
+0:34/0 = 0
+0:34/0/texture_origin = Vector2i(1, 30)
+0:39/0 = 0
+0:39/0/texture_origin = Vector2i(1, 30)
+4:41/0 = 0
+4:41/0/texture_origin = Vector2i(1, 30)
+3:41/0 = 0
+3:41/0/texture_origin = Vector2i(1, 30)
+4:40/0 = 0
+4:40/0/texture_origin = Vector2i(1, 30)
+2:41/0 = 0
+2:41/0/texture_origin = Vector2i(1, 30)
+1:41/0 = 0
+1:41/0/texture_origin = Vector2i(1, 30)
+0:41/0 = 0
+0:41/0/texture_origin = Vector2i(1, 30)
+0:42/0 = 0
+0:42/0/texture_origin = Vector2i(1, 30)
+1:42/0 = 0
+1:42/0/texture_origin = Vector2i(1, 30)
+2:42/0 = 0
+2:42/0/texture_origin = Vector2i(1, 30)
+3:42/0 = 0
+3:42/0/texture_origin = Vector2i(1, 30)
+4:42/0 = 0
+4:42/0/texture_origin = Vector2i(1, 30)
+4:43/0 = 0
+4:43/0/texture_origin = Vector2i(1, 30)
+3:43/0 = 0
+3:43/0/texture_origin = Vector2i(1, 30)
+2:43/0 = 0
+2:43/0/texture_origin = Vector2i(1, 30)
+1:43/0 = 0
+1:43/0/texture_origin = Vector2i(1, 30)
+0:43/0 = 0
+0:43/0/texture_origin = Vector2i(1, 30)
+0:44/0 = 0
+0:44/0/texture_origin = Vector2i(1, 30)
+1:44/0 = 0
+1:44/0/texture_origin = Vector2i(1, 30)
+3:44/0 = 0
+3:44/0/texture_origin = Vector2i(1, 30)
+4:44/0 = 0
+4:44/0/texture_origin = Vector2i(1, 30)
+4:45/0 = 0
+4:45/0/texture_origin = Vector2i(1, 30)
+3:45/0 = 0
+3:45/0/texture_origin = Vector2i(1, 30)
+1:46/0 = 0
+1:46/0/texture_origin = Vector2i(1, 30)
+1:45/0 = 0
+1:45/0/texture_origin = Vector2i(1, 30)
+0:45/0 = 0
+0:45/0/texture_origin = Vector2i(1, 30)
+4:38/0 = 0
+4:38/0/texture_origin = Vector2i(1, 30)
+4:37/0 = 0
+4:37/0/texture_origin = Vector2i(1, 30)
+4:36/0 = 0
+4:36/0/texture_origin = Vector2i(1, 30)
+4:35/0 = 0
+4:35/0/texture_origin = Vector2i(1, 30)
+3:35/0 = 0
+3:35/0/texture_origin = Vector2i(1, 30)
+2:35/0 = 0
+2:35/0/texture_origin = Vector2i(1, 30)
+1:35/0 = 0
+1:35/0/texture_origin = Vector2i(1, 30)
+0:35/0 = 0
+0:35/0/texture_origin = Vector2i(1, 30)
+0:36/0 = 0
+0:36/0/texture_origin = Vector2i(1, 30)
+0:37/0 = 0
+0:38/0 = 0
+0:38/0/texture_origin = Vector2i(1, 30)
+1:36/0 = 0
+1:36/0/texture_origin = Vector2i(1, 30)
+3:33/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_312jq"]
+texture = ExtResource("249_4uw0t")
+texture_region_size = Vector2i(16, 24)
+0:0/0 = 0
+0:1/0 = 0
+0:2/0 = 0
+0:3/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+7:2/0 = 0
+6:2/0 = 0
+5:2/0 = 0
+4:2/0 = 0
+3:2/0 = 0
+2:2/0 = 0
+1:2/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_17rql"]
+load_path = "res://.godot/imported/spaceInterior_008_3.png-217d42d9bf6289ba2ecbc322e01741ec.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uvkxm"]
+texture = SubResource("CompressedTexture2D_17rql")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_sm6yv"]
+load_path = "res://.godot/imported/spaceInterior_009_0.png-c0d1a24c84fd3bc16c9373eefc326fd9.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qy123"]
+texture = SubResource("CompressedTexture2D_sm6yv")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_56p7q"]
+load_path = "res://.godot/imported/spaceInterior_009_1.png-0cb2f4960b83c25198a069ec46ffaec0.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xitjr"]
+texture = SubResource("CompressedTexture2D_56p7q")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xt3mr"]
+load_path = "res://.godot/imported/spaceInterior_009_2.png-93956590e53caad1905b41b125940f53.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iunvk"]
+texture = SubResource("CompressedTexture2D_xt3mr")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gu6ps"]
+load_path = "res://.godot/imported/spaceInterior_009_3.png-96e1faf4a2fde9780085d444dd57f08c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ukyqr"]
+texture = SubResource("CompressedTexture2D_gu6ps")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_l2k32"]
+load_path = "res://.godot/imported/spaceInterior_010_0.png-6b69344519ae66dc3cf0c4e3f31e28e8.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_whoa7"]
+texture = SubResource("CompressedTexture2D_l2k32")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_v5s07"]
+load_path = "res://.godot/imported/spaceInterior_010_1.png-fa78299e805c54ef7edf49009933025d.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fd62s"]
+texture = SubResource("CompressedTexture2D_v5s07")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_odn0x"]
+load_path = "res://.godot/imported/spaceInterior_001_2.png-8918734d9676284f13f1ac1bb6cb8513.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t5gjm"]
+texture = SubResource("CompressedTexture2D_odn0x")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3ne3f"]
+load_path = "res://.godot/imported/spaceInterior_010_2.png-e1f3c895232f2768a002c721e875a09a.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5asn5"]
+texture = SubResource("CompressedTexture2D_3ne3f")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_h60mw"]
+load_path = "res://.godot/imported/spaceInterior_010_3.png-4139fc8deb52d2fc884e6b62f99c30d3.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jmvot"]
+texture = SubResource("CompressedTexture2D_h60mw")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ep5jc"]
+load_path = "res://.godot/imported/spaceInterior_011_0.png-1fda698486634da6c1f70a2c73f55dd5.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hfrnn"]
+texture = SubResource("CompressedTexture2D_ep5jc")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_u7wv8"]
+load_path = "res://.godot/imported/spaceInterior_011_1.png-14a6fd6959e88b09166a6fbd91baab9c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ael6p"]
+texture = SubResource("CompressedTexture2D_u7wv8")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oxwp3"]
+load_path = "res://.godot/imported/spaceInterior_011_2.png-2e9cd9c18045edf9da5aeb0f5a80fd67.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fh1e3"]
+texture = SubResource("CompressedTexture2D_oxwp3")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p6vc7"]
+load_path = "res://.godot/imported/spaceInterior_011_3.png-2b4c9bedfad35f86ecebae0757ad2949.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wjjj4"]
+texture = SubResource("CompressedTexture2D_p6vc7")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6enlh"]
+load_path = "res://.godot/imported/spaceInterior_012_0.png-ea902749b982ae538e041893f24ee10b.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7xli0"]
+texture = SubResource("CompressedTexture2D_6enlh")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xktsx"]
+load_path = "res://.godot/imported/spaceInterior_012_1.png-65d526952deedf284e6749cc4028b495.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_din54"]
+texture = SubResource("CompressedTexture2D_xktsx")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_56ulj"]
+load_path = "res://.godot/imported/spaceInterior_012_2.png-85bfc1ec2e8761e7e9400d523256e55c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0t6tj"]
+texture = SubResource("CompressedTexture2D_56ulj")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lc6ys"]
+load_path = "res://.godot/imported/spaceInterior_012_3.png-c93f60996c3bce4de11af21766558716.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ijnk2"]
+texture = SubResource("CompressedTexture2D_lc6ys")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nl4ta"]
+load_path = "res://.godot/imported/spaceInterior_001_3.png-a72a0915711aa941df8f486264dbe502.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a032v"]
+texture = SubResource("CompressedTexture2D_nl4ta")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p31kh"]
+load_path = "res://.godot/imported/spaceInterior_013_0.png-e47c011f0c398da6e813d92e987a1ac1.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oesfh"]
+texture = SubResource("CompressedTexture2D_p31kh")
+texture_region_size = Vector2i(240, 192)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(-30, 30)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_q8bu0"]
+load_path = "res://.godot/imported/spaceInterior_013_1.png-c5f43e3f80acf270310926226fb1dd0e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uj8k1"]
+texture = SubResource("CompressedTexture2D_q8bu0")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_07o1n"]
+load_path = "res://.godot/imported/spaceInterior_013_2.png-8e1a3e1cecdc7edeedbbdfd91866fcf0.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i7l3c"]
+texture = SubResource("CompressedTexture2D_07o1n")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_27agq"]
+load_path = "res://.godot/imported/spaceInterior_013_3.png-243103438f8a7eedc5751304db51af8c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mxg24"]
+texture = SubResource("CompressedTexture2D_27agq")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2p77m"]
+load_path = "res://.godot/imported/spaceInterior_014_0.png-1b8ce4ce1457c783028914cb63048fcc.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_urwvg"]
+texture = SubResource("CompressedTexture2D_2p77m")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5iorf"]
+load_path = "res://.godot/imported/spaceInterior_014_1.png-28214dc6650de094c020505e4cd7bf78.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5pvvh"]
+texture = SubResource("CompressedTexture2D_5iorf")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fqptu"]
+load_path = "res://.godot/imported/spaceInterior_014_2.png-c5cfec41e753357063405b0479d72bb2.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m2cgd"]
+texture = SubResource("CompressedTexture2D_fqptu")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5huy1"]
+load_path = "res://.godot/imported/spaceInterior_014_3.png-2541e652a4046a6d17661c54ad2874b1.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g5rl2"]
+texture = SubResource("CompressedTexture2D_5huy1")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i1nde"]
+load_path = "res://.godot/imported/spaceInterior_015_0.png-81b00b97e0ee5055b57a956d8566e257.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_trm5r"]
+texture = SubResource("CompressedTexture2D_i1nde")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gqytj"]
+load_path = "res://.godot/imported/spaceInterior_015_1.png-e5e7a56e43e692276e0f36f09cea0b4c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q02vi"]
+texture = SubResource("CompressedTexture2D_gqytj")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_e3vq2"]
+load_path = "res://.godot/imported/spaceInterior_002_0.png-3d545b23efed2cef6cf2aaf93d31dc0d.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jmfhd"]
+texture = SubResource("CompressedTexture2D_e3vq2")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tm5i4"]
+load_path = "res://.godot/imported/spaceInterior_015_2.png-b9d3d3811db95c6e2ad7a45fb5e46948.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q83j5"]
+texture = SubResource("CompressedTexture2D_tm5i4")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7mb4v"]
+load_path = "res://.godot/imported/spaceInterior_015_3.png-4a17035071b6f55032bacb97fba5c1a9.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gb6hf"]
+texture = SubResource("CompressedTexture2D_7mb4v")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_r6skn"]
+load_path = "res://.godot/imported/spaceInterior_016_0.png-fcb435b06b805987ebce4a4f7a3ec977.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0t7kf"]
+texture = SubResource("CompressedTexture2D_r6skn")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8tsfg"]
+load_path = "res://.godot/imported/spaceInterior_016_1.png-04b37203ad0e1de86de602888acb9abd.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kbr27"]
+texture = SubResource("CompressedTexture2D_8tsfg")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5nw4x"]
+load_path = "res://.godot/imported/spaceInterior_016_2.png-94dc589222da514af279462ba05d72c0.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8j747"]
+texture = SubResource("CompressedTexture2D_5nw4x")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vo0ee"]
+load_path = "res://.godot/imported/spaceInterior_016_3.png-818c23ed7e4db8d2356b96e3daec18ae.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8pr0t"]
+texture = SubResource("CompressedTexture2D_vo0ee")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_y0g77"]
+load_path = "res://.godot/imported/spaceInterior_017_0.png-7a512b161384229ddd3bdaa5febbc27e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jfj5x"]
+texture = SubResource("CompressedTexture2D_y0g77")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_52h6y"]
+load_path = "res://.godot/imported/spaceInterior_017_1.png-7a0808c9047a26f34120b7fccae14dbf.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m1x4h"]
+texture = SubResource("CompressedTexture2D_52h6y")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kesnt"]
+load_path = "res://.godot/imported/spaceInterior_017_2.png-936268c6e4532f695df554b8391ffbac.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n508h"]
+texture = SubResource("CompressedTexture2D_kesnt")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_iyhc4"]
+load_path = "res://.godot/imported/spaceInterior_017_3.png-00e66f261662f851a96c07664fc9aebf.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nv8d4"]
+texture = SubResource("CompressedTexture2D_iyhc4")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_050jy"]
+load_path = "res://.godot/imported/spaceInterior_002_1.png-a0731a23baf8f75c6f5ba786030e9807.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e5uap"]
+texture = SubResource("CompressedTexture2D_050jy")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0brcc"]
+load_path = "res://.godot/imported/spaceInterior_018_0.png-5bc1c2919c511589e849ad790503e09f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p8k0n"]
+texture = SubResource("CompressedTexture2D_0brcc")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xivxn"]
+load_path = "res://.godot/imported/spaceInterior_018_1.png-0a8a4446966edc57ad0bc1b8123aedeb.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pbqmu"]
+texture = SubResource("CompressedTexture2D_xivxn")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5eo43"]
+load_path = "res://.godot/imported/spaceInterior_018_2.png-efc955c79672172d3c8f35638fac3d8d.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nnxkk"]
+texture = SubResource("CompressedTexture2D_5eo43")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_k5x5f"]
+load_path = "res://.godot/imported/spaceInterior_018_3.png-caa942f8e0d02eeb3df7e77fb78fff99.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4iv85"]
+texture = SubResource("CompressedTexture2D_k5x5f")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7jam1"]
+load_path = "res://.godot/imported/spaceInterior_019_0.png-8a14319377eb45aa0f0d3ff1df48168a.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bcqev"]
+texture = SubResource("CompressedTexture2D_7jam1")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0vgmd"]
+load_path = "res://.godot/imported/spaceInterior_019_1.png-7e4634ff90f090b6e513b9974aac53a5.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_haeba"]
+texture = SubResource("CompressedTexture2D_0vgmd")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0n5dv"]
+load_path = "res://.godot/imported/spaceInterior_019_2.png-26d7a880dbaf47b38dd226f5f00e66ca.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pnyyp"]
+texture = SubResource("CompressedTexture2D_0n5dv")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4lblq"]
+load_path = "res://.godot/imported/spaceInterior_019_3.png-458da8988f30396664bb966af4fa8029.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rtyhx"]
+texture = SubResource("CompressedTexture2D_4lblq")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_024cb"]
+load_path = "res://.godot/imported/spaceInterior_020_0.png-e8daa4c3d84292bc570b572597076b8e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dj3m4"]
+texture = SubResource("CompressedTexture2D_024cb")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xmu61"]
+load_path = "res://.godot/imported/spaceInterior_020_1.png-97088dd8b05af544e443bbbc5355c5c1.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yxxk5"]
+texture = SubResource("CompressedTexture2D_xmu61")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_myphc"]
+load_path = "res://.godot/imported/spaceInterior_002_2.png-dde128669a0cadccb337d4e307a3b453.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cxoht"]
+texture = SubResource("CompressedTexture2D_myphc")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dfysu"]
+load_path = "res://.godot/imported/spaceInterior_020_2.png-bd3b66a36bd80fe4aaeccd0ad7776fdc.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p5xy5"]
+texture = SubResource("CompressedTexture2D_dfysu")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_csc8p"]
+load_path = "res://.godot/imported/spaceInterior_020_3.png-c0bc7940a7acb060b4bc2bc752c0224e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ykrgd"]
+texture = SubResource("CompressedTexture2D_csc8p")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_phb3k"]
+load_path = "res://.godot/imported/spaceInterior_021_0.png-e3fe9a2129ab3a31719355bd9225db3e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hygdc"]
+texture = SubResource("CompressedTexture2D_phb3k")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_udeis"]
+load_path = "res://.godot/imported/spaceInterior_021_1.png-9abb7618c8ded276a76da971b2b461ab.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3t0of"]
+texture = SubResource("CompressedTexture2D_udeis")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i3v4u"]
+load_path = "res://.godot/imported/spaceInterior_021_2.png-dde09769d5fff077fa734fc7881b83c3.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t6h0n"]
+texture = SubResource("CompressedTexture2D_i3v4u")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_daiui"]
+load_path = "res://.godot/imported/spaceInterior_021_3.png-1461877916a0c3347aaa5bc04cc760ac.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rgpxw"]
+texture = SubResource("CompressedTexture2D_daiui")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_o3o22"]
+load_path = "res://.godot/imported/spaceInterior_022_0.png-aaf536cb38548a2c3809a94541ff15e1.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_58ds7"]
+texture = SubResource("CompressedTexture2D_o3o22")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_450pk"]
+load_path = "res://.godot/imported/spaceInterior_022_1.png-43644bc0a9260263dd4cc03a14b5a1ad.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4qvji"]
+texture = SubResource("CompressedTexture2D_450pk")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kiueu"]
+load_path = "res://.godot/imported/spaceInterior_022_2.png-acaba54aeb923c79a9af5cbd811384d7.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oc3qs"]
+texture = SubResource("CompressedTexture2D_kiueu")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2p5vm"]
+load_path = "res://.godot/imported/spaceInterior_022_3.png-ec261ce9393708c5861be43c69f060ec.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_45fjk"]
+texture = SubResource("CompressedTexture2D_2p5vm")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_u2skj"]
+load_path = "res://.godot/imported/spaceInterior_002_3.png-a8720c28c55da314f4c0fbc68fe9417e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_300ua"]
+texture = SubResource("CompressedTexture2D_u2skj")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nlu40"]
+load_path = "res://.godot/imported/spaceInterior_023_0.png-6014c2aff40a919edb55fdf50490f00e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1t2g3"]
+texture = SubResource("CompressedTexture2D_nlu40")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6tyfq"]
+load_path = "res://.godot/imported/spaceInterior_023_1.png-a290e3dce3324dc0d20f34727e044634.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8uixe"]
+texture = SubResource("CompressedTexture2D_6tyfq")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_km1mc"]
+load_path = "res://.godot/imported/spaceInterior_023_2.png-38337d627369c5034aca209e39353e9c.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_34x14"]
+texture = SubResource("CompressedTexture2D_km1mc")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gb0kl"]
+load_path = "res://.godot/imported/spaceInterior_023_3.png-3029f42db6281edda254b88a87ce4f12.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0lgc6"]
+texture = SubResource("CompressedTexture2D_gb0kl")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jcg56"]
+load_path = "res://.godot/imported/spaceInterior_024_0.png-cbb7e074961064537248a7ec380d8978.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1gmam"]
+texture = SubResource("CompressedTexture2D_jcg56")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cksiy"]
+load_path = "res://.godot/imported/spaceInterior_024_1.png-5ad8c7aa913649938914fb8556a2f750.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_374tj"]
+texture = SubResource("CompressedTexture2D_cksiy")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ybd2b"]
+load_path = "res://.godot/imported/spaceInterior_024_2.png-0f1edec9726005c6ee742f3f1a7c56da.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8wh7b"]
+texture = SubResource("CompressedTexture2D_ybd2b")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5r5mm"]
+load_path = "res://.godot/imported/spaceInterior_024_3.png-93063737cc2cbc769cd505aa52e79eeb.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_osgi4"]
+texture = SubResource("CompressedTexture2D_5r5mm")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0napl"]
+load_path = "res://.godot/imported/spaceInterior_025_0.png-8928778238f8f6a1454af9ad5acc5746.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_14q4c"]
+texture = SubResource("CompressedTexture2D_0napl")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2d2vl"]
+load_path = "res://.godot/imported/spaceInterior_025_1.png-9434ed30a85729c3f60854c696530714.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w6ta5"]
+texture = SubResource("CompressedTexture2D_2d2vl")
+texture_region_size = Vector2i(120, 60)
+
+[sub_resource type="TileSet" id="TileSet_1ihm7"]
+tile_shape = 1
+tile_size = Vector2i(120, 68)
+sources/1 = SubResource("TileSetAtlasSource_eh234")
+sources/2 = SubResource("TileSetAtlasSource_f8pl7")
+sources/3 = SubResource("TileSetAtlasSource_8lbvo")
+sources/4 = SubResource("TileSetAtlasSource_t5gjm")
+sources/5 = SubResource("TileSetAtlasSource_a032v")
+sources/6 = SubResource("TileSetAtlasSource_jmfhd")
+sources/7 = SubResource("TileSetAtlasSource_e5uap")
+sources/8 = SubResource("TileSetAtlasSource_cxoht")
+sources/9 = SubResource("TileSetAtlasSource_300ua")
+sources/10 = SubResource("TileSetAtlasSource_p2hdd")
+sources/11 = SubResource("TileSetAtlasSource_bl4gg")
+sources/12 = SubResource("TileSetAtlasSource_d6jcp")
+sources/13 = SubResource("TileSetAtlasSource_8my2j")
+sources/14 = SubResource("TileSetAtlasSource_1siu5")
+sources/15 = SubResource("TileSetAtlasSource_7ce2a")
+sources/16 = SubResource("TileSetAtlasSource_5ioq5")
+sources/17 = SubResource("TileSetAtlasSource_8y7g3")
+sources/18 = SubResource("TileSetAtlasSource_hty5g")
+sources/19 = SubResource("TileSetAtlasSource_i1mno")
+sources/20 = SubResource("TileSetAtlasSource_wu0c4")
+sources/21 = SubResource("TileSetAtlasSource_41fvs")
+sources/22 = SubResource("TileSetAtlasSource_l6tia")
+sources/23 = SubResource("TileSetAtlasSource_vdqv5")
+sources/24 = SubResource("TileSetAtlasSource_f3p4x")
+sources/25 = SubResource("TileSetAtlasSource_tagap")
+sources/26 = SubResource("TileSetAtlasSource_qfkmf")
+sources/27 = SubResource("TileSetAtlasSource_wsdoo")
+sources/28 = SubResource("TileSetAtlasSource_kk0ew")
+sources/29 = SubResource("TileSetAtlasSource_84v57")
+sources/30 = SubResource("TileSetAtlasSource_7h7oe")
+sources/31 = SubResource("TileSetAtlasSource_hqnek")
+sources/32 = SubResource("TileSetAtlasSource_m54wn")
+sources/33 = SubResource("TileSetAtlasSource_uvkxm")
+sources/34 = SubResource("TileSetAtlasSource_qy123")
+sources/35 = SubResource("TileSetAtlasSource_xitjr")
+sources/36 = SubResource("TileSetAtlasSource_iunvk")
+sources/37 = SubResource("TileSetAtlasSource_ukyqr")
+sources/38 = SubResource("TileSetAtlasSource_whoa7")
+sources/39 = SubResource("TileSetAtlasSource_fd62s")
+sources/40 = SubResource("TileSetAtlasSource_5asn5")
+sources/41 = SubResource("TileSetAtlasSource_jmvot")
+sources/42 = SubResource("TileSetAtlasSource_hfrnn")
+sources/43 = SubResource("TileSetAtlasSource_ael6p")
+sources/44 = SubResource("TileSetAtlasSource_fh1e3")
+sources/45 = SubResource("TileSetAtlasSource_wjjj4")
+sources/46 = SubResource("TileSetAtlasSource_7xli0")
+sources/47 = SubResource("TileSetAtlasSource_din54")
+sources/48 = SubResource("TileSetAtlasSource_0t6tj")
+sources/49 = SubResource("TileSetAtlasSource_ijnk2")
+sources/50 = SubResource("TileSetAtlasSource_oesfh")
+sources/51 = SubResource("TileSetAtlasSource_uj8k1")
+sources/52 = SubResource("TileSetAtlasSource_i7l3c")
+sources/53 = SubResource("TileSetAtlasSource_mxg24")
+sources/54 = SubResource("TileSetAtlasSource_urwvg")
+sources/55 = SubResource("TileSetAtlasSource_5pvvh")
+sources/56 = SubResource("TileSetAtlasSource_m2cgd")
+sources/57 = SubResource("TileSetAtlasSource_g5rl2")
+sources/58 = SubResource("TileSetAtlasSource_trm5r")
+sources/59 = SubResource("TileSetAtlasSource_q02vi")
+sources/60 = SubResource("TileSetAtlasSource_q83j5")
+sources/61 = SubResource("TileSetAtlasSource_gb6hf")
+sources/62 = SubResource("TileSetAtlasSource_0t7kf")
+sources/63 = SubResource("TileSetAtlasSource_kbr27")
+sources/64 = SubResource("TileSetAtlasSource_8j747")
+sources/65 = SubResource("TileSetAtlasSource_8pr0t")
+sources/66 = SubResource("TileSetAtlasSource_jfj5x")
+sources/67 = SubResource("TileSetAtlasSource_m1x4h")
+sources/68 = SubResource("TileSetAtlasSource_n508h")
+sources/69 = SubResource("TileSetAtlasSource_nv8d4")
+sources/70 = SubResource("TileSetAtlasSource_p8k0n")
+sources/71 = SubResource("TileSetAtlasSource_pbqmu")
+sources/72 = SubResource("TileSetAtlasSource_nnxkk")
+sources/73 = SubResource("TileSetAtlasSource_4iv85")
+sources/74 = SubResource("TileSetAtlasSource_bcqev")
+sources/75 = SubResource("TileSetAtlasSource_haeba")
+sources/76 = SubResource("TileSetAtlasSource_pnyyp")
+sources/77 = SubResource("TileSetAtlasSource_rtyhx")
+sources/78 = SubResource("TileSetAtlasSource_dj3m4")
+sources/79 = SubResource("TileSetAtlasSource_yxxk5")
+sources/80 = SubResource("TileSetAtlasSource_p5xy5")
+sources/81 = SubResource("TileSetAtlasSource_ykrgd")
+sources/82 = SubResource("TileSetAtlasSource_hygdc")
+sources/83 = SubResource("TileSetAtlasSource_3t0of")
+sources/84 = SubResource("TileSetAtlasSource_t6h0n")
+sources/85 = SubResource("TileSetAtlasSource_rgpxw")
+sources/86 = SubResource("TileSetAtlasSource_58ds7")
+sources/87 = SubResource("TileSetAtlasSource_4qvji")
+sources/88 = SubResource("TileSetAtlasSource_oc3qs")
+sources/89 = SubResource("TileSetAtlasSource_45fjk")
+sources/90 = SubResource("TileSetAtlasSource_1t2g3")
+sources/91 = SubResource("TileSetAtlasSource_8uixe")
+sources/92 = SubResource("TileSetAtlasSource_34x14")
+sources/93 = SubResource("TileSetAtlasSource_0lgc6")
+sources/94 = SubResource("TileSetAtlasSource_1gmam")
+sources/95 = SubResource("TileSetAtlasSource_374tj")
+sources/96 = SubResource("TileSetAtlasSource_8wh7b")
+sources/97 = SubResource("TileSetAtlasSource_osgi4")
+sources/98 = SubResource("TileSetAtlasSource_14q4c")
+sources/99 = SubResource("TileSetAtlasSource_w6ta5")
+sources/100 = SubResource("TileSetAtlasSource_k5cxt")
+sources/101 = SubResource("TileSetAtlasSource_0unum")
+sources/102 = SubResource("TileSetAtlasSource_nnoqg")
+sources/103 = SubResource("TileSetAtlasSource_8n4v0")
+sources/104 = SubResource("TileSetAtlasSource_0n0md")
+sources/105 = SubResource("TileSetAtlasSource_f68ot")
+sources/106 = SubResource("TileSetAtlasSource_vr3t4")
+sources/107 = SubResource("TileSetAtlasSource_pj8ns")
+sources/108 = SubResource("TileSetAtlasSource_2ewfp")
+sources/109 = SubResource("TileSetAtlasSource_54okh")
+sources/110 = SubResource("TileSetAtlasSource_e5blo")
+sources/111 = SubResource("TileSetAtlasSource_a2dgr")
+sources/112 = SubResource("TileSetAtlasSource_agixw")
+sources/113 = SubResource("TileSetAtlasSource_tho7h")
+sources/114 = SubResource("TileSetAtlasSource_0s5bh")
+sources/115 = SubResource("TileSetAtlasSource_q2eec")
+sources/116 = SubResource("TileSetAtlasSource_rieww")
+sources/117 = SubResource("TileSetAtlasSource_qo2p4")
+sources/118 = SubResource("TileSetAtlasSource_181fc")
+sources/119 = SubResource("TileSetAtlasSource_smchc")
+sources/120 = SubResource("TileSetAtlasSource_ggkcb")
+sources/121 = SubResource("TileSetAtlasSource_rxwso")
+sources/122 = SubResource("TileSetAtlasSource_npmfo")
+sources/123 = SubResource("TileSetAtlasSource_bdj4e")
+sources/124 = SubResource("TileSetAtlasSource_jra7h")
+sources/125 = SubResource("TileSetAtlasSource_1pylw")
+sources/126 = SubResource("TileSetAtlasSource_uaa2n")
+sources/127 = SubResource("TileSetAtlasSource_w7oox")
+sources/128 = SubResource("TileSetAtlasSource_iplg0")
+sources/129 = SubResource("TileSetAtlasSource_71rne")
+sources/130 = SubResource("TileSetAtlasSource_egwof")
+sources/131 = SubResource("TileSetAtlasSource_lgm6f")
+sources/132 = SubResource("TileSetAtlasSource_4ugh7")
+sources/133 = SubResource("TileSetAtlasSource_dtddi")
+sources/134 = SubResource("TileSetAtlasSource_nb52o")
+sources/135 = SubResource("TileSetAtlasSource_v83tl")
+sources/136 = SubResource("TileSetAtlasSource_m15xd")
+sources/137 = SubResource("TileSetAtlasSource_lectq")
+sources/138 = SubResource("TileSetAtlasSource_g4ufh")
+sources/139 = SubResource("TileSetAtlasSource_4afh0")
+sources/140 = SubResource("TileSetAtlasSource_7rdil")
+sources/141 = SubResource("TileSetAtlasSource_jt0ks")
+sources/142 = SubResource("TileSetAtlasSource_kyohn")
+sources/143 = SubResource("TileSetAtlasSource_v6x2m")
+sources/144 = SubResource("TileSetAtlasSource_yl41k")
+sources/145 = SubResource("TileSetAtlasSource_p4vhu")
+sources/146 = SubResource("TileSetAtlasSource_ig8c0")
+sources/147 = SubResource("TileSetAtlasSource_lmv7w")
+sources/148 = SubResource("TileSetAtlasSource_6ouvx")
+sources/149 = SubResource("TileSetAtlasSource_odekm")
+sources/150 = SubResource("TileSetAtlasSource_x1e7s")
+sources/151 = SubResource("TileSetAtlasSource_6ainj")
+sources/152 = SubResource("TileSetAtlasSource_8re5n")
+sources/153 = SubResource("TileSetAtlasSource_nnsm8")
+sources/154 = SubResource("TileSetAtlasSource_c82cr")
+sources/155 = SubResource("TileSetAtlasSource_itafo")
+sources/156 = SubResource("TileSetAtlasSource_4qwa3")
+sources/157 = SubResource("TileSetAtlasSource_n3q6r")
+sources/158 = SubResource("TileSetAtlasSource_5epxw")
+sources/159 = SubResource("TileSetAtlasSource_m68hg")
+sources/160 = SubResource("TileSetAtlasSource_7til8")
+sources/161 = SubResource("TileSetAtlasSource_d8ny3")
+sources/162 = SubResource("TileSetAtlasSource_awv8j")
+sources/163 = SubResource("TileSetAtlasSource_wvbym")
+sources/164 = SubResource("TileSetAtlasSource_epext")
+sources/165 = SubResource("TileSetAtlasSource_yq4gp")
+sources/166 = SubResource("TileSetAtlasSource_4740g")
+sources/167 = SubResource("TileSetAtlasSource_teclx")
+sources/168 = SubResource("TileSetAtlasSource_oixg4")
+sources/169 = SubResource("TileSetAtlasSource_6ubba")
+sources/170 = SubResource("TileSetAtlasSource_1100g")
+sources/171 = SubResource("TileSetAtlasSource_h4rml")
+sources/172 = SubResource("TileSetAtlasSource_1i6j7")
+sources/173 = SubResource("TileSetAtlasSource_7em6t")
+sources/174 = SubResource("TileSetAtlasSource_8uf7f")
+sources/175 = SubResource("TileSetAtlasSource_n5e2p")
+sources/176 = SubResource("TileSetAtlasSource_h3l0s")
+sources/177 = SubResource("TileSetAtlasSource_fiaay")
+sources/178 = SubResource("TileSetAtlasSource_arc0s")
+sources/179 = SubResource("TileSetAtlasSource_sq8ra")
+sources/180 = SubResource("TileSetAtlasSource_e3jhv")
+sources/181 = SubResource("TileSetAtlasSource_ouw24")
+sources/182 = SubResource("TileSetAtlasSource_0v8hv")
+sources/183 = SubResource("TileSetAtlasSource_bpela")
+sources/184 = SubResource("TileSetAtlasSource_ri202")
+sources/185 = SubResource("TileSetAtlasSource_o3efa")
+sources/186 = SubResource("TileSetAtlasSource_h0p65")
+sources/187 = SubResource("TileSetAtlasSource_y2e5h")
+sources/188 = SubResource("TileSetAtlasSource_05msa")
+sources/189 = SubResource("TileSetAtlasSource_3k3mx")
+sources/190 = SubResource("TileSetAtlasSource_a2dnn")
+sources/191 = SubResource("TileSetAtlasSource_tr5ey")
+sources/192 = SubResource("TileSetAtlasSource_wckay")
+sources/193 = SubResource("TileSetAtlasSource_6q6ye")
+sources/194 = SubResource("TileSetAtlasSource_je3gp")
+sources/195 = SubResource("TileSetAtlasSource_0fssb")
+sources/196 = SubResource("TileSetAtlasSource_mijbn")
+sources/197 = SubResource("TileSetAtlasSource_uakvc")
+sources/198 = SubResource("TileSetAtlasSource_eut1j")
+sources/199 = SubResource("TileSetAtlasSource_i4kc0")
+sources/200 = SubResource("TileSetAtlasSource_4ul3e")
+sources/201 = SubResource("TileSetAtlasSource_ofsay")
+sources/202 = SubResource("TileSetAtlasSource_ngxi2")
+sources/203 = SubResource("TileSetAtlasSource_1hwx4")
+sources/204 = SubResource("TileSetAtlasSource_6pbae")
+sources/205 = SubResource("TileSetAtlasSource_5uuro")
+sources/206 = SubResource("TileSetAtlasSource_h5w3b")
+sources/207 = SubResource("TileSetAtlasSource_p2rtk")
+sources/208 = SubResource("TileSetAtlasSource_0skss")
+sources/209 = SubResource("TileSetAtlasSource_txuho")
+sources/210 = SubResource("TileSetAtlasSource_pxwu7")
+sources/211 = SubResource("TileSetAtlasSource_660qn")
+sources/212 = SubResource("TileSetAtlasSource_2hkjk")
+sources/213 = SubResource("TileSetAtlasSource_poh3j")
+sources/214 = SubResource("TileSetAtlasSource_p8vmx")
+sources/215 = SubResource("TileSetAtlasSource_j6fuq")
+sources/216 = SubResource("TileSetAtlasSource_8dt4p")
+sources/217 = SubResource("TileSetAtlasSource_mejop")
+sources/218 = SubResource("TileSetAtlasSource_36rve")
+sources/219 = SubResource("TileSetAtlasSource_u72wl")
+sources/220 = SubResource("TileSetAtlasSource_agqhh")
+sources/221 = SubResource("TileSetAtlasSource_6w8kk")
+sources/222 = SubResource("TileSetAtlasSource_hmyks")
+sources/223 = SubResource("TileSetAtlasSource_j00ue")
+sources/224 = SubResource("TileSetAtlasSource_1qseh")
+sources/225 = SubResource("TileSetAtlasSource_bade8")
+sources/226 = SubResource("TileSetAtlasSource_g5t5e")
+sources/227 = SubResource("TileSetAtlasSource_u7q1b")
+sources/228 = SubResource("TileSetAtlasSource_tvg61")
+sources/229 = SubResource("TileSetAtlasSource_hqua6")
+sources/230 = SubResource("TileSetAtlasSource_0kr1q")
+sources/231 = SubResource("TileSetAtlasSource_ng28e")
+sources/232 = SubResource("TileSetAtlasSource_t770q")
+sources/233 = SubResource("TileSetAtlasSource_bpra7")
+sources/234 = SubResource("TileSetAtlasSource_34gjj")
+sources/235 = SubResource("TileSetAtlasSource_ealyp")
+sources/236 = SubResource("TileSetAtlasSource_yh3rn")
+sources/237 = SubResource("TileSetAtlasSource_fqxog")
+sources/238 = SubResource("TileSetAtlasSource_l4h4m")
+sources/239 = SubResource("TileSetAtlasSource_g4qts")
+sources/240 = SubResource("TileSetAtlasSource_8nniu")
+sources/241 = SubResource("TileSetAtlasSource_yby5n")
+sources/242 = SubResource("TileSetAtlasSource_nncxl")
+sources/243 = SubResource("TileSetAtlasSource_7wvg3")
+sources/244 = SubResource("TileSetAtlasSource_cn2jj")
+sources/245 = SubResource("TileSetAtlasSource_wjeo3")
+sources/246 = SubResource("TileSetAtlasSource_nlhm3")
+sources/247 = SubResource("TileSetAtlasSource_nrfou")
+sources/248 = SubResource("TileSetAtlasSource_8hn0t")
+sources/249 = SubResource("TileSetAtlasSource_odxtb")
+sources/250 = SubResource("TileSetAtlasSource_uvq1k")
+sources/251 = SubResource("TileSetAtlasSource_1jueq")
+sources/252 = SubResource("TileSetAtlasSource_a2g57")
+sources/253 = SubResource("TileSetAtlasSource_f6tiq")
+sources/254 = SubResource("TileSetAtlasSource_7ihwc")
+sources/255 = SubResource("TileSetAtlasSource_0kyow")
+sources/256 = SubResource("TileSetAtlasSource_u42b3")
+sources/257 = SubResource("TileSetAtlasSource_mgpjy")
+sources/258 = SubResource("TileSetAtlasSource_dk77l")
+sources/259 = SubResource("TileSetAtlasSource_fl6k5")
+sources/260 = SubResource("TileSetAtlasSource_w8ahw")
+sources/261 = SubResource("TileSetAtlasSource_itxlu")
+sources/262 = SubResource("TileSetAtlasSource_h4s4e")
+sources/263 = SubResource("TileSetAtlasSource_6nik1")
+sources/264 = SubResource("TileSetAtlasSource_y0xr2")
+sources/265 = SubResource("TileSetAtlasSource_nabfm")
+sources/266 = SubResource("TileSetAtlasSource_tkxym")
+sources/267 = SubResource("TileSetAtlasSource_prlv1")
+sources/268 = SubResource("TileSetAtlasSource_udj5y")
+sources/269 = SubResource("TileSetAtlasSource_b6m85")
+sources/270 = SubResource("TileSetAtlasSource_gn7mr")
+sources/271 = SubResource("TileSetAtlasSource_f0oqh")
+sources/272 = SubResource("TileSetAtlasSource_i8jgo")
+sources/273 = SubResource("TileSetAtlasSource_1fd45")
+sources/274 = SubResource("TileSetAtlasSource_f6rdy")
+sources/275 = SubResource("TileSetAtlasSource_iwueo")
+sources/276 = SubResource("TileSetAtlasSource_cmhce")
+sources/277 = SubResource("TileSetAtlasSource_533bv")
+sources/278 = SubResource("TileSetAtlasSource_gfv63")
+sources/279 = SubResource("TileSetAtlasSource_presf")
+sources/280 = SubResource("TileSetAtlasSource_m6vin")
+sources/281 = SubResource("TileSetAtlasSource_uj584")
+sources/282 = SubResource("TileSetAtlasSource_3ijyq")
+sources/283 = SubResource("TileSetAtlasSource_38yh6")
+sources/284 = SubResource("TileSetAtlasSource_tr5dr")
+sources/285 = SubResource("TileSetAtlasSource_xf6md")
+sources/286 = SubResource("TileSetAtlasSource_08uhr")
+sources/287 = SubResource("TileSetAtlasSource_cpf4u")
+sources/288 = SubResource("TileSetAtlasSource_pkm7o")
+sources/289 = SubResource("TileSetAtlasSource_t2t3e")
+sources/290 = SubResource("TileSetAtlasSource_3b3cx")
+sources/291 = SubResource("TileSetAtlasSource_4afy1")
+sources/292 = SubResource("TileSetAtlasSource_ihw2a")
+sources/293 = SubResource("TileSetAtlasSource_or32b")
+sources/294 = SubResource("TileSetAtlasSource_cfuuu")
+sources/295 = SubResource("TileSetAtlasSource_b7vqa")
+sources/296 = SubResource("TileSetAtlasSource_v5xrf")
+sources/297 = SubResource("TileSetAtlasSource_llmdl")
+sources/298 = SubResource("TileSetAtlasSource_yqlop")
+sources/299 = SubResource("TileSetAtlasSource_5kybq")
+sources/300 = SubResource("TileSetAtlasSource_qumju")
+sources/301 = SubResource("TileSetAtlasSource_ux8wv")
+sources/302 = SubResource("TileSetAtlasSource_ks2lg")
+sources/303 = SubResource("TileSetAtlasSource_jpqf4")
+sources/304 = SubResource("TileSetAtlasSource_33xi1")
+sources/305 = SubResource("TileSetAtlasSource_xtihy")
+sources/306 = SubResource("TileSetAtlasSource_hmscw")
+sources/307 = SubResource("TileSetAtlasSource_w7tec")
+sources/308 = SubResource("TileSetAtlasSource_jbkui")
+sources/309 = SubResource("TileSetAtlasSource_mp6a7")
+sources/310 = SubResource("TileSetAtlasSource_5mcuv")
+sources/311 = SubResource("TileSetAtlasSource_h1x2g")
+sources/312 = SubResource("TileSetAtlasSource_i4la1")
+sources/313 = SubResource("TileSetAtlasSource_6wxex")
+sources/314 = SubResource("TileSetAtlasSource_jqi11")
+sources/315 = SubResource("TileSetAtlasSource_idvrg")
+sources/316 = SubResource("TileSetAtlasSource_o1a7u")
+sources/317 = SubResource("TileSetAtlasSource_r7kce")
+sources/318 = SubResource("TileSetAtlasSource_dt61m")
+sources/319 = SubResource("TileSetAtlasSource_apcho")
+sources/320 = SubResource("TileSetAtlasSource_cu1ek")
+sources/321 = SubResource("TileSetAtlasSource_tmr2a")
+sources/322 = SubResource("TileSetAtlasSource_4omcm")
+sources/323 = SubResource("TileSetAtlasSource_312jq")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMapLayer2" type="TileMapLayer" parent="."]
+visible = false
+z_index = 1
+y_sort_enabled = true
+tile_map_data = PackedByteArray("AAD7////QgEPANsAAAD9/wAAQgEDABcAAAD//wUAQgEDABcAAAD///7/QgEEACoAAAAAAAAAQgEEACoAAAAAAAEAQgEEACoAAAD//wQAQgEDABcAAAD+/wMAQgEDABcAAAD9/wEAQgEDABcAAAD+/wIAQgEDABcAAAD9//7/QgECABcAAAD9//3/QgECABcAAAAAAAYAQgEDABcAAAAAAAcAQgEDABcAAAABAAgAQgEDABcAAAABAAkAQgEDABcAAAACAAoAQgEDABcAAAACAAsAQgEDABcAAAAAAP//QgEEAB0AAAABAP7/QgEEAB0AAAABAP3/QgEEAB0AAAACAPz/QgEEAB0AAAACAPv/QgEEAB0AAAADAPr/QgEEAB0AAAADAPn/QgEEAB0AAAACAAUAQgECACMAAAAEAAIAQgECACMAAAADAP3/QgECACMAAAABAAEAQgECACMAAAADAAoAQgECACMAAAAFAAYAQgECACMAAAAEAAoAQgEEACoAAAAEAAkAQgECACEAAAAFAAgAQgECACEAAAAFAAcAQgEEACgAAAAGAAgAQgEEACgAAAAFAAkAQgECACEAAAAFAAoAQgECACEAAAAEAAsAQgEEACoAAAACAA0AQgEDABsAAAAFAAwAQgEEACoAAAAFAA0AQgEEACoAAAAGAA4AQgEEACoAAAAGAAkAQgEEACgAAAAHAAoAQgEEACgAAAAHAAsAQgEEACgAAAADAAsAQgECABcAAAADAAwAQgEDABcAAAAEAPn/QgEEABsAAAD/////QgEEACoAAAA=")
+tile_set = SubResource("TileSet_1ihm7")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+visible = false
+y_sort_enabled = true
+position = Vector2(0, -2)
+tile_map_data = PackedByteArray("AAD+/wEAQgECACEAAAD//wIAQgECACEAAAD//wEAQgECACEAAAD//wAAQgECACEAAAD+////QgECACEAAAD+//7/QgECACEAAAD+/wMAQgECACEAAAD//wQAQgECACEAAAD9////QgECACEAAAD+/wAAQgECACEAAAD+//3/QgEDABcAAAD9/wAAQgEDABsAAAAAAAQAQgECAB8AAAAAAAMAQgECAB8AAAABAAQAQgECAB8AAAAAAAUAQgECAB8AAAABAAYAQgECAB8AAAABAAUAQgECAB8AAAABAAcAQgECAB8AAAACAAYAQgECAB8AAAACAAcAQgECAB8AAAACAAgAQgECAB8AAAACAAkAQgECAB8AAAADAAoAQgECAB8AAAACAAsAQgECAB8AAAADAAgAQgECAB8AAAADAAkAQgECAB8AAAADAAcAQgECAB8AAAAEAAgAQgECAB8AAAADAAYAQgECAB8AAAACAAUAQgECAB8AAAACAAQAQgECAB8AAAABAAMAQgECAB8AAAABAAIAQgECAB8AAAAAAAIAQgECAB8AAAD//wMAQgECAB8AAAAAAAEAQgECAB8AAAABAAAAQgECAB8AAAABAAEAQgECAB8AAAACAAIAQgECAB8AAAACAAMAQgECAB8AAAADAAQAQgECAB8AAAADAAUAQgECAB8AAAAEAAYAQgECAB8AAAAEAAcAQgECAB8AAAAFAAYAQgECAB8AAAAEAAUAQgECAB8AAAAEAAQAQgECAB8AAAADAAMAQgECAB8AAAADAAIAQgECAB8AAAACAAEAQgECAB8AAAACAAAAQgECAB8AAAABAP//QgECAB8AAAACAP7/QgECAB8AAAACAP//QgECAB8AAAADAAAAQgECAB8AAAADAAEAQgECAB8AAAAEAAIAQgECAB8AAAAEAAMAQgECAB8AAAAFAAIAQgECAB8AAAAFAAMAQgECAB8AAAAFAAQAQgECAB8AAAAFAAUAQgECAB8AAAAGAAQAQgECAB8AAAAEAAEAQgECAB8AAAAEAAAAQgECAB8AAAADAP//QgECAB8AAAADAP7/QgECAB8AAAACAP3/QgECAB8AAAADAPz/QgECAB8AAAADAP3/QgECAB8AAAAEAP7/QgECAB8AAAAEAP//QgECAB8AAAAFAAAAQgECAB8AAAAFAP//QgECAB8AAAAGAAAAQgECAB8AAAAGAAEAQgECAB8AAAAGAAIAQgECAB8AAAAFAAEAQgECAB8AAAAGAAMAQgECAB8AAAAHAAIAQgECAB8AAAAHAAAAQgECAB8AAAAGAP//QgECAB8AAAAGAP7/QgECAB8AAAAFAP3/QgECAB8AAAAFAP7/QgECAB8AAAAEAP3/QgECAB8AAAAEAPz/QgECAB8AAAADAPv/QgECAB8AAAAEAPr/QgECAB8AAAAEAPv/QgECAB8AAAAFAPz/QgECAB8AAAAHAAEAQgECAB8AAAAFAAcAQgECACAAAAAGAAgAQgECACAAAAAFAAwAQgECAB8AAAAFAAsAQgECAB8AAAAGAAoAQgECAB8AAAAGAAkAQgECAB8AAAAHAAoAQgECAB8AAAAGAAsAQgECAB8AAAAGAAwAQgECAB8AAAAFAA0AQgECAB8AAAAGAA4AQgECAB8AAAAGAA0AQgECAB8AAAAHAAwAQgECAB8AAAAHAAsAQgECAB8AAAA=")
+tile_set = SubResource("TileSet_1ihm7")
+y_sort_origin = 1
+
+[node name="TileMapLayer3" type="TileMapLayer" parent="."]
+rotation = -0.23509
+tile_map_data = PackedByteArray("AAAAAAUAGAABAAAAAAABAAUAGAABAAAAAAABAAYAGAABAAAAAAACAAUAGAABAAAAAAAAAAYAGAABAAAAAAAAAAcAGAABAAAAAAABAAcAGAABAAAAAAACAAYAGAABAAAAAAACAAcAGAABAAAAAAADAAcAGAABAAAAAAADAAYAGAABAAAAAAACAAgAGAABAAAAAAADAAgAGAABAAAAAAADAAUAGAABAAAAAAAEAAYAGAABAAAAAAAEAAcAGAABAAAAAAABAAgAGAABAAAAAAAAAAgAGAABAAAAAAD//wgAGAABAAAAAAD//wcAGAABAAAAAAD//wYAGAABAAAAAAAAAAQAGAABAAAAAAABAAQAGAABAAAAAAAEAAUAGAABAAAAAAAFAAUAGAABAAAAAAAFAAYAGAABAAAAAAAFAAcAGAABAAAAAAAFAAgAGAABAAAAAAAEAAgAGAABAAAAAAAEAAkAGAAGAAAAAAADAAsAGAAGAAAAAAACAAsAGAAGAAAAAAACAAoAGAAGAAAAAAABAAoAGAAGAAAAAAAAAAoAGAABAAAAAAAAAAkAGAABAAAAAAD//wkAGAABAAAAAAABAAkAGAAGAAAAAAACAAkAGAAGAAAAAAADAAkAGAAGAAAAAAAEAAoAGAAGAAAAAAAEAAsAGAAGAAAAAAADAAwAGAAGAAAAAAADAAoAGAAGAAAAAAAFAAsAGAAGAAAAAAAGAAwAGAAGAAAAAAAGAAsAGAAGAAAAAAABAAsAGAAGAAAAAAABAAwAGAAGAAAAAAAAAAwAGAAGAAAAAAD//wwAGAAGAAAAAAD//wsAGAAGAAAAAAAAAAsAGAAGAAAAAAACAAwAGAAGAAAAAAD//woAGAABAAAAAAACAA0AGAAGAAAAAAADAA0AGAAGAAAAAAAEAA0AGAAGAAAAAAAFAA0AGAAGAAAAAAAFAAwAGAAGAAAAAAAEAAwAGAAGAAAAAAAHAAwAGAAGAAAAAAAFAAoAGAAGAAAAAAAFAAkAGAAGAAAAAAAGAAEAGAABAAAAAAAGAAIAGAABAAAAAAAFAAIAGAABAAAAAAAEAAIAGAABAAAAAAADAAIAGAABAAAAAAADAAEAGAABAAAAAAACAAEAGAABAAAAAAABAAEAGAABAAAAAAAAAAAAGAABAAAAAAD/////GAABAAAAAAD+////GAABAAAAAAD//wEAGAABAAAAAAD+/wEAGAABAAAAAAD+/wIAGAABAAAAAAD9/wIAGAABAAAAAAD+/wAAGAABAAAAAAABAAAAGAABAAAAAAADAAMAGAABAAAAAAACAAIAGAABAAAAAAABAAIAGAABAAAAAAAAAAEAGAABAAAAAAABAAMAGAABAAAAAAACAAQAGAABAAAAAAD//wQAGAABAAAAAAD//wMAGAABAAAAAAD//wIAGAABAAAAAAAAAAMAGAABAAAAAAAAAAIAGAABAAAAAAACAAMAGAABAAAAAAAEAAMAGAABAAAAAAAFAAQAGAABAAAAAAAGAAQAGAABAAAAAAAHAAQAGAABAAAAAAAIAAQAGAABAAAAAAAHAAUAGAABAAAAAAAGAAUAGAABAAAAAAADAAQAGAABAAAAAAAFAAMAGAABAAAAAAAEAAQAGAABAAAAAAAFAAEAGAABAAAAAAAGAAAAGAABAAAAAAAHAAAAGAABAAAAAAAIAAAAGAABAAAAAAAJAAAAGAABAAAAAAAKAAAAGAABAAAAAAAKAP//GAABAAAAAAALAP//GAABAAAAAAALAAAAGAABAAAAAAAKAAEAGAABAAAAAAAJAAEAGAABAAAAAAAIAAEAGAABAAAAAAAHAAEAGAABAAAAAAAEAAEAGAABAAAAAAAAAP//GAABAAAAAAAAAP7/GAABAAAAAAAAAP3/GAABAAAAAAABAP3/GAABAAAAAAABAP7/GAABAAAAAAABAP//GAABAAAAAAD8/wIAGAABAAAAAAD8/wMAGAABAAAAAAD7/wMAGAABAAAAAAD6/wMAGAABAAAAAAD6/wQAGAABAAAAAAD5/wQAGAABAAAAAAD6/wUAGAABAAAAAAD7/wUAGAABAAAAAAD8/wYAGAABAAAAAAD8/wcAGAABAAAAAAD9/wcAGAABAAAAAAD9/wgAGAABAAAAAAD+/wkAGAABAAAAAAD//wUAGAABAAAAAAD+/wYAGAABAAAAAAD+/wUAGAABAAAAAAD+/wQAGAABAAAAAAD+/wMAGAABAAAAAAD9/wEAGAABAAAAAAD9/wAAGAABAAAAAAD+/wcAGAABAAAAAAD+/wgAGAABAAAAAAD9/wYAGAABAAAAAAD9/wUAGAABAAAAAAD9/wQAGAABAAAAAAD9/wMAGAABAAAAAAD7/wcAGAABAAAAAAD7/wgAGAABAAAAAAD7/wYAGAABAAAAAAD6/wIAGAABAAAAAAD6/wEAGAABAAAAAAD7/wEAGAABAAAAAAD7/wAAGAABAAAAAAD8/wEAGAABAAAAAAD8/wQAGAABAAAAAAD8/wUAGAABAAAAAAD//wAAGAABAAAAAAA=")
+tile_set = ExtResource("324_8uidv")
+
+[node name="TileMapLayer4" type="TileMapLayer" parent="."]
+visible = false
+rotation = -0.399329
+tile_map_data = PackedByteArray("AAD/////DAAMAA0AAAAAAAAADAAMAA0AAAA=")
+tile_set = ExtResource("3_libeo")

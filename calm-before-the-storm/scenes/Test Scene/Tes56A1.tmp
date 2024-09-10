@@ -1,11 +1,14 @@
-[gd_scene load_steps=7 format=4 uid="uid://c8aqujmhgavmp"]
+[gd_scene load_steps=5 format=4 uid="uid://c8aqujmhgavmp"]
 
 [ext_resource type="TileSet" uid="uid://bg8t03k15apfa" path="res://assets/sprites/environment/tilesets/Floor_Tiles.tres" id="1_1kkob"]
+[ext_resource type="PackedScene" uid="uid://beflu71lcofxf" path="res://scenes/Player/MainPlayer.tscn" id="2_yxy60"]
 [ext_resource type="TileSet" uid="uid://vats3prn4bhn" path="res://assets/sprites/environment/tilesets/Wall_Tiles.tres" id="3_n4n7m"]
-[ext_resource type="Script" path="res://scripts/enemy_1.gd" id="4_th7no"]
-[ext_resource type="Script" path="res://scripts/enemyIdle.gd" id="5_2rb4i"]
-[ext_resource type="Script" path="res://scripts/state_machine.gd" id="5_b1tru"]
-[ext_resource type="PackedScene" uid="uid://rgusjm6jp65w" path="res://scenes/Enemy/enemy_patrol.tscn" id="5_eqmhj"]
+
+[sub_resource type="Curve2D" id="Curve2D_hslgf"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 138, 117, 0, 0, 0, 0, 732, -103, 0, 0, 0, 0, 1373, 331, 0, 0, 0, 0, 569, 924, 0, 0, 0, 0, -823, 546, 0, 0, 0, 0, 143, 108)
+}
+point_count = 6
 
 [node name="TestPlayerScene" type="Node2D"]
 
@@ -17,17 +20,13 @@ tile_set = ExtResource("1_1kkob")
 tile_map_data = PackedByteArray("AAAVAPH/bwAUAAAAAAAVAPL/bwAJAAAAAAAVAPP/bwAJAAAAAAAVAPT/bwAJAAAAAAAVAPX/bwAJAAAAAAAVAPb/bwAJAAAAAAAVAPf/bwAJAAAAAAAVAPj/bwAJAAAAAAAVAPn/bwAJAAAAAAAVAPr/bwAJAAAAAAAVAPv/bwAJAAAAAAAVAPz/bwAJAAAAAAAVAP3/bwAJAAAAAAAVAP7/bwAJAAAAAAAVAP//bwAJAAAAAAAUAAAAbwAJAAAAAAAVAAAAbwAJAAAAAAAVAAEAbwAJAAAAAAAVAAIAbwAJAAAAAAAVAAMAbwAJAAAAAAAVAAQAbwAJAAAAAAAVAAUAbwAJAAAAAAAVAAYAbwAJAAAAAAAVAAcAbwAJAAAAAAAVAAgAbwAJAAAAAAAVAAkAbwAJAAAAAAAVAAoAbwAJAAAAAAAUAAoAbwAJAAAAAAALAOb/bwAJAAAAAAA=")
 tile_set = ExtResource("3_n4n7m")
 
-[node name="enemyPatrol" parent="." instance=ExtResource("5_eqmhj")]
-position = Vector2(-236, 171)
-script = ExtResource("4_th7no")
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_hslgf")
 
-[node name="Camera2D" type="Camera2D" parent="enemyPatrol"]
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+position = Vector2(138, 117)
+rotation = -0.354706
 
-[node name="State Machinee" type="Node" parent="enemyPatrol" node_paths=PackedStringArray("initial_state")]
-script = ExtResource("5_b1tru")
-initial_state = NodePath("EnemyIdle")
-
-[node name="EnemyIdle" type="Node" parent="enemyPatrol/State Machinee" node_paths=PackedStringArray("enemy")]
-script = ExtResource("5_2rb4i")
-enemy = NodePath("../..")
-move_speed = 100.0
+[node name="MainPlayer" parent="Path2D/PathFollow2D" instance=ExtResource("2_yxy60")]
+position = Vector2(-0.38208, -7.60617)
+rotation = 0.0837758
