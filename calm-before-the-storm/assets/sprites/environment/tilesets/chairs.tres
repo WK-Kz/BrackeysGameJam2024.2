@@ -37,9 +37,9 @@ texture = ExtResource("1_j2l7c")
 3:35/size_in_atlas = Vector2i(3, 4)
 3:35/0 = 0
 3:35/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9.73899, -24.4723, 4.49492, -29.7164, 16.7311, -0.749153, 17.73, 16.2317, 4.2452, 21.4757, -8, 2.49718)
-6:4/size_in_atlas = Vector2i(3, 4)
-6:4/0 = 0
-6:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-1.74802, -23.9729, 12.4859, -19.2283, 14.7334, 9.23956, 12.2362, 20.9763, -1.49831, 27.2192, -13.4848, 21.7255, -16.4814, 7.49154)
+6:3/size_in_atlas = Vector2i(3, 4)
+6:3/0 = 0
+6:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(0.444946, -24.6945, 16.463, -16.0181, 12.681, 20.69, -0.667423, 27.5867, -14.2383, 23.8046, -17.1304, 5.56184)
 
 [resource]
 tile_shape = 1
