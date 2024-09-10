@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://beflu71lcofxf"]
 
-[ext_resource type="Script" path="res://scripts/BasicPlayer.gd" id="1_hrenv"]
+[ext_resource type="Script" path="res://scripts/Player/BasicPlayer.gd" id="1_hrenv"]
 [ext_resource type="Texture2D" uid="uid://ceexj772yeyy6" path="res://icon.svg" id="1_p52gk"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_6r3t2"]
