@@ -1,0 +1,12 @@
+~ this_is_a_node_title
+
+Manager : Worker! Why are you late to the facility?
+You : Respond with...
+- My bad
+	Manager: Is that all you have to say? Get to work!
+- Apologies, I'll make sure for that to not happen again
+	Manager: ...
+	Manager: Hurry up.
+You : Okay.
+
+=> END

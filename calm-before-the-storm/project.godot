@@ -30,3 +30,11 @@ project/assembly_name="Calm Before The Storm"
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
+
+[global_group]
+
+interactable_npc="NPCs that are interactable"
+
+[internationalization]
+
+locale/translations_pot_files=PackedStringArray("res://scenes/NPC/Dialogues/npc_1.dialogue")
