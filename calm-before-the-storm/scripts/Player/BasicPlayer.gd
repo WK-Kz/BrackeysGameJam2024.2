@@ -2,13 +2,13 @@ extends CharacterBody2D
 
 var stamina : int = 100
 @onready var collision_shape_2d: CollisionShape2D = $CollisionShape2D
+@onready var animated_sprite = $AnimatedSprite2D
+@onready var interaction_area: Area2D = $PlayerDirection/InteractionArea
 
-#idle s-0 se-1 e-2 ne-3 n-4 nw-5 w-6 sw-7
 @export var SPEED = 400
 @export var ACCELERATION = 1000
 @export var FRICTION = 5
-@onready var animated_sprite = $AnimatedSprite2D
-@onready var interaction_area: Area2D = $PlayerDirection/InteractionArea
+
 
 var is_walking = false
 var last_cardinal = {'north': true, 'south': false, 'west': false, 'east': true}
