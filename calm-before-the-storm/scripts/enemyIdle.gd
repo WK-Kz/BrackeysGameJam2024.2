@@ -3,6 +3,7 @@ class_name EnemyIdle
 
 @export var enemy: CharacterBody2D
 @export var move_speed := 10.0
+@export var detection_distance := 30
 
 var move_direction : Vector2
 var wander_time : float
@@ -30,5 +31,5 @@ func Physics_Update(delta: float):
 	var direction = player.global_position - enemy.global_position
 	
 	#If player is a certain distance transition to the follow state
-	if direction.length() < 30:
+	if direction.length() < detection_distance:
 		Transitioned.emit(self, "EnemyChase")

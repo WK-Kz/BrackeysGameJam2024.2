@@ -78,7 +78,6 @@ texture_region_size = Vector2i(240, 192)
 21:0/0/texture_origin = Vector2i(-11, 37)
 21:0/0/y_sort_origin = 38
 21:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-67, 3.5, -0.5, 44, 66.5, 4, 55.3074, -2.73733, -0.176773, 30.052, -56.2307, -2.19876)
-
 22:0/0 = 0
 22:0/0/texture_origin = Vector2i(-12, 24)
 22:0/0/y_sort_origin = 10
