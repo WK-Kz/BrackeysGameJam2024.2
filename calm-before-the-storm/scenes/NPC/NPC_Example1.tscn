@@ -1,4 +1,4 @@
-[gd_scene load_steps=85 format=3 uid="uid://bxvw5ejfb8uda"]
+[gd_scene load_steps=88 format=3 uid="uid://bxvw5ejfb8uda"]
 
 [ext_resource type="Script" path="res://scripts/NPC/npc_example_1.gd" id="1_d2b1d"]
 [ext_resource type="Texture2D" uid="uid://dismp17yhlmcp" path="res://assets/sprites/NPCs/red_8direction_standing-Sheet.png" id="1_gy1cn"]
@@ -10,6 +10,8 @@
 [ext_resource type="Texture2D" uid="uid://6hf3ej0ve2hd" path="res://assets/sprites/NPCs/red_walk_SOUTH-EAST-Sheet.png" id="7_dygal"]
 [ext_resource type="Texture2D" uid="uid://8bx5rx21w2qc" path="res://assets/sprites/NPCs/red_walk_SOUTH-WEST-Sheet.png" id="8_ne0t5"]
 [ext_resource type="Texture2D" uid="uid://cxgydvsqbfmme" path="res://assets/sprites/NPCs/red_walk_WEST-Sheet.png" id="9_0g883"]
+[ext_resource type="PackedScene" uid="uid://cnmm21mvyabp4" path="res://common/interact/interactable.tscn" id="11_5ciwy"]
+[ext_resource type="Resource" uid="uid://dw3r0hpalu6um" path="res://scenes/NPC/Dialogues/npc_1.dialogue" id="12_ojwkp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_p0b0c"]
 atlas = ExtResource("1_gy1cn")
@@ -567,6 +569,9 @@ animations = [{
 radius = 8.0
 height = 16.0
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_qi111"]
+radius = 8.0
+
 [node name="NpcExample1" type="CharacterBody2D" groups=["interactable_npc"]]
 position = Vector2(106, 71)
 script = ExtResource("1_d2b1d")
@@ -576,7 +581,8 @@ position = Vector2(-106, -95)
 sprite_frames = SubResource("SpriteFrames_xewjy")
 animation = &"standing"
 autoplay = "standing"
-frame_progress = 0.11422
+frame = 1
+frame_progress = 0.798489
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-106, -77)
@@ -585,5 +591,13 @@ shape = SubResource("CapsuleShape2D_04wdq")
 [node name="Timer" type="Timer" parent="."]
 wait_time = 3.0
 
-[connection signal="interact" from="." to="." method="_on_interact"]
+[node name="Interactable" parent="." instance=ExtResource("11_5ciwy")]
+dialogue_resource = ExtResource("12_ojwkp")
+dialogue_start = "start"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactable"]
+position = Vector2(-106, -77)
+shape = SubResource("CircleShape2D_qi111")
+debug_color = Color(0.926953, 3.95635e-05, 0.670428, 0.42)
+
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

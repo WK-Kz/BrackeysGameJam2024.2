@@ -1,9 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://beflu71lcofxf"]
+[gd_scene load_steps=5 format=3 uid="uid://beflu71lcofxf"]
 
 [ext_resource type="Script" path="res://scripts/Player/BasicPlayer.gd" id="1_hrenv"]
 [ext_resource type="Texture2D" uid="uid://ceexj772yeyy6" path="res://icon.svg" id="1_p52gk"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_6r3t2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xr2il"]
+radius = 51.9711
 
 [node name="MainPlayer" type="Node2D"]
 visibility_layer = 2
@@ -22,3 +25,14 @@ offset = Vector2(0, -64.05)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, -10)
 shape = SubResource("CircleShape2D_6r3t2")
+
+[node name="PlayerDirection" type="Marker2D" parent="CharacterBody2D"]
+position = Vector2(0, -53)
+gizmo_extents = 51.9
+
+[node name="InteractionArea" type="Area2D" parent="CharacterBody2D/PlayerDirection"]
+collision_layer = 0
+collision_mask = 512
+
+[node name="InteractionBox" type="CollisionShape2D" parent="CharacterBody2D/PlayerDirection/InteractionArea"]
+shape = SubResource("CircleShape2D_xr2il")
