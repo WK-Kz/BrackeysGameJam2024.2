@@ -29,7 +29,7 @@ func on_child_transition(state, new_state_name):
 	if !new_state:
 		return
 	if current_state:
-		current_state.exti()
+		current_state.exit()
 	
 	new_state.enter()
 	

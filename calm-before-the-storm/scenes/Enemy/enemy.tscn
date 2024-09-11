@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://dlg2ds8iytfna"]
+
+[ext_resource type="Script" path="res://scripts/state_machine.gd" id="1_5a4cv"]
+[ext_resource type="Script" path="res://scripts/enemy_1.gd" id="1_62cu2"]
+[ext_resource type="Script" path="res://scripts/enemyIdle.gd" id="2_ybgbu"]
+[ext_resource type="Texture2D" uid="uid://ceexj772yeyy6" path="res://icon.svg" id="3_se87f"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ittor"]
+
+[node name="Enemy" type="CharacterBody2D"]
+script = ExtResource("1_62cu2")
+
+[node name="State Machine" type="Node" parent="." node_paths=PackedStringArray("initial_state")]
+script = ExtResource("1_5a4cv")
+initial_state = NodePath("EnemyIdle")
+
+[node name="EnemyIdle" type="Node" parent="State Machine" node_paths=PackedStringArray("enemy")]
+script = ExtResource("2_ybgbu")
+enemy = NodePath("../..")
+move_speed = 100.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_ittor")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("3_se87f")
