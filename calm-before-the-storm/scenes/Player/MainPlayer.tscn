@@ -618,3 +618,7 @@ shape = SubResource("CapsuleShape2D_e4aft")
 sprite_frames = SubResource("SpriteFrames_ofseo")
 animation = &"idle_northeast"
 offset = Vector2(0, -22)
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+drag_horizontal_enabled = true
+drag_vertical_enabled = true

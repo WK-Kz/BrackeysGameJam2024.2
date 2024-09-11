@@ -9,6 +9,7 @@ var stamina : int = 100
 @onready var animated_sprite = $AnimatedSprite2D
 var is_walking = false
 var last_cardinal = {'north': true, 'south': false, 'west': false, 'east': true}
+var current_cardinal = {'north': false, 'south': false, 'west': false, 'east': true}
 var north = false
 var south = false
 var west = false
@@ -32,59 +33,51 @@ func _physics_process(delta: float) -> void:
 	if direction:
 		self.velocity = self.velocity.move_toward(direction * SPEED * ACCELERATION, delta * ACCELERATION)
 		is_walking = true
-		last_cardinal.north = false;
-		last_cardinal.west = false;
-		last_cardinal.east = false;
-		last_cardinal.south = false;
+		last_cardinal = {'north': false, 'south': false, 'west': false, 'east': false}
+		process_walking()
 	else:
 		self.velocity = Vector2.ZERO
 		is_walking = false
-
+		process_idle()
 	
 	move_and_slide()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta_: float) -> void:
-	process_walking()
+	
 	pass
 func process_walking():
 
 	if velocity.y > 0.5 or velocity.y < -0.5  or velocity.x > 0.5 or velocity.x < -0.5:
-		east = false
-		west = false
-		north = false
-		south = false
-
+		current_cardinal = {'north': false, 'south': false, 'west': false, 'east': false}
+		print(velocity.x)
 		
-		if Input.is_action_pressed("ui_up"):
-			north = true;
-			
-		elif Input.is_action_pressed("ui_down"):
-			south = true;
-			
-		if Input.is_action_pressed("ui_left"):
-			west = true;
-			
-		elif Input.is_action_pressed("ui_right"):
-			east = true;
-			
-	else:
+		if velocity.y < 0:
+			current_cardinal.north = true;
+		elif velocity.y > 0:
+			current_cardinal.south = true;
+		if velocity.x < 0:
+			current_cardinal.west = true;
+		elif velocity.x > 0:
+			current_cardinal.east = true;
+	else: #catch at stop just in case
+		current_cardinal = {'north': false, 'south': false, 'west': false, 'east': true}
 		if Input.is_action_just_released("ui_up"):
-			north = true;
+			current_cardinal.north = true;
+			print('n')
 		elif Input.is_action_just_released("ui_down"):
-			south = true;
+			current_cardinal.south = true;
+			print('s')
 		if Input.is_action_just_released("ui_left"):
+			current_cardinal.west = true;
 			print('w')
-			west = true;
 		elif Input.is_action_just_released("ui_right"):
+			current_cardinal.east = true;
 			print('e')
-			east = true;
 			
 	if is_walking and (velocity.y > 50 or velocity.y < -50  or velocity.x > 50 or velocity.x < -50):
-		print(velocity)
-		print('passed')
-		if north:
-			if west:
+		if current_cardinal.north:
+			if current_cardinal.west:
 				animated_sprite.play("walk_northwest")
 				last_cardinal = { 
 					'north':true,
@@ -92,7 +85,7 @@ func process_walking():
 					'south':false,
 					'east':false
 				 }
-			elif east:
+			elif current_cardinal.east:
 				animated_sprite.play("walk_northeast")
 				last_cardinal = { 
 					'north':true,
@@ -108,8 +101,8 @@ func process_walking():
 					'south':false,
 					'east':false
 				 }
-		elif south:
-			if west:
+		elif current_cardinal.south:
+			if current_cardinal.west:
 				animated_sprite.play("walk_southwest")
 				last_cardinal = { 
 					'north':false,
@@ -117,7 +110,7 @@ func process_walking():
 					'south':true,
 					'east':false
 				 }
-			elif east:
+			elif current_cardinal.east:
 				animated_sprite.play("walk_southeast")
 				last_cardinal = { 
 					'north':false,
@@ -133,7 +126,7 @@ func process_walking():
 					'south':true,
 					'east':false
 				 }
-		elif west:
+		elif current_cardinal.west:
 			animated_sprite.play("walk_west")
 			last_cardinal = { 
 					'north':false,
@@ -141,19 +134,16 @@ func process_walking():
 					'south':false,
 					'east':false
 				 }
-		elif east:
+		elif current_cardinal.east:
 			animated_sprite.play("walk_east")
 			last_cardinal = { 
 					'north':false,
 					'west':false,
 					'south':false,
 					'east':true
-				 }
-		print('walk')#play appropriate walk anim
+				 }#play appropriate walk anim
 	else:
 		process_idle()
-		print('idle')
-		print(last_cardinal)
 func process_idle():
 		if last_cardinal.north:
 			if last_cardinal.west:
