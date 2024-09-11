@@ -3,8 +3,10 @@
 [ext_resource type="Script" path="res://scripts/BasicPlayer.gd" id="1_hrenv"]
 [ext_resource type="Texture2D" uid="uid://ceexj772yeyy6" path="res://icon.svg" id="1_p52gk"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_sgl4q"]
-size = Vector2(130, 128)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bs0jf"]
+radius = 9.0
+height = 76.0
 
 [node name="MainPlayer1" type="Node2D"]
 
@@ -14,7 +16,12 @@ script = ExtResource("1_hrenv")
 SPEED = 500
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+
+y_sort_enabled = true
+scale = Vector2(0.25, 1)
 texture = ExtResource("1_p52gk")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-shape = SubResource("RectangleShape2D_sgl4q")
+
+position = Vector2(1, -31)
+shape = SubResource("CapsuleShape2D_bs0jf")
