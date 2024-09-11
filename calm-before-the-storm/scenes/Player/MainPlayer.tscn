@@ -601,6 +601,9 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_xr2il"]
+radius = 51.9711
+
 [node name="MainPlayer" type="Node2D"]
 visibility_layer = 2
 y_sort_enabled = true
@@ -611,6 +614,7 @@ script = ExtResource("1_hrenv")
 SPEED = 500
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+
 position = Vector2(0, -12)
 shape = SubResource("CapsuleShape2D_e4aft")
 
@@ -622,3 +626,15 @@ offset = Vector2(0, -22)
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
+
+[node name="PlayerDirection" type="Marker2D" parent="CharacterBody2D"]
+position = Vector2(0, -53)
+gizmo_extents = 51.9
+
+[node name="InteractionArea" type="Area2D" parent="CharacterBody2D/PlayerDirection"]
+collision_layer = 0
+collision_mask = 512
+
+[node name="InteractionBox" type="CollisionShape2D" parent="CharacterBody2D/PlayerDirection/InteractionArea"]
+shape = SubResource("CircleShape2D_xr2il")
+

@@ -1,7 +1,5 @@
 extends CharacterBody2D
 
-signal interact
-
 @export var speed : int = 1500
 @export var wait_time: int = 3
 
@@ -25,7 +23,7 @@ enum State
 
 var ANIMATION_STATES : Dictionary = \
 {
-	State.IDLE : "idle",
+	State.IDLE : "standing",
 	State.WALK_NORTH : "walk_north",
 	State.WALK_NORTHEAST : "walk_northeast",
 	State.WALK_EAST : "walk_east",
@@ -40,32 +38,29 @@ var rng = RandomNumberGenerator.new()
 @onready var current_state : State = State.IDLE
 var npc_dialogue = null
 
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	var npc_dialogue = load("res://scenes/NPC/Dialogues/balloon.gd").instantiate()
+	#npc_dialogue = load("res://scenes/NPC/Dialogues/balloon.gd").instantiate()
 	timer.wait_time = wait_time
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta_: float) -> void:
-	if !can_walk:
-		choose_animation()
+	pass
 
 func _on_timer_timeout() -> void:
 	can_walk = true
+	choose_animation()
 
 func choose_animation() -> void:
 	var next_state = current_state
 	var next_animation = null
 
 	while current_state == next_state:
-		var rng_state = rng.randi_range(0, ANIMATION_STATES.size())
+		var rng_state = rng.randi_range(0, ANIMATION_STATES.size() - 1)
 		current_state = ANIMATION_STATES.keys()[rng_state]
 		next_animation = ANIMATION_STATES[current_state]
 	
+	if current_state == State.IDLE:
+		can_walk = true
+	else:
+		can_walk = false
+	
 	animated_sprite_2d.play(next_animation)
-
-
-func _on_interact() -> void:
-	# Perform dialogue
-	get_tree().current_scene.add_child(npc_dialogue)
-	npc_dialogue.start()
