@@ -602,8 +602,9 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_xr2il"]
-radius = 51.9711
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_a8s4y"]
+radius = 20.5356
+height = 141.994
 
 [node name="MainPlayer" type="Node2D"]
 visibility_layer = 2
@@ -628,8 +629,8 @@ drag_horizontal_enabled = true
 drag_vertical_enabled = true
 
 [node name="PlayerDirection" type="Marker2D" parent="CharacterBody2D"]
-visible = false
-position = Vector2(0, -53)
+position = Vector2(0, -22)
+scale = Vector2(0.340872, 0.309872)
 gizmo_extents = 51.9
 
 [node name="InteractionArea" type="Area2D" parent="CharacterBody2D/PlayerDirection"]
@@ -637,4 +638,5 @@ collision_layer = 0
 collision_mask = 512
 
 [node name="InteractionBox" type="CollisionShape2D" parent="CharacterBody2D/PlayerDirection/InteractionArea"]
-shape = SubResource("CircleShape2D_xr2il")
+shape = SubResource("CapsuleShape2D_a8s4y")
+debug_color = Color(0.932686, 0.165591, 0.503674, 0.42)

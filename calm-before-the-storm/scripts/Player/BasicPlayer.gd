@@ -13,22 +13,14 @@ var is_walking = false
 var last_cardinal = {'north': true, 'south': false, 'west': false, 'east': true}
 var current_cardinal = {'north': false, 'south': false, 'west': false, 'east': true}
 var can_player_move : bool = true
-enum AVAILABLE_ACTIONS
-{
-	WALK,
-	INTERACT
-}
 
-enum INTERACT_OPTIONS
-{
-	TALK,
-	MOVE_BOX,
-	PRESS_BUTTON,
-	SWITCH_LEVER
-}
+func _ready() -> void:
+	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 
 #region CharacterBody2D 
 func _physics_process(delta: float) -> void:
+	if !can_player_move:
+		return
 
 	var direction := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	if direction:
@@ -163,4 +155,19 @@ func process_idle():
 			animated_sprite.play("idle_west")
 		elif last_cardinal.east:
 			animated_sprite.play("idle_east")
+#endregion
+
+#region Dialogue Stuff?
+func _unhandled_input(event: InputEvent) -> void:
+	if Input.is_action_just_pressed("interact"):
+		var interactions : Array[Area2D] = interaction_area.get_overlapping_areas()
+		if interactions.size() > 0:
+			var resulting_action = interactions[0].interact()
+			if resulting_action == PlayerBehavior.INTERACTIONS.TALK:
+				can_player_move = false
+
+# Dialogue Handler for the DialaogueManager to indicate end of talk with NPC/Interaction
+func _on_dialogue_ended(_resource: DialogueResource):
+	can_player_move = true
+
 #endregion
