@@ -1,6 +1,9 @@
-[gd_resource type="TileSet" load_steps=2 format=3 uid="uid://byhcgdha2mbpx"]
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://byhcgdha2mbpx"]
+
+[ext_resource type="Texture2D" uid="uid://dgysrit6ppwoy" path="res://assets/sprites/environment/chairs/chairs.png" id="1_j2l7c"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_by2lm"]
+texture = ExtResource("1_j2l7c")
 18:5/size_in_atlas = Vector2i(3, 4)
 18:5/0 = 0
 18:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.2452, -16.7311, 10.2384, -20.9763, 13.235, 0.749153, 9.98871, 16.7311, -0.749153, 21.4757, -19.9774, 0)
