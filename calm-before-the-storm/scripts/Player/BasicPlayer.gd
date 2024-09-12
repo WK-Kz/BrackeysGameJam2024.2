@@ -9,7 +9,6 @@ var stamina : int = 100
 @export var ACCELERATION = 1000
 @export var FRICTION = 100
 
-
 var is_walking = false
 var last_cardinal = {'north': true, 'south': false, 'west': false, 'east': true}
 var current_cardinal = {'north': false, 'south': false, 'west': false, 'east': true}
@@ -28,11 +27,7 @@ enum INTERACT_OPTIONS
 	SWITCH_LEVER
 }
 
-
-
-
-
-
+#region CharacterBody2D 
 func _physics_process(delta: float) -> void:
 
 	var direction := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
@@ -52,7 +47,9 @@ func _physics_process(delta: float) -> void:
 func _process(_delta_: float) -> void:
 	
 	pass
+#endregion
 
+#region Input Movements
 func process_walking():
 
 	if velocity.y > 0.5 or velocity.y < -0.5  or velocity.x > 0.5 or velocity.x < -0.5:
@@ -146,6 +143,7 @@ func process_walking():
 				 }#play appropriate walk anim
 	else:
 		process_idle()
+
 func process_idle():
 		if last_cardinal.north:
 			if last_cardinal.west:
@@ -165,5 +163,4 @@ func process_idle():
 			animated_sprite.play("idle_west")
 		elif last_cardinal.east:
 			animated_sprite.play("idle_east")
-
-	
+#endregion
