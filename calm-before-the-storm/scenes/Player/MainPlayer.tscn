@@ -1178,7 +1178,7 @@ states/Walk/position = Vector2(586, 127)
 transitions = ["Start", "Idle", SubResource("AnimationNodeStateMachineTransition_kqejf"), "Idle", "Walk", SubResource("AnimationNodeStateMachineTransition_33bhr"), "Walk", "Idle", SubResource("AnimationNodeStateMachineTransition_vv745")]
 graph_offset = Vector2(-143, -106)
 
-[node name="MainPlayer" type="Node2D"]
+[node name="MainPlayer" type="Node2D" groups=["Player"]]
 visibility_layer = 2
 y_sort_enabled = true
 
@@ -1205,7 +1205,6 @@ scale = Vector2(0.340872, 0.309872)
 gizmo_extents = 51.9
 
 [node name="InteractionArea" type="Area2D" parent="CharacterBody2D/PlayerDirection"]
-collision_layer = 0
 collision_mask = 512
 
 [node name="InteractionBox" type="CollisionShape2D" parent="CharacterBody2D/PlayerDirection/InteractionArea"]
