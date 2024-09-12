@@ -57,7 +57,6 @@ func process_walking():
 
 	if velocity.y > 0.5 or velocity.y < -0.5  or velocity.x > 0.5 or velocity.x < -0.5:
 		current_cardinal = {'north': false, 'south': false, 'west': false, 'east': false}
-		print(velocity.x)
 		
 		if velocity.y < 0:
 			current_cardinal.north = true;
