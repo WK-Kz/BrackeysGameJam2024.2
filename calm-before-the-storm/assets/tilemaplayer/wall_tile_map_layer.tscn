@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://ck3l5mlgpyfj0"]
+
+[ext_resource type="TileSet" uid="uid://bkvv1fvbh1qhy" path="res://assets/sprites/environment/tilesets/Wall_Tiles.tres" id="1_t7kkd"]
+
+[node name="WallTileMapLayer" type="TileMapLayer"]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(-225, -205)
+tile_set = ExtResource("1_t7kkd")
