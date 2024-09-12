@@ -609,7 +609,7 @@ radius = 51.9711
 visibility_layer = 2
 y_sort_enabled = true
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." groups=["Player"]]
 collision_layer = 2
 script = ExtResource("1_hrenv")
 SPEED = 500

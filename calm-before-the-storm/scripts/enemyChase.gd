@@ -3,7 +3,7 @@ extends State
 class_name EnemyChase
 
 @export var move_speed := 75.0
-@export var detection_distance := 50
+@export var detection_distance := 200
 @export var enemy: CharacterBody2D
 var player: CharacterBody2D
 
