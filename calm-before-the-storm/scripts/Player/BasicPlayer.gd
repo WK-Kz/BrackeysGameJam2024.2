@@ -7,7 +7,7 @@ var stamina : int = 100
 
 @export var SPEED =  400
 @export var ACCELERATION = 1000
-@export var FRICTION = 15
+@export var FRICTION = 100
 
 
 var is_walking = false
@@ -37,7 +37,7 @@ func _physics_process(delta: float) -> void:
 
 	var direction := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	if direction:
-		self.velocity = self.velocity.move_toward(direction * SPEED * ACCELERATION, delta * ACCELERATION)
+		self.velocity = self.velocity.move_toward(direction * SPEED * ACCELERATION , delta *ACCELERATION )
 		is_walking = true
 		last_cardinal = {'north': false, 'south': false, 'west': false, 'east': false}
 		process_walking()
@@ -70,16 +70,12 @@ func process_walking():
 		current_cardinal = {'north': false, 'south': false, 'west': false, 'east': true}
 		if Input.is_action_just_released("ui_up"):
 			current_cardinal.north = true;
-			print('n')
 		elif Input.is_action_just_released("ui_down"):
 			current_cardinal.south = true;
-			print('s')
 		if Input.is_action_just_released("ui_left"):
 			current_cardinal.west = true;
-			print('w')
 		elif Input.is_action_just_released("ui_right"):
 			current_cardinal.east = true;
-			print('e')
 			
 	if is_walking and (velocity.y > 50 or velocity.y < -50  or velocity.x > 50 or velocity.x < -50):
 		if current_cardinal.north:
