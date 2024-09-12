@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5o610a1fdvpf"]
+
+[ext_resource type="Script" path="res://ui/hud/HudControl.gd" id="2_udjim"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="HUDControl" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_udjim")
+
+[node name="MarginContainer" type="MarginContainer" parent="HUDControl"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 34
+theme_override_constants/margin_top = 34
+theme_override_constants/margin_right = 34
+theme_override_constants/margin_bottom = 34
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HUDControl/MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HUDControl/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="DayContainer" type="HBoxContainer" parent="HUDControl/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="DayLabel" type="Label" parent="HUDControl/MarginContainer/VBoxContainer/HBoxContainer/DayContainer"]
+layout_mode = 2
+
+[node name="EndDayButton" type="Button" parent="HUDControl/MarginContainer/VBoxContainer/HBoxContainer/DayContainer"]
+layout_mode = 2
+
+[node name="InboxContainer" type="HBoxContainer" parent="HUDControl/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="InboxLabel" type="Label" parent="HUDControl/MarginContainer/VBoxContainer/HBoxContainer/InboxContainer"]
+layout_mode = 2
