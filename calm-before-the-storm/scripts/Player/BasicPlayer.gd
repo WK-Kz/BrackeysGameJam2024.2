@@ -40,12 +40,10 @@ func _physics_process(_delta: float) -> void:
 	if velocity == Vector2.ZERO:
 		animation_tree["parameters/conditions/idle"] = true
 		animation_tree["parameters/conditions/is_moving"] = false
-		#animation_tree.get("parameters/playback").travel("Idle")
 		
 	else:
 		animation_tree["parameters/conditions/idle"] = false
 		animation_tree["parameters/conditions/is_moving"] = true
-		#animation_tree.get("parameters/playback").travel("Walk")
 		animation_tree["parameters/Idle/blend_position"] = DIRECTION
 		animation_tree["parameters/Walk/blend_position"] = DIRECTION
 		move_and_slide()
