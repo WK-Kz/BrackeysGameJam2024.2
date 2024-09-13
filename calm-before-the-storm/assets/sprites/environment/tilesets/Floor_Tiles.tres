@@ -1,6 +1,28 @@
-[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bg8t03k15apfa"]
+[gd_resource type="TileSet" load_steps=9 format=3 uid="uid://bg8t03k15apfa"]
 
 [ext_resource type="Texture2D" uid="uid://bxxv2yjxh5h4k" path="res://assets/sprites/environment/floor/floor.png" id="1_e48s7"]
+[ext_resource type="Texture2D" uid="uid://c4qiq76xqddt0" path="res://assets/sprites/environment/puzzles/path/blue_tile.png" id="1_spshr"]
+[ext_resource type="Texture2D" uid="uid://dwsegcunkmtll" path="res://assets/sprites/environment/puzzles/path/green_tile.png" id="2_obguk"]
+[ext_resource type="Texture2D" uid="uid://c162j2w3c2wuc" path="res://assets/sprites/environment/puzzles/path/red_tile.png" id="3_v41iu"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1v78s"]
+texture = ExtResource("1_spshr")
+texture_region_size = Vector2i(240, 192)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 27)
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(0, -35, -60, 0, 0, 35, 60, 0)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6ap4e"]
+texture = ExtResource("2_obguk")
+texture_region_size = Vector2i(240, 192)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 27)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dewc8"]
+texture = ExtResource("3_v41iu")
+texture_region_size = Vector2i(240, 192)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 27)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fwwq3"]
 texture = ExtResource("1_e48s7")
@@ -57,5 +79,9 @@ tile_shape = 1
 tile_layout = 5
 tile_offset_axis = 1
 tile_size = Vector2i(120, 70)
-physics_layer_0/collision_layer = 1
+physics_layer_0/collision_layer = 2
+physics_layer_0/collision_mask = 2
 sources/24 = SubResource("TileSetAtlasSource_fwwq3")
+sources/0 = SubResource("TileSetAtlasSource_1v78s")
+sources/1 = SubResource("TileSetAtlasSource_6ap4e")
+sources/2 = SubResource("TileSetAtlasSource_dewc8")
