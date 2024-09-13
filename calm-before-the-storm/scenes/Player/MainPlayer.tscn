@@ -1,4 +1,4 @@
-[gd_scene load_steps=86 format=3 uid="uid://beflu71lcofxf"]
+[gd_scene load_steps=88 format=3 uid="uid://beflu71lcofxf"]
 
 [ext_resource type="Script" path="res://scripts/Player/BasicPlayer.gd" id="1_hrenv"]
 [ext_resource type="Texture2D" uid="uid://5i8wejybs2oc" path="res://assets/sprites/player/pink&neonblue_8direction_standing-Sheet.png" id="2_ovrq6"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://cv5gnurks3kr0" path="res://assets/sprites/player/pink&neonblue_walk_SOUTH-EAST-Sheet.png" id="8_fe4rh"]
 [ext_resource type="Texture2D" uid="uid://bxwvvwckq3ilb" path="res://assets/sprites/player/pink&neonblue_walk_SOUTH-WEST-Sheet.png" id="9_at5ig"]
 [ext_resource type="Texture2D" uid="uid://jcq651p04824" path="res://assets/sprites/player/pink&neonblue_walk_WEST-Sheet.png" id="10_xstst"]
+[ext_resource type="Script" path="res://scripts/Environment/tile_checker.gd" id="11_0c10n"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e4aft"]
 radius = 7.0
@@ -605,12 +606,17 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_xr2il"]
 radius = 51.9711
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_iay54"]
+radius = 7.5
+height = 15.0
+
 [node name="MainPlayer" type="Node2D"]
 visibility_layer = 2
 y_sort_enabled = true
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 collision_layer = 2
+collision_mask = 3
 script = ExtResource("1_hrenv")
 SPEED = 500
 
@@ -638,3 +644,12 @@ collision_mask = 512
 
 [node name="InteractionBox" type="CollisionShape2D" parent="CharacterBody2D/PlayerDirection/InteractionArea"]
 shape = SubResource("CircleShape2D_xr2il")
+
+[node name="TileChecker" type="Area2D" parent="CharacterBody2D"]
+collision_layer = 4
+collision_mask = 4
+script = ExtResource("11_0c10n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/TileChecker"]
+scale = Vector2(0.8, 0.25)
+shape = SubResource("CapsuleShape2D_iay54")

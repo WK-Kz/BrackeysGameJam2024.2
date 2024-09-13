@@ -5,8 +5,8 @@ var stamina : int = 100
 @onready var animated_sprite = $AnimatedSprite2D
 @onready var interaction_area: Area2D = $PlayerDirection/InteractionArea
 
-@export var SPEED =  400
-@export var ACCELERATION = 1000
+@export var SPEED =  100
+@export var ACCELERATION = 500
 @export var FRICTION = 100
 
 
