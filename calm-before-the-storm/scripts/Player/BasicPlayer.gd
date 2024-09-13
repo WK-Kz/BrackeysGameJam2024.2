@@ -28,6 +28,7 @@ enum INTERACT_OPTIONS
 func _ready() -> void:
 	assert(animation_tree)
 	animation_tree.active = true
+	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 
 func _physics_process(_delta: float) -> void:
 	direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down").normalized()
