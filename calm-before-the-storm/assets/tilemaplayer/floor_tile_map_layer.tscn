@@ -2,5 +2,5 @@
 
 [ext_resource type="TileSet" uid="uid://bg8t03k15apfa" path="res://assets/sprites/environment/tilesets/Floor_Tiles.tres" id="1_ntamx"]
 
-[node name="FloorTileMapLayer" type="TileMapLayer"]
+[node name="FloorTileMapLayer" type="TileMapLayer" groups=["floor"]]
 tile_set = ExtResource("1_ntamx")
