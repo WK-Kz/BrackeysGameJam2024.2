@@ -1,0 +1,82 @@
+[gd_scene load_steps=3 format=3 uid="uid://0pk7ajufanpg"]
+
+[ext_resource type="Script" path="res://scripts/ReactorMiniGame/ReactorMiniGamev2.gd" id="1_5rd1u"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_mrh2b"]
+font_color = Color(0.0962047, 0.0962048, 0.0962047, 1)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5rd1u")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 273.0
+offset_top = 180.0
+offset_right = 860.0
+offset_bottom = 431.0
+
+[node name="CoreRect" type="ColorRect" parent="ColorRect"]
+layout_mode = 0
+offset_left = 236.0
+offset_top = 123.0
+offset_right = 336.0
+offset_bottom = 153.0
+color = Color(0.502719, 0.502719, 0.502719, 1)
+
+[node name="StatusLabel" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 147.0
+offset_top = 58.0
+offset_right = 482.0
+offset_bottom = 81.0
+text = "The Goddamn Reactor is going to EXPLODE!"
+label_settings = SubResource("LabelSettings_mrh2b")
+
+[node name="IncreaseButton" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_left = 365.0
+offset_top = 170.0
+offset_right = 509.0
+offset_bottom = 201.0
+text = "INCREASE POWER
+"
+
+[node name="DecreaseButton" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_left = 134.0
+offset_top = 172.0
+offset_right = 282.0
+offset_bottom = 203.0
+text = "DECREASE POWER"
+
+[node name="StartButton" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_left = 195.0
+offset_top = 14.0
+offset_right = 425.0
+offset_bottom = 45.0
+text = "Start Game
+"
+
+[node name="ProgressBar" type="ProgressBar" parent="ColorRect"]
+layout_mode = 0
+offset_left = 241.0
+offset_top = 86.0
+offset_right = 385.0
+offset_bottom = 113.0
+
+[node name="TimeLabel" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 59.0
+offset_top = 35.0
+offset_right = 99.0
+offset_bottom = 58.0
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 30.0
