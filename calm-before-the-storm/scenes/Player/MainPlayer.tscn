@@ -592,7 +592,7 @@ graph_offset = Vector2(-143, -106)
 visibility_layer = 2
 y_sort_enabled = true
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." groups=["Player"]]
 collision_layer = 2
 script = ExtResource("1_hrenv")
 
@@ -610,16 +610,16 @@ shape = SubResource("CapsuleShape2D_e4aft")
 flip_h = true
 
 [node name="PlayerDirection" type="Marker2D" parent="CharacterBody2D"]
-visible = false
-position = Vector2(0, -53)
+position = Vector2(0, -22)
+scale = Vector2(0.340872, 0.309872)
 gizmo_extents = 51.9
 
 [node name="InteractionArea" type="Area2D" parent="CharacterBody2D/PlayerDirection"]
-collision_layer = 0
 collision_mask = 512
 
 [node name="InteractionBox" type="CollisionShape2D" parent="CharacterBody2D/PlayerDirection/InteractionArea"]
 shape = SubResource("CircleShape2D_xr2il")
+debug_color = Color(0.932686, 0.165591, 0.503674, 0.42)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="CharacterBody2D"]
 libraries = {
