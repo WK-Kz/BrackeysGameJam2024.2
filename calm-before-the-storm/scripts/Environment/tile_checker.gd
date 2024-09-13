@@ -10,6 +10,7 @@ var firstTile = Vector2i.ZERO #Have to ignore the first/last tile
 var lastTile = Vector2i.ZERO
 var curPos = Vector2i.ZERO
 var prevPos
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	#Get first(only one in this case) from list of nodes in group
