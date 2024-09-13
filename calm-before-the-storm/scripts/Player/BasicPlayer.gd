@@ -13,6 +13,8 @@ var is_walking = false
 var can_player_move : bool = true
 
 func _ready() -> void:
+	assert(animation_tree)
+	animation_tree.active = true
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 
 #region CharacterBody2D 
