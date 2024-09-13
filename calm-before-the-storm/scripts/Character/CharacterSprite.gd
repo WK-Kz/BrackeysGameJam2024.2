@@ -22,20 +22,14 @@ func _set(property: StringName, value: Variant) -> bool:
 		match property:
 			"texture":
 				_silhouette_sprite.texture = value
-				return true
 			"offset":
 				_silhouette_sprite.offset = value
-				return true
 			"flip_h":
 				_silhouette_sprite.flip_h = value
-				return true
 			"hframes":
 				_silhouette_sprite.hframes = value
-				return true
 			"vframes":
 				_silhouette_sprite.vframes = value
-				return true
 			"frame":
 				_silhouette_sprite.frame = value
-				return true
 	return false

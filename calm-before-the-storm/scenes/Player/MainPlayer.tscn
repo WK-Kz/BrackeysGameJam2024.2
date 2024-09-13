@@ -1,7 +1,7 @@
 [gd_scene load_steps=47 format=3 uid="uid://beflu71lcofxf"]
 
 [ext_resource type="Script" path="res://scripts/Player/BasicPlayer.gd" id="1_hrenv"]
-[ext_resource type="PackedScene" uid="uid://dc70lbhwdkvyb" path="res://scenes/character_sprite.tscn" id="2_p3hv7"]
+[ext_resource type="PackedScene" uid="uid://dc70lbhwdkvyb" path="res://scenes/Character/CharacterSprite.tscn" id="2_p3hv7"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e4aft"]
 radius = 7.0
