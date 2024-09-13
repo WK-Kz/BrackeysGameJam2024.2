@@ -27,28 +27,15 @@ func _physics_process(delta: float) -> void:
 		last_cardinal = {'north': false, 'south': false, 'west': false, 'east': false}
 		process_walking()
 	else:
-		self.velocity = Vector2.ZERO
-		is_walking = false
-		process_idle()
-	
-	move_and_slide()
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta_: float) -> void:
-	
-	pass
-#endregion
-
-#region Input Movements
-func process_walking():
-
-	if velocity.y > 0.5 or velocity.y < -0.5  or velocity.x > 0.5 or velocity.x < -0.5:
-		current_cardinal = {'north': false, 'south': false, 'west': false, 'east': false}
+		velocity = Vector2.ZERO
+		
+	if velocity == Vector2.ZERO:
+		animation_tree["parameters/conditions/idle"] = true
+		animation_tree["parameters/conditions/is_moving"] = false
 		
 	else:
 		animation_tree["parameters/conditions/idle"] = false
 		animation_tree["parameters/conditions/is_moving"] = true
-		#animation_tree.get("parameters/playback").travel("Walk")
 		animation_tree["parameters/Idle/blend_position"] = DIRECTION
 		animation_tree["parameters/Walk/blend_position"] = DIRECTION
 		move_and_slide()
