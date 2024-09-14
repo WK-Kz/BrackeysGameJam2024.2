@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cobo58gxno2bs"]
+
+[ext_resource type="Script" path="res://scripts/Environment/tile_checker.gd" id="1_rdq0e"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_iay54"]
+radius = 7.5
+height = 15.0
+
+[node name="TileChecker" type="Area2D"]
+collision_layer = 4
+collision_mask = 4
+script = ExtResource("1_rdq0e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(0.8, 0.25)
+shape = SubResource("CapsuleShape2D_iay54")
