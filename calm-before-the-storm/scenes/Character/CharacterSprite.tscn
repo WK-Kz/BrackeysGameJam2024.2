@@ -1,0 +1,25 @@
+[gd_scene load_steps=6 format=3 uid="uid://dc70lbhwdkvyb"]
+
+[ext_resource type="Texture2D" uid="uid://bdgkx5cfp3ai5" path="res://assets/sprites/player/character_spritesheet.png" id="1_f4lim"]
+[ext_resource type="Script" path="res://scripts/Character/CharacterSprite.gd" id="2_xg28y"]
+[ext_resource type="Shader" path="res://shaders/silhouette.gdshader" id="3_hiey2"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_m5mwj"]
+light_mode = 1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5tfku"]
+shader = ExtResource("3_hiey2")
+shader_parameter/silhouette_color = Color(0, 0, 0, 0.5)
+
+[node name="CharacterSprite" type="Sprite2D"]
+material = SubResource("CanvasItemMaterial_m5mwj")
+texture = ExtResource("1_f4lim")
+offset = Vector2(0, -22)
+hframes = 16
+vframes = 6
+frame = 1
+script = ExtResource("2_xg28y")
+
+[node name="SilhouetteSprite" type="Sprite2D" parent="."]
+z_index = 100
+material = SubResource("ShaderMaterial_5tfku")
