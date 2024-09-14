@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://ncmt7kb4ag65"]
+
+[node name="LogicPuzzle" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 649.0
+
+[node name="background" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 649.0
+color = Color(1, 1, 1, 0)
+
+[node name="foreground" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="foreground"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="foreground/VBoxContainer"]
+layout_mode = 2
+text = "Press E to Exit"
+
+[node name="MarginContainer" type="MarginContainer" parent="foreground/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 160
+theme_override_constants/margin_top = 80
+theme_override_constants/margin_right = 160
+theme_override_constants/margin_bottom = 80
+
+[node name="PanelContainer" type="PanelContainer" parent="foreground/VBoxContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="foreground/VBoxContainer/MarginContainer/PanelContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="foreground/VBoxContainer/MarginContainer/PanelContainer/VBoxContainer"]
+layout_mode = 2
+text = "Turn on the last gate!"
+horizontal_alignment = 1
