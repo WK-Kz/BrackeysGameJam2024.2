@@ -4,6 +4,9 @@ var stamina : int = 100
 @onready var collision_shape_2d: CollisionShape2D = $CollisionShape2D
 @onready var interaction_area: Area2D = $PlayerDirection/InteractionArea
 @onready var animation_tree: AnimationTree = $AnimationTree
+@onready var footsteps: AudioStreamPlayer2D = $AudioStreamPlayer2D
+@export var footstep_interval: float = 0.28
+var footstep_timer = 0.0
 
 @export var SPEED =  200
 var direction: Vector2 = Vector2.ZERO
@@ -46,7 +49,11 @@ func _physics_process(_delta: float) -> void:
 		animation_tree["parameters/Idle/blend_position"] = direction
 		animation_tree["parameters/Walk/blend_position"] = direction
 		move_and_slide()
-	
+		if can_player_move and footstep_timer <= 0.0:
+			play_footstep()
+			footstep_timer = footstep_interval
+		elif can_player_move:
+			footstep_timer -= _delta
 
 func _unhandled_input(event: InputEvent) -> void:
 	if Input.is_action_just_pressed("interact"):
@@ -59,3 +66,7 @@ func _unhandled_input(event: InputEvent) -> void:
 # Dialogue Handler for the DialaogueManager to indicate end of talk with NPC/Interaction
 func _on_dialogue_ended(_resource: DialogueResource):
 	can_player_move = true
+
+func play_footstep():
+	if not footsteps.is_playing():
+		footsteps.play()
