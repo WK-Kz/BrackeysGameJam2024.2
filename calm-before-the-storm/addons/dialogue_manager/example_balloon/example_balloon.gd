@@ -1,7 +1,7 @@
 extends CanvasLayer
 
 ## The action to use for advancing the dialogue
-@export var next_action: StringName = &"interact"
+@export var next_action: StringName = &"ui_accept"
 
 ## The action to use to skip typing the dialogue
 @export var skip_action: StringName = &"ui_cancel"

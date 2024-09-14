@@ -1,9 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://c8aqujmhgavmp"]
+[gd_scene load_steps=4 format=4 uid="uid://c8aqujmhgavmp"]
 
 [ext_resource type="TileSet" uid="uid://bg8t03k15apfa" path="res://assets/sprites/environment/tilesets/Floor_Tiles.tres" id="1_1kkob"]
 [ext_resource type="PackedScene" uid="uid://beflu71lcofxf" path="res://scenes/Player/MainPlayer.tscn" id="2_yxy60"]
-[ext_resource type="TileSet" uid="uid://vats3prn4bhn" path="res://assets/sprites/environment/tilesets/Wall_Tiles.tres" id="3_1x7w4"]
-[ext_resource type="PackedScene" uid="uid://dlg2ds8iytfna" path="res://scenes/Enemy/enemy.tscn" id="4_ouqw5"]
+[ext_resource type="TileSet" uid="uid://bkvv1fvbh1qhy" path="res://assets/sprites/environment/tilesets/Wall_Tiles.tres" id="3_1x7w4"]
 
 [node name="TestPlayerScene" type="Node2D"]
 
@@ -15,11 +14,10 @@ tile_set = ExtResource("1_1kkob")
 position = Vector2(699, 476)
 
 [node name="WallTileMapLayer" type="TileMapLayer" parent="."]
+
 z_index = 1
 y_sort_enabled = true
 position = Vector2(-225, -205)
 tile_map_data = PackedByteArray("AAAOAAgAbwANAAEAAAANAAYAbwAEAAEAAAAOAAUAbwAJAAAAAAAOAAQAbwAJAAAAAAAOAAMAbwAJAAAAAAAMAAYAbwAEAAEAAAALAAYAbwAEAAEAAAAKAAUAbwALAAAAAAAKAAQAbwALAAAAAAAKAAMAbwALAAAAAAAKAAIAbwALAAAAAAAKAAEAbwALAAAAAAAKAAAAbwALAAAAAAAKAP//bwALAAAAAAALAP7/bwAIAAAAAAAMAP7/bwAIAAAAAAANAP7/bwAIAAAAAAAOAAYAbwAVAAAAAAAKAAYAbwAWAAAAAAAKAP7/bwAXAAAAAAAOAAEAbwAJAAAAAAAOAAAAbwAJAAAAAAAOAP//bwAJAAAAAAAOAP7/bwAUAAAAAAARAAcAbwAVAAAAAAASAAAAbwAXAAAAAAAVAAAAbwAWAAAAAAASAAEAbwALAAAAAAATAAAAbwAIAAAAAAAUAAAAbwAIAAAAAAA=")
-tile_set = ExtResource("3_1x7w4")
 
-[node name="Enemy" parent="." instance=ExtResource("4_ouqw5")]
-position = Vector2(490, 551)
+tile_set = ExtResource("3_1x7w4")
