@@ -18,7 +18,7 @@ func _ready():
 	
 	game_timer = Timer.new()
 	game_timer.connect("timeout", self._on_game_tick)
-	game_timer.wait_time = 0.1  # Faster tick rate for smoother gameplay
+	game_timer.wait_time = 0.1 
 	add_child(game_timer)
 	
 	time_limit_timer = Timer.new()
@@ -37,7 +37,7 @@ func update_core():
 	elif core_level > 60:
 		core.modulate = Color(1, 0.5, 0)  # Orange
 	else:
-		core.modulate = Color(0, 1, 0)  # Green
+		core.modulate = Color(0, 1, 0)  # Green, player must keep bar green in order to make progress
 
 func start_game():
 	game_active = true
@@ -73,7 +73,7 @@ func _on_game_tick():
 		return
 	
 	# Random core movement
-	core_level += (randf() - 0.5) * 15  # Reduced movement for more control
+	core_level += (randf() - 0.5) * 15 
 	core_level = clamp(core_level, 0, 100)
 	update_core()
 	
@@ -88,10 +88,12 @@ func _on_game_tick():
 	
 	check_win_condition()
 
+#Progress bar reaches 100% and you win!
 func check_win_condition():
 	if progress >= 100.0:
 		end_game(true)
 
+#
 func _on_time_limit_reached():
 	if game_active:
 		end_game(false)

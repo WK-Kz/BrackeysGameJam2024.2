@@ -8,7 +8,7 @@ extends CharacterBody2D
 
 @onready var can_walk : bool = false
 
-enum State
+enum NPC_State
 {
 	IDLE,
 	WALK_NORTH,
@@ -23,19 +23,19 @@ enum State
 
 var ANIMATION_STATES : Dictionary = \
 {
-	State.IDLE : "standing",
-	State.WALK_NORTH : "walk_north",
-	State.WALK_NORTHEAST : "walk_northeast",
-	State.WALK_EAST : "walk_east",
-	State.WALK_SOUTHEAST : "walk_southeast",
-	State.WALK_SOUTH : "walk_south",
-	State.WALK_SOUTHWEST : "walk_southwest",
-	State.WALK_WEST : "walk_west",
-	State.WALK_NORTHWEST : "walk_northwest"
+	NPC_State.IDLE : "standing",
+	NPC_State.WALK_NORTH : "walk_north",
+	NPC_State.WALK_NORTHEAST : "walk_northeast",
+	NPC_State.WALK_EAST : "walk_east",
+	NPC_State.WALK_SOUTHEAST : "walk_southeast",
+	NPC_State.WALK_SOUTH : "walk_south",
+	NPC_State.WALK_SOUTHWEST : "walk_southwest",
+	NPC_State.WALK_WEST : "walk_west",
+	NPC_State.WALK_NORTHWEST : "walk_northwest"
 }
 
 var rng = RandomNumberGenerator.new()
-@onready var current_state : State = State.IDLE
+@onready var current_state : NPC_State = NPC_State.IDLE
 var npc_dialogue = null
 
 func _ready() -> void:
@@ -58,7 +58,7 @@ func choose_animation() -> void:
 		current_state = ANIMATION_STATES.keys()[rng_state]
 		next_animation = ANIMATION_STATES[current_state]
 	
-	if current_state == State.IDLE:
+	if current_state == NPC_State.IDLE:
 		can_walk = true
 	else:
 		can_walk = false

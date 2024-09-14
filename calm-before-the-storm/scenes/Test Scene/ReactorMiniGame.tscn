@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://0pk7ajufanpg"]
 
-[ext_resource type="Script" path="res://scripts/ReactorMiniGame/ReactorMiniGamev2.gd" id="1_5rd1u"]
+[ext_resource type="Script" path="res://scripts/ReactorMiniGame/ReactorMiniGamev2.gd" id="1_od0yr"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_mrh2b"]
 font_color = Color(0.0962047, 0.0962048, 0.0962047, 1)
@@ -12,7 +12,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_5rd1u")
+script = ExtResource("1_od0yr")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 0
@@ -40,18 +40,18 @@ label_settings = SubResource("LabelSettings_mrh2b")
 
 [node name="IncreaseButton" type="Button" parent="ColorRect"]
 layout_mode = 0
-offset_left = 365.0
-offset_top = 170.0
-offset_right = 509.0
-offset_bottom = 201.0
+offset_left = 375.0
+offset_top = 175.0
+offset_right = 519.0
+offset_bottom = 206.0
 text = "INCREASE POWER
 "
 
 [node name="DecreaseButton" type="Button" parent="ColorRect"]
 layout_mode = 0
-offset_left = 134.0
+offset_left = 69.0
 offset_top = 172.0
-offset_right = 282.0
+offset_right = 217.0
 offset_bottom = 203.0
 text = "DECREASE POWER"
 

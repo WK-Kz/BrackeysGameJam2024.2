@@ -2,7 +2,7 @@
 
 [ext_resource type="TileSet" uid="uid://bg8t03k15apfa" path="res://assets/sprites/environment/tilesets/Floor_Tiles.tres" id="1_gotv2"]
 [ext_resource type="PackedScene" uid="uid://beflu71lcofxf" path="res://scenes/Player/MainPlayer.tscn" id="2_esykx"]
-[ext_resource type="TileSet" uid="uid://bkvv1fvbh1qhy" path="res://assets/sprites/environment/tilesets/Wall_Tiles.tres" id="3_trtfy"]
+[ext_resource type="TileSet" uid="uid://vats3prn4bhn" path="res://assets/sprites/environment/tilesets/Wall_Tiles.tres" id="3_trtfy"]
 [ext_resource type="PackedScene" uid="uid://bxvw5ejfb8uda" path="res://scenes/NPC/NPC_Example1.tscn" id="4_grjdo"]
 
 [node name="TestPlayerScene" type="Node2D"]
